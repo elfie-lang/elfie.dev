@@ -1,0 +1,75 @@
+use "elfie/target/interface";
+
+/// Interfaces over HTTP. Entities join them with endpoint and page; a framework of the target,
+/// such as nextjs, says how each is built.
+
+trait restApi extends targetInterface: `Operations served as JSON over HTTP` {
+  .requires = ["http-server"];
+  @acceptanceCriteria
+    .add({ behavior = `The API speaks HTTP/1.1, and every request and answer body is JSON` })
+    .add({ behavior = `Every fn carrying [[endpoint]] is one operation, and nothing else answers a request` })
+    .add({ behavior = `An error answers with a JSON body holding a message, never an HTML page or a stack trace` });
+}
+
+/// method: the HTTP method, in capitals
+/// path: the URL path, beginning with a slash; a segment in square brackets is a parameter
+trait endpoint(method: string, path: string): `An fn answering one method on one path` {
+  where (`The fn is built`) -> `It answers {{method}} {{path}}`;
+  where (`The fn has parameters`) -> `One named like a segment of {{path}} is read from that segment; the others come from the query string for GET and DELETE, and from the JSON body otherwise`;
+  where (`A request arrives`) -> `Each argument is checked against its parameter's type before the fn runs`;
+  where (`An argument fails its check`) -> `The answer is 400 with the problems, and the fn does not run`;
+  where (`The fn returns`) -> `The answer is 200 with the value as JSON, unless a criterion names another status`;
+}
+
+trait website extends targetInterface: `Pages people open in a browser, styled with CSS modules` {
+  .requires = ["html-pages", "browser", "css-modules"];
+  @acceptanceCriteria
+    .add({ behavior = `The website speaks HTTP/1.1, and every page is served as HTML` })
+    .add({ behavior = `Every fn carrying [[page]] is one page, and its path can be linked to and survives a reload` })
+    .add({
+      behavior = `Pages use semantic HTML, every control can be reached with the keyboard, and every image has alt text`,
+    })
+    .add({
+      behavior = `Every stylesheet but one global stylesheet is a CSS module, whose name ends in .module.css`,
+    })
+    .add({
+      behavior = `The global stylesheet holds only design tokens as custom properties on :root, a reset, and defaults for bare elements`,
+    })
+    .add({ behavior = `The global stylesheet is imported once, at the root of the website` })
+    .add({
+      situation = `A file renders markup that is styled`,
+      behavior = `Its styles are in one CSS module beside it, named with the same stem, and no other file imports that module`,
+    })
+    .add({
+      behavior = `Every color, space, radius, and font size in a CSS module reads a custom property from the global stylesheet`,
+    })
+    .add({ behavior = `A CSS module's class names are camelCase and name a role, never an appearance` })
+    .add({
+      behavior = `No selector in a CSS module is more specific than one class with its states and pseudo-elements`,
+    })
+    .add({ behavior = `No stylesheet uses !important` })
+    .add({
+      situation = `A CSS module uses :global`,
+      behavior = `It is nested under a local class, and styles only markup the file does not render`,
+    })
+    .add({ behavior = `A style attribute sets nothing but custom properties` })
+    .add({
+      behavior = `The root element of a component has no outer margin, and its parent spaces it with gap or places it with a class passed as className`,
+    })
+    .add({ behavior = `Motion runs only inside a prefers-reduced-motion: no-preference media query` });
+  @knowledge.add({
+    topic = `Writing modular CSS with CSS modules: where styles live, sharing through tokens and components, and writing rules`,
+    kind = KnowledgeKind.reference,
+    source = "knowledge/modular-css.md",
+    quote = true,
+  });
+}
+
+/// path: the URL path, beginning with a slash; a segment in square brackets is a parameter
+trait page(path: string): `An fn rendered as a page` {
+  where (`The fn is built`) -> `It renders the page at {{path}}`;
+  where (`The fn has parameters`) -> `One named like a segment of {{path}} is read from that segment, the others from the query string`;
+  where (`A criterion says what the page shows`) -> `It is rendered on the server unless a criterion asks for interaction`;
+  where (`The page is styled`) -> `Its styles are in a CSS module beside the page's file, named with the same stem`;
+  where (`The page renders a component`) -> `The page's CSS module places and spaces the component, and never sets the component's colors, type, or inner layout`;
+}

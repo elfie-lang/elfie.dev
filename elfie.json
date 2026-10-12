@@ -1,0 +1,25 @@
+{
+  "name": "elfie.dev",
+  "dependencies": {
+    "bun": {
+      "root": "vendor/bun"
+    },
+    "http": {
+      "root": "vendor/http"
+    },
+    "nextjs": {
+      "root": "vendor/nextjs"
+    },
+    "platforms": {
+      "root": "vendor/platforms"
+    },
+    "react": {
+      "root": "vendor/react"
+    },
+    "typescript": {
+      "root": "vendor/typescript"
+    }
+  },
+  "compiler": "scripts/compile-unit.sh",
+  "verifier": "scripts/verify-unit.sh"
+}
