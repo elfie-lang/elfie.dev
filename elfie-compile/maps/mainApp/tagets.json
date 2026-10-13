@@ -2,15 +2,15 @@
   {
     "answered": [],
     "dependencies": {},
-    "generated": "2026-10-12T00:24:35Z",
-    "hash": "5aab7d23c392a1bddf8e3b1961b4067bacb1d4f5c51070bbc1367ccc8379992e",
+    "generated": "2026-10-13T02:32:21Z",
+    "hash": "241914b41fac1b8132dcc5be8d1f20e4f63156bfd54e89f3576af50c877774e4",
     "markers": [
       {
         "column": null,
         "end": 2,
         "entity": "favicon",
         "file": "def/tagets.lfy",
-        "line": 5,
+        "line": 6,
         "outputLine": 1,
         "requirement": null
       }
