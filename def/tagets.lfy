@@ -1,4 +1,5 @@
 use "bun";
+use "http";
 use "nextjs" as NextJS;
 use "./traits";
 
@@ -10,6 +11,8 @@ ace const mainApp: `Elfie.dev main app` = NextJS.app({
   root = `apps/main`,
   runtime = bun,
   ecosystem = bunPackages,
+  // Decision: the site is published to GitHub Pages as static files, so it offers no REST API.
+  interfaces = [website],
   dependencies = [
     { name = "react-markdown", version = "^10" },
     { name = "remark-gfm", version = "^4" },
@@ -21,5 +24,18 @@ mainApp
   .add({
     behavior = `Favicon is [[favicon]]`,
   });
+
+// Publishing
+// Decision: GitHub Pages serves the site from a custom domain at the root, so no base path is set.
+mainApp
+  @acceptanceCriteria
+  .add({
+    behavior = `next.config.ts sets output to export, so the build script writes the whole site as static files to apps/main/out`,
+  })
+  .add({
+    behavior = `Nothing in the app needs a server while it runs: no route handler, server action, middleware, proxy, cookies, headers, rewrite, redirect, or Next.js image optimization`,
+  })
+  .add({ behavior = `next.config.ts sets no base path and no asset prefix` })
+  .add({ behavior = `apps/main/.gitignore ignores the out directory` });
 
 global@targets.add(mainApp);
