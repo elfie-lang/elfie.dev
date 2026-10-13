@@ -1,0 +1,153 @@
+/* Elfie · Semantic Light: design tokens shared by every fromFigma component */
+
+:root {
+  --color-canvas: #f8faf5;
+  --color-surface: #ffffff;
+  --color-feature: #eaf1e2;
+  --color-action: #516f2c;
+  --color-action-hover: #435c24;
+  --color-action-ink: #ffffff;
+  --color-boundary: #516f2c;
+  --color-ink: #25321c;
+  --color-ink-secondary: #5f7051;
+  --color-divider-decorative: #d7e0cf;
+  --color-code: #edf2e7;
+  --color-callout: #f0f5eb;
+  --color-callout-warning: #fffbd7;
+  --color-callout-danger: #fee9d7;
+  --color-hat: #f1f9e7;
+  --color-badge: #f0f5eb;
+  --color-badge-ink: #516f2c;
+  --color-transparent: transparent;
+  --color-green: #516f2c;
+  --color-lemon-300: #fef286;
+  --color-royal-200: #e9c4f3;
+  --color-rosey-300: #eba8cc;
+  --color-grass-300: #98e797;
+  --color-blue-gray-700: #566971;
+  --color-blue-gray-900: #21292b;
+
+  --radius-control: 8px;
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-100: 100px;
+
+  --space-0: 0px;
+  --space-1: 1px;
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-5: 5px;
+  --space-6: 6px;
+  --space-7: 7px;
+  --space-8: 8px;
+  --space-9: 9px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-14: 14px;
+  --space-16: 16px;
+  --space-18: 18px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-22: 22px;
+  --space-28: 28px;
+  --space-30: 30px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-44: 44px;
+  --space-46: 46px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-58: 58px;
+  --space-64: 64px;
+  --space-96: 96px;
+  --space-128: 128px;
+
+  --font-family-base:
+    var(--font-inter, "Inter"), ui-sans-serif, system-ui, sans-serif;
+  --font-family-mono:
+    var(--font-roboto-mono, "Roboto Mono"), ui-monospace, monospace;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-size-12: 0.75rem;
+  --font-size-13: 0.8125rem;
+  --font-size-14: 0.875rem;
+  --font-size-15: 0.9375rem;
+  --font-size-16: 1rem;
+  --font-size-17: 1.0625rem;
+  --font-size-18: 1.125rem;
+  --font-size-20: 1.25rem;
+  --font-size-25: 1.5625rem;
+  --font-size-26: 1.625rem;
+  --font-size-28: 1.75rem;
+  --font-size-36: 2.25rem;
+  --font-size-40: 2.5rem;
+  --font-size-48: 3rem;
+  --font-size-inline-code: 0.86em;
+  --font-size-56: 3.5rem;
+  --font-size-76: 4.75rem;
+  --line-height-code: 1.8;
+  --line-height-body: 1.65;
+  --line-height-heading: 1.2;
+  --line-height-compact: 1.4;
+  --letter-spacing-wordmark: -1px;
+  --letter-spacing-hero: -4px;
+  --letter-spacing-title: -1.5px;
+  --letter-spacing-heading: -0.5px;
+
+  --focus-ring-width: 2px;
+  --focus-ring-offset: 3px;
+  --duration-fast: 120ms;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-block-size: 100vh;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-family-base);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+pre,
+figure {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+img,
+svg {
+  display: block;
+  max-inline-size: 100%;
+}
+
+button {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}

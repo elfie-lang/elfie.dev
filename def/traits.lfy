@@ -1,0 +1,45 @@
+trait fromFigma(component: string) {
+  @acceptanceCriteria
+    .add({
+      situation = `Figma MCP is avaialable and authenticated`,
+      behavior = [
+        `Figma MCP is used to fetch the [[.]] component from Figma`,
+        `Visual design of [[.]] is based on {{component}} Figma component`,
+        `Latest version of [[.]] is always fetched from Figma`,
+        `Dimensions, colors, and typography are always matched 1:1 with Figma component`,
+        `Sub-components of [[.]] that are available as [[fromFigma]] components elsewhere are used to build [[.]]`,
+        `Colors, spacing, radii, and typography that Figma defines as variables or styles are design tokens in the website's global stylesheet, shared by all [[fromFigma]] components`,
+        `Styles particular to [[.]] are in its own CSS module, which reads those design tokens`,
+        `[[.]] is built to be responsive and adapt to different screen sizes`,
+        `[[.]] is built to be accessible and meet WCAG 2.1 AA standards`,
+        `[[.]] is built to be performant and optimized for fast loading times`,
+      ],
+    })
+    .add({
+      situation = `Figma MCP is not available or is not authenticated`,
+      behavior = `Fail to compile with problem indicating Figma is not available`,
+    });
+}
+
+trait image(component: string) {
+  @acceptanceCriteria
+    .add({
+      situation = [
+        `Figma MCP is avaialable and authenticated`,
+        `[[component]] is a URL on the figma.com domain`,
+      ],
+      behavior = [
+        `Figma MCP is used to export the [[.]] asset from Figma`,
+        `[[.]] is exported as an SVG`,
+        `[[.]] is saved in the public/elfie folder`,
+        `[[.]] is built to be performant and optimized for fast loading times`,
+      ],
+    })
+    .add({
+      situation = [
+        `Figma MCP is not avaialable or is not authenticated`,
+        `[[component]] is a URL on the figma.com domain`,
+      ],
+      behavior = `Fail to compile with problem indicating Figma is not available`,
+    });
+}

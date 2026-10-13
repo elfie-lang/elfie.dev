@@ -1,0 +1,4 @@
+use "http";
+use "../layout";
+
+fn CliReferencePage() is page('/docs/cli'), documentationArticle("cli"): `The CLI reference page of the documentation` {}

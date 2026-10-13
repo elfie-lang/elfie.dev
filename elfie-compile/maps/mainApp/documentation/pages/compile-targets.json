@@ -1,0 +1,191 @@
+[
+  {
+    "answered": [
+      "CompileTargetsPage:documentationArticle:20994f63c3bafa7ef6b54c4eabdef7839a0f533e41894028b6b6e1cc0969094e",
+      "CompileTargetsPage:documentationArticle:2a3a19885da8a24fe6f92b43897eb785f487c5de9059aab3eb869bee649d2956",
+      "CompileTargetsPage:documentationArticle:91f670fcdb943eb50b2fada2d778b74e0ffaff13ecdec0ae86a70334d8795d53",
+      "CompileTargetsPage:documentationPage:af1e1ec16b33193813041026b4dd535e3ee495583dc72075e6892b14ae46c9c7",
+      "CompileTargetsPage:documentationPage:bace31beb6af5546674f3a5f4948ad33362e5d58eef88b168475d98efc96d4eb",
+      "CompileTargetsPage:page:301cd2eb456e2011a9b103ef1ac3e0e420c73fa17c7eb9b9a5fdd3616e729764",
+      "CompileTargetsPage:page:51caf736a037cbb7178d84ddb35dd38bfca6b7a2fb7515d4b12f99b901fe8d81",
+      "CompileTargetsPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "CompileTargetsPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "CompileTargetsPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:23:51Z",
+    "hash": "0c766b4cf79cf8177943b5ca9c4416d1e01e9b7faf2ac69597cdcc80bdcbee01",
+    "markers": [
+      {
+        "column": null,
+        "end": 24,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 19,
+        "requirement": "CompileTargetsPage:page:301cd2eb456e2011a9b103ef1ac3e0e420c73fa17c7eb9b9a5fdd3616e729764"
+      },
+      {
+        "column": null,
+        "end": 31,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 25,
+        "requirement": "CompileTargetsPage:documentationPage:af1e1ec16b33193813041026b4dd535e3ee495583dc72075e6892b14ae46c9c7"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 32,
+        "requirement": "CompileTargetsPage:documentationPage:bace31beb6af5546674f3a5f4948ad33362e5d58eef88b168475d98efc96d4eb"
+      },
+      {
+        "column": null,
+        "end": 46,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "CompileTargetsPage:documentationArticle:91f670fcdb943eb50b2fada2d778b74e0ffaff13ecdec0ae86a70334d8795d53"
+      },
+      {
+        "column": null,
+        "end": 47,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 47,
+        "requirement": "CompileTargetsPage:documentationArticle:20994f63c3bafa7ef6b54c4eabdef7839a0f533e41894028b6b6e1cc0969094e"
+      },
+      {
+        "column": null,
+        "end": 57,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 48,
+        "requirement": "CompileTargetsPage:documentationArticle:2a3a19885da8a24fe6f92b43897eb785f487c5de9059aab3eb869bee649d2956"
+      }
+    ],
+    "output": "apps/main/src/app/docs/compile-targets/page.test.tsx",
+    "requirements": "a387d5e76e45f5fdcb1bfe715167e65ad28870a28f62d2342f1b131554428e6f",
+    "signature": "4c34eb2af1e538e3e5a0b8a207b7bd73a521757216d4fa5c18894cdbd4521ae9",
+    "source": "def/documentation/pages/compile-targets.lfy",
+    "target": "mainApp",
+    "text": "3c369cd3e7a4a854d4b70234af91f74f4564df4dd3ea75542e38c6838587de2d"
+  },
+  {
+    "answered": [
+      "CompileTargetsPage:documentationArticle:20994f63c3bafa7ef6b54c4eabdef7839a0f533e41894028b6b6e1cc0969094e",
+      "CompileTargetsPage:documentationArticle:2a3a19885da8a24fe6f92b43897eb785f487c5de9059aab3eb869bee649d2956",
+      "CompileTargetsPage:documentationArticle:91f670fcdb943eb50b2fada2d778b74e0ffaff13ecdec0ae86a70334d8795d53",
+      "CompileTargetsPage:documentationPage:af1e1ec16b33193813041026b4dd535e3ee495583dc72075e6892b14ae46c9c7",
+      "CompileTargetsPage:documentationPage:bace31beb6af5546674f3a5f4948ad33362e5d58eef88b168475d98efc96d4eb",
+      "CompileTargetsPage:page:301cd2eb456e2011a9b103ef1ac3e0e420c73fa17c7eb9b9a5fdd3616e729764",
+      "CompileTargetsPage:page:51caf736a037cbb7178d84ddb35dd38bfca6b7a2fb7515d4b12f99b901fe8d81",
+      "CompileTargetsPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "CompileTargetsPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "CompileTargetsPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:23:51Z",
+    "hash": "0c766b4cf79cf8177943b5ca9c4416d1e01e9b7faf2ac69597cdcc80bdcbee01",
+    "markers": [
+      {
+        "column": null,
+        "end": 140,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 7,
+        "requirement": "CompileTargetsPage:documentationArticle:20994f63c3bafa7ef6b54c4eabdef7839a0f533e41894028b6b6e1cc0969094e"
+      },
+      {
+        "column": null,
+        "end": 146,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 141,
+        "requirement": "CompileTargetsPage:documentationPage:bace31beb6af5546674f3a5f4948ad33362e5d58eef88b168475d98efc96d4eb"
+      },
+      {
+        "column": null,
+        "end": 147,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 147,
+        "requirement": "CompileTargetsPage:page:301cd2eb456e2011a9b103ef1ac3e0e420c73fa17c7eb9b9a5fdd3616e729764"
+      },
+      {
+        "column": null,
+        "end": 149,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 148,
+        "requirement": "CompileTargetsPage:page:51caf736a037cbb7178d84ddb35dd38bfca6b7a2fb7515d4b12f99b901fe8d81"
+      },
+      {
+        "column": null,
+        "end": 150,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 150,
+        "requirement": "CompileTargetsPage:documentationArticle:91f670fcdb943eb50b2fada2d778b74e0ffaff13ecdec0ae86a70334d8795d53"
+      },
+      {
+        "column": null,
+        "end": 151,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 151,
+        "requirement": "CompileTargetsPage:documentationPage:af1e1ec16b33193813041026b4dd535e3ee495583dc72075e6892b14ae46c9c7"
+      },
+      {
+        "column": null,
+        "end": 152,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 152,
+        "requirement": "CompileTargetsPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+      },
+      {
+        "column": null,
+        "end": 153,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 153,
+        "requirement": "CompileTargetsPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      },
+      {
+        "column": null,
+        "end": 161,
+        "entity": "CompileTargetsPage",
+        "file": "def/documentation/pages/compile-targets.lfy",
+        "line": 4,
+        "outputLine": 154,
+        "requirement": "CompileTargetsPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34"
+      }
+    ],
+    "output": "apps/main/src/app/docs/compile-targets/page.tsx",
+    "requirements": "a387d5e76e45f5fdcb1bfe715167e65ad28870a28f62d2342f1b131554428e6f",
+    "signature": "4c34eb2af1e538e3e5a0b8a207b7bd73a521757216d4fa5c18894cdbd4521ae9",
+    "source": "def/documentation/pages/compile-targets.lfy",
+    "target": "mainApp",
+    "text": "f23a418a2f6beadcaf3a728cf70e0381a4241809a51d514a7ab4909a45d06c5d"
+  }
+]

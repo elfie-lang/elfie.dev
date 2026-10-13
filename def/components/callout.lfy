@@ -1,0 +1,35 @@
+use "react";
+use "../traits";
+
+external InfoImage is image(
+  `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=80-1739&t=5AeWwpuJzWSP1Pwq-4`,
+) = string;
+
+enum CalloutKind: `How much attention a callout asks for` {
+  info = `Information or a tip`,
+  warning = `Something that can go wrong`,
+  danger = `Something that can lose work or break a build`,
+}
+
+/// header: the callout's title
+/// content: the message under the title
+/// kind: which variant of the design it takes
+fn Callout(header: string | (is component), content: string | (is component), kind: CalloutKind = CalloutKind.info) is component,
+  fromFigma(
+    "https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=80-1746&t=5AeWwpuJzWSP1Pwq-4",
+  ) {
+  @acceptanceCriteria
+    .add({ behavior = `Content of the component is [[content]]` })
+    .add({ behavior = `The title of the component is [[header]]` })
+    .add({ behavior = `[[InfoImage]] is the icon of every kind` })
+    .add({
+      behavior = `Each [[kind]] takes the Figma variant of the same name: Kind=Info, Kind=Warning, or Kind=Danger, which differ only in their background color`,
+    })
+    .add({
+      situation = `[[content]] holds several paragraphs, lists, or inline code`,
+      behavior = `They keep the callout's text color and size, with the same spacing between them as between the title and the content`,
+    })
+    .add({
+      behavior = `Text, links, and inline code in [[content]] flow together within their line, as in a paragraph; none of them starts a line of its own`,
+    });
+}

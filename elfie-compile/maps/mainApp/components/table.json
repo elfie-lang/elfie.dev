@@ -1,0 +1,173 @@
+[
+  {
+    "answered": [
+      "Table:Table:1b06226f736e389d7ce5384fea4e7ec6995752e478146a1a90f9f5b54ae841b2",
+      "Table:Table:31c3da355e2dfd075dade52cbea150cd69385b6d22a9aa8296b2180da8d62691",
+      "Table:Table:8203d6dcb572a99e87e4b216ac34fb28829ce4f43bd4132813ce260e461b0cbe",
+      "Table:Table:8ddea2c3ef64e737b69b764925cb5aafdd20a4899c718618d6141e997d293d92",
+      "Table:Table:9647ab9d95bedeb420c7b7a6dc15e282232ed27d10b9c938ed2135494df51ed3",
+      "Table:Table:d21c965ee41f429bda349719f2b06c28711bafcfc37411210dadee2b20c61997",
+      "Table:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Table:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Table:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Table:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Table:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Table:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+    ],
+    "dependencies": {},
+    "generated": "2026-10-13T00:46:54Z",
+    "hash": "a196e139e38d889aedc8aeffc4a2d87ff43047d69448658f1bc721dc66b232d8",
+    "markers": [
+      {
+        "column": null,
+        "end": 14,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 8,
+        "requirement": "Table:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 33,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 15,
+        "requirement": "Table:Table:8203d6dcb572a99e87e4b216ac34fb28829ce4f43bd4132813ce260e461b0cbe"
+      },
+      {
+        "column": null,
+        "end": 38,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 34,
+        "requirement": "Table:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433"
+      }
+    ],
+    "output": "apps/main/src/components/table.test.tsx",
+    "requirements": "c2011a18bd7a3b62748b50902df924deca613b2589e21002e8c261e46ac2cfce",
+    "signature": "1d0ea5ed42d90b243566c2fe14db70b6251432ba819e89329f561e8021d1e7ff",
+    "source": "def/components/table.lfy",
+    "target": "mainApp",
+    "text": "160808b680aee3f016d6c45ce71813e3101a60e11e78cf7d2d58ff0cef7ee9f5"
+  },
+  {
+    "answered": [
+      "Table:Table:1b06226f736e389d7ce5384fea4e7ec6995752e478146a1a90f9f5b54ae841b2",
+      "Table:Table:31c3da355e2dfd075dade52cbea150cd69385b6d22a9aa8296b2180da8d62691",
+      "Table:Table:8203d6dcb572a99e87e4b216ac34fb28829ce4f43bd4132813ce260e461b0cbe",
+      "Table:Table:8ddea2c3ef64e737b69b764925cb5aafdd20a4899c718618d6141e997d293d92",
+      "Table:Table:9647ab9d95bedeb420c7b7a6dc15e282232ed27d10b9c938ed2135494df51ed3",
+      "Table:Table:d21c965ee41f429bda349719f2b06c28711bafcfc37411210dadee2b20c61997",
+      "Table:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Table:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Table:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Table:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Table:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Table:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+    ],
+    "dependencies": {},
+    "generated": "2026-10-13T00:46:54Z",
+    "hash": "a196e139e38d889aedc8aeffc4a2d87ff43047d69448658f1bc721dc66b232d8",
+    "markers": [
+      {
+        "column": null,
+        "end": 5,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 5,
+        "requirement": "Table:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+      },
+      {
+        "column": null,
+        "end": 11,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 6,
+        "requirement": "Table:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe"
+      },
+      {
+        "column": null,
+        "end": 12,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 12,
+        "requirement": "Table:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063"
+      },
+      {
+        "column": null,
+        "end": 14,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 13,
+        "requirement": "Table:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 15,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 15,
+        "requirement": "Table:Table:8203d6dcb572a99e87e4b216ac34fb28829ce4f43bd4132813ce260e461b0cbe"
+      },
+      {
+        "column": null,
+        "end": 16,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 16,
+        "requirement": "Table:Table:d21c965ee41f429bda349719f2b06c28711bafcfc37411210dadee2b20c61997"
+      },
+      {
+        "column": null,
+        "end": 17,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 17,
+        "requirement": "Table:Table:1b06226f736e389d7ce5384fea4e7ec6995752e478146a1a90f9f5b54ae841b2"
+      },
+      {
+        "column": null,
+        "end": 18,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 18,
+        "requirement": "Table:Table:9647ab9d95bedeb420c7b7a6dc15e282232ed27d10b9c938ed2135494df51ed3"
+      },
+      {
+        "column": null,
+        "end": 19,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 19,
+        "requirement": "Table:Table:8ddea2c3ef64e737b69b764925cb5aafdd20a4899c718618d6141e997d293d92"
+      },
+      {
+        "column": null,
+        "end": 47,
+        "entity": "Table",
+        "file": "def/components/table.lfy",
+        "line": 5,
+        "outputLine": 20,
+        "requirement": "Table:Table:31c3da355e2dfd075dade52cbea150cd69385b6d22a9aa8296b2180da8d62691"
+      }
+    ],
+    "output": "apps/main/src/components/table.tsx",
+    "requirements": "c2011a18bd7a3b62748b50902df924deca613b2589e21002e8c261e46ac2cfce",
+    "signature": "1d0ea5ed42d90b243566c2fe14db70b6251432ba819e89329f561e8021d1e7ff",
+    "source": "def/components/table.lfy",
+    "target": "mainApp",
+    "text": "f0c8537e91671e035175097668daad1f383b9cfb3017190dd2a06b2eafb65340"
+  }
+]

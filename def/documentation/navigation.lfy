@@ -1,0 +1,44 @@
+use "react";
+use "../traits";
+use "./pages";
+
+fn NavigationItem(content: (is component)) is component,
+  fromFigma(`https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=114-2630&t=5AeWwpuJzWSP1Pwq-4`) {
+  @acceptanceCriteria
+    .add({ behavior = `Content of the component is [[content]]` })
+    .add({
+      behavior = `It takes the State=Default, State=Hover, and State=Selected variants of the design: Selected when it is the current page, Hover while the pointer is over it, and Default otherwise`,
+    })
+    .add({ situation = `It is the current page`, behavior = `Its link has aria-current set to page` });
+}
+
+fn NavigationSection(title: string) is component,
+  fromFigma(`https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=114-2667&t=5AeWwpuJzWSP1Pwq-4`) {
+  @acceptanceCriteria
+    .add({ behavior = `Usese [[NavigationItem]] for the navigation links` })
+    .add({ behavior = `Shows [[title]] as its section label` });
+}
+
+/// currentSlug: the slug of the page being shown; no item is current when it is left out
+fn Navigation(currentSlug?: string) is component,
+  fromFigma(
+    "https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=114-2588&t=5AeWwpuJzWSP1Pwq-4",
+  ) {
+  @acceptanceCriteria
+    .add({ behavior = `Uses [[NavigationSection]] for each of the navigation sections` })
+    .add({
+      situation = `On documentation pages`,
+      behavior = `Is in the left column of the two column body layout`,
+    })
+    .add({
+      behavior = [
+        `Has one [[NavigationSection]] per [[DocumentationSection]], in the order the enum declares them, titled with the section's value`,
+        `Each section lists the pages of [[documentationPages]] in that section, in their order, labeled with their title`,
+        `Each item links to the [[documentationPath]] of its page`,
+      ],
+    })
+    .add({ behavior = `The item of the page whose slug is [[currentSlug]] is the current page` })
+    .add({
+      behavior = `Ends with a divider, a link reading ← Back to Elfie to /, and the edition note, as the design shows`,
+    });
+}

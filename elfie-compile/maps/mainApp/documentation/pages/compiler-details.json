@@ -1,0 +1,182 @@
+[
+  {
+    "answered": [
+      "CompilerDetailsPage:documentationArticle:68fc0e28d65350069ff8589203f3bff8f3761109081f1e1839a15a97e141a239",
+      "CompilerDetailsPage:documentationArticle:849bc562b9bc2fab33153e90692d221b6f521e621f82846fa46f70f35b3504d2",
+      "CompilerDetailsPage:documentationArticle:a4a42f88cc2f535837968e7ce4b7e453d5bdce5f3a09bd6ab2f2282a475f4e30",
+      "CompilerDetailsPage:documentationPage:4ceb3f22d087cac11f00919a268cd895422f46cab08b573d07d4edaa62e9f119",
+      "CompilerDetailsPage:documentationPage:fa680a6af2fffb5f8797ab440f5979e934678442ae7ee51e8750060205913acb",
+      "CompilerDetailsPage:page:0efca0dd3c3b3f356b343f3f16acb6a5dc5ef9a25f8d3644d549b167ae5cbb47",
+      "CompilerDetailsPage:page:3f75a07fc63b808d07b1bfe2ab61dd3322b434611502e1675300690d93556378",
+      "CompilerDetailsPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "CompilerDetailsPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "CompilerDetailsPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:17:50Z",
+    "hash": "8f97bea4de71e04a98e431b2a7301c702234c76adb83b86b0194a7dec2f8ce88",
+    "markers": [
+      {
+        "column": null,
+        "end": 15,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 14,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 16,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 16,
+        "requirement": "CompilerDetailsPage:page:0efca0dd3c3b3f356b343f3f16acb6a5dc5ef9a25f8d3644d549b167ae5cbb47"
+      },
+      {
+        "column": null,
+        "end": 23,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 17,
+        "requirement": "CompilerDetailsPage:documentationPage:4ceb3f22d087cac11f00919a268cd895422f46cab08b573d07d4edaa62e9f119"
+      },
+      {
+        "column": null,
+        "end": 31,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 24,
+        "requirement": "CompilerDetailsPage:documentationPage:fa680a6af2fffb5f8797ab440f5979e934678442ae7ee51e8750060205913acb"
+      },
+      {
+        "column": null,
+        "end": 38,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 32,
+        "requirement": "CompilerDetailsPage:documentationArticle:68fc0e28d65350069ff8589203f3bff8f3761109081f1e1839a15a97e141a239"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 39,
+        "requirement": "CompilerDetailsPage:documentationArticle:849bc562b9bc2fab33153e90692d221b6f521e621f82846fa46f70f35b3504d2"
+      },
+      {
+        "column": null,
+        "end": 49,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "CompilerDetailsPage:documentationArticle:a4a42f88cc2f535837968e7ce4b7e453d5bdce5f3a09bd6ab2f2282a475f4e30"
+      }
+    ],
+    "output": "apps/main/src/app/docs/compiler-details/page.test.tsx",
+    "requirements": "bed856d26b837be7b1fe118a095c4f2c8bf2d195bc940d42909df47bd87a1139",
+    "signature": "8ff6fb529e21292892f39088900199f65ff242202b80efe40d51177f44e4ccfc",
+    "source": "def/documentation/pages/compiler-details.lfy",
+    "target": "mainApp",
+    "text": "b8ccbe065916e7031cf888f262b289aa4e87a6ce76fcf5c127c21a9eab1b874d"
+  },
+  {
+    "answered": [
+      "CompilerDetailsPage:documentationArticle:68fc0e28d65350069ff8589203f3bff8f3761109081f1e1839a15a97e141a239",
+      "CompilerDetailsPage:documentationArticle:849bc562b9bc2fab33153e90692d221b6f521e621f82846fa46f70f35b3504d2",
+      "CompilerDetailsPage:documentationArticle:a4a42f88cc2f535837968e7ce4b7e453d5bdce5f3a09bd6ab2f2282a475f4e30",
+      "CompilerDetailsPage:documentationPage:4ceb3f22d087cac11f00919a268cd895422f46cab08b573d07d4edaa62e9f119",
+      "CompilerDetailsPage:documentationPage:fa680a6af2fffb5f8797ab440f5979e934678442ae7ee51e8750060205913acb",
+      "CompilerDetailsPage:page:0efca0dd3c3b3f356b343f3f16acb6a5dc5ef9a25f8d3644d549b167ae5cbb47",
+      "CompilerDetailsPage:page:3f75a07fc63b808d07b1bfe2ab61dd3322b434611502e1675300690d93556378",
+      "CompilerDetailsPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "CompilerDetailsPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "CompilerDetailsPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:17:50Z",
+    "hash": "8f97bea4de71e04a98e431b2a7301c702234c76adb83b86b0194a7dec2f8ce88",
+    "markers": [
+      {
+        "column": null,
+        "end": 9,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 7,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 136,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 10,
+        "requirement": "CompilerDetailsPage:documentationArticle:849bc562b9bc2fab33153e90692d221b6f521e621f82846fa46f70f35b3504d2"
+      },
+      {
+        "column": null,
+        "end": 142,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 137,
+        "requirement": "CompilerDetailsPage:documentationPage:fa680a6af2fffb5f8797ab440f5979e934678442ae7ee51e8750060205913acb"
+      },
+      {
+        "column": null,
+        "end": 143,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 143,
+        "requirement": "CompilerDetailsPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      },
+      {
+        "column": null,
+        "end": 145,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 144,
+        "requirement": "CompilerDetailsPage:page:0efca0dd3c3b3f356b343f3f16acb6a5dc5ef9a25f8d3644d549b167ae5cbb47"
+      },
+      {
+        "column": null,
+        "end": 146,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 146,
+        "requirement": "CompilerDetailsPage:documentationPage:4ceb3f22d087cac11f00919a268cd895422f46cab08b573d07d4edaa62e9f119"
+      },
+      {
+        "column": null,
+        "end": 154,
+        "entity": "CompilerDetailsPage",
+        "file": "def/documentation/pages/compiler-details.lfy",
+        "line": 4,
+        "outputLine": 147,
+        "requirement": "CompilerDetailsPage:documentationArticle:68fc0e28d65350069ff8589203f3bff8f3761109081f1e1839a15a97e141a239"
+      }
+    ],
+    "output": "apps/main/src/app/docs/compiler-details/page.tsx",
+    "requirements": "bed856d26b837be7b1fe118a095c4f2c8bf2d195bc940d42909df47bd87a1139",
+    "signature": "8ff6fb529e21292892f39088900199f65ff242202b80efe40d51177f44e4ccfc",
+    "source": "def/documentation/pages/compiler-details.lfy",
+    "target": "mainApp",
+    "text": "59ed4e2955d0b5ace9d8ed4c214e70980f4752f760aabb418c16ba1301d9d234"
+  }
+]

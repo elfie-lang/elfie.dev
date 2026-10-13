@@ -1,0 +1,94 @@
+/* Footer: Elfie Footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-28);
+  align-items: stretch;
+  padding-block: var(--space-32) var(--space-28);
+  padding-inline: var(--space-20);
+  border-block-start: 1px solid var(--color-divider-decorative);
+}
+
+.footerLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-16) var(--space-32);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  flex-shrink: 0;
+  gap: var(--space-10);
+  align-items: center;
+}
+
+/* The Logo atom renders at its own size; this slot scales it to 24px. */
+.logoSlot {
+  position: relative;
+  flex-shrink: 0;
+  inline-size: 24px;
+  block-size: 24px;
+}
+
+.logoSlot:focus-within {
+  outline: var(--focus-ring-width) solid var(--color-action);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.logoScale {
+  position: absolute;
+  inset: 0 auto auto 0;
+  transform: scale(calc(24 / 96));
+  transform-origin: top left;
+}
+
+.wordmark {
+  color: var(--color-action);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-semibold);
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.resources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-0) var(--space-32);
+  align-items: flex-start;
+  padding: var(--space-0);
+  list-style: none;
+}
+
+.footerNotes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8) var(--space-32);
+  align-items: flex-start;
+  justify-content: space-between;
+  color: var(--color-ink-secondary);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-12);
+  font-weight: var(--font-weight-regular);
+  line-height: normal;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 45rem) {
+  .logoScale {
+    transform: scale(calc(24 / 128));
+  }
+}
+
+@media (min-width: 64rem) {
+  .footer {
+    padding-inline: var(--space-64);
+  }
+
+  .footerLinks {
+    flex-wrap: nowrap;
+  }
+}

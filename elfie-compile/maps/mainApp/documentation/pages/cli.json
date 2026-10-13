@@ -1,0 +1,191 @@
+[
+  {
+    "answered": [
+      "CliReferencePage:documentationArticle:20d0c006c1ce005a18a9777c0f7ff3608486116242978b094bcb4718e59c2bad",
+      "CliReferencePage:documentationArticle:a4444fa9337392710fd6b7b2d2f46b6567d798c3181fd19f542a517aa406107f",
+      "CliReferencePage:documentationArticle:b462821dc355f9e666c81598f761a090ea384e1d0aaf71cbc97561db3925796a",
+      "CliReferencePage:documentationPage:9742ce36113b09322b83a4366f23a2e841b6532e740711c264053ad7033ed57e",
+      "CliReferencePage:documentationPage:fa91d894edf1e512e320d180f5a950ff3178aa6fc05e55ce96e58b6d2f832707",
+      "CliReferencePage:page:2c42043d038ab94b5a271eb3f46ba57f4bf1db64a5c81cc7d63c60ba983b2c71",
+      "CliReferencePage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "CliReferencePage:page:7e498f85b4465a587c517900f5df35f8eccfb588bc03f62331be6036cf36d1f2",
+      "CliReferencePage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "CliReferencePage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:23:50Z",
+    "hash": "5057e7ab6de08e3b6035ac659a00b794d950508868485408f474eb4d623b2e54",
+    "markers": [
+      {
+        "column": null,
+        "end": 24,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 19,
+        "requirement": "CliReferencePage:page:2c42043d038ab94b5a271eb3f46ba57f4bf1db64a5c81cc7d63c60ba983b2c71"
+      },
+      {
+        "column": null,
+        "end": 31,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 25,
+        "requirement": "CliReferencePage:documentationPage:fa91d894edf1e512e320d180f5a950ff3178aa6fc05e55ce96e58b6d2f832707"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 32,
+        "requirement": "CliReferencePage:documentationPage:9742ce36113b09322b83a4366f23a2e841b6532e740711c264053ad7033ed57e"
+      },
+      {
+        "column": null,
+        "end": 46,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "CliReferencePage:documentationArticle:20d0c006c1ce005a18a9777c0f7ff3608486116242978b094bcb4718e59c2bad"
+      },
+      {
+        "column": null,
+        "end": 47,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 47,
+        "requirement": "CliReferencePage:documentationArticle:b462821dc355f9e666c81598f761a090ea384e1d0aaf71cbc97561db3925796a"
+      },
+      {
+        "column": null,
+        "end": 57,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 48,
+        "requirement": "CliReferencePage:documentationArticle:a4444fa9337392710fd6b7b2d2f46b6567d798c3181fd19f542a517aa406107f"
+      }
+    ],
+    "output": "apps/main/src/app/docs/cli/page.test.tsx",
+    "requirements": "612b662472ac4ed785a23a9d8c45c5bc4ff25914a893663457378d9d7084d183",
+    "signature": "a51f845f593a2279715fbe8c0383b43eb41d119026e355886461540c043435d8",
+    "source": "def/documentation/pages/cli.lfy",
+    "target": "mainApp",
+    "text": "c4315c5ec7142b5c2b3a7610da79f234a19e4a04b86530b967c3cead49a35c92"
+  },
+  {
+    "answered": [
+      "CliReferencePage:documentationArticle:20d0c006c1ce005a18a9777c0f7ff3608486116242978b094bcb4718e59c2bad",
+      "CliReferencePage:documentationArticle:a4444fa9337392710fd6b7b2d2f46b6567d798c3181fd19f542a517aa406107f",
+      "CliReferencePage:documentationArticle:b462821dc355f9e666c81598f761a090ea384e1d0aaf71cbc97561db3925796a",
+      "CliReferencePage:documentationPage:9742ce36113b09322b83a4366f23a2e841b6532e740711c264053ad7033ed57e",
+      "CliReferencePage:documentationPage:fa91d894edf1e512e320d180f5a950ff3178aa6fc05e55ce96e58b6d2f832707",
+      "CliReferencePage:page:2c42043d038ab94b5a271eb3f46ba57f4bf1db64a5c81cc7d63c60ba983b2c71",
+      "CliReferencePage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "CliReferencePage:page:7e498f85b4465a587c517900f5df35f8eccfb588bc03f62331be6036cf36d1f2",
+      "CliReferencePage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "CliReferencePage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:23:50Z",
+    "hash": "5057e7ab6de08e3b6035ac659a00b794d950508868485408f474eb4d623b2e54",
+    "markers": [
+      {
+        "column": null,
+        "end": 145,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 7,
+        "requirement": "CliReferencePage:documentationArticle:b462821dc355f9e666c81598f761a090ea384e1d0aaf71cbc97561db3925796a"
+      },
+      {
+        "column": null,
+        "end": 151,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 146,
+        "requirement": "CliReferencePage:documentationPage:9742ce36113b09322b83a4366f23a2e841b6532e740711c264053ad7033ed57e"
+      },
+      {
+        "column": null,
+        "end": 152,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 152,
+        "requirement": "CliReferencePage:page:2c42043d038ab94b5a271eb3f46ba57f4bf1db64a5c81cc7d63c60ba983b2c71"
+      },
+      {
+        "column": null,
+        "end": 154,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 153,
+        "requirement": "CliReferencePage:page:7e498f85b4465a587c517900f5df35f8eccfb588bc03f62331be6036cf36d1f2"
+      },
+      {
+        "column": null,
+        "end": 155,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 155,
+        "requirement": "CliReferencePage:documentationArticle:20d0c006c1ce005a18a9777c0f7ff3608486116242978b094bcb4718e59c2bad"
+      },
+      {
+        "column": null,
+        "end": 156,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 156,
+        "requirement": "CliReferencePage:documentationPage:fa91d894edf1e512e320d180f5a950ff3178aa6fc05e55ce96e58b6d2f832707"
+      },
+      {
+        "column": null,
+        "end": 157,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 157,
+        "requirement": "CliReferencePage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+      },
+      {
+        "column": null,
+        "end": 158,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 158,
+        "requirement": "CliReferencePage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      },
+      {
+        "column": null,
+        "end": 166,
+        "entity": "CliReferencePage",
+        "file": "def/documentation/pages/cli.lfy",
+        "line": 4,
+        "outputLine": 159,
+        "requirement": "CliReferencePage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34"
+      }
+    ],
+    "output": "apps/main/src/app/docs/cli/page.tsx",
+    "requirements": "612b662472ac4ed785a23a9d8c45c5bc4ff25914a893663457378d9d7084d183",
+    "signature": "a51f845f593a2279715fbe8c0383b43eb41d119026e355886461540c043435d8",
+    "source": "def/documentation/pages/cli.lfy",
+    "target": "mainApp",
+    "text": "e0a2c9285ccaf12a3e195531f5b0addefef92e28fea2d693c41175246e7f560d"
+  }
+]

@@ -1,0 +1,175 @@
+[
+  {
+    "answered": [
+      "Footer:Footer:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0",
+      "Footer:Footer:e914d50b37e6d75226fe156880116e527e9cd280d68106b639f6cd83cc9dd7f6",
+      "Footer:Footer:f51fb74eec047d1f9f432cbc0bd2c04e138bde4a8ae90e3cc267f2766cdfd067",
+      "Footer:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Footer:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Footer:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Footer:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Footer:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Footer:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "Footer:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "Footer:fromFigma:ed60bab803da688912cb7e37bce90e18830b00c7154b0e23b1ddff8315f19239"
+    ],
+    "dependencies": {
+      "def/atoms.lfy": "5f11dd2f98f11de112046b2e179efaefc49d0e30f0b61311ca28d55a3d927905"
+    },
+    "generated": "2026-10-12T22:55:26Z",
+    "hash": "a889b514455cab83fc5a34f9d76543a3b5e119be74a35922a6f34b5ef59aafd0",
+    "markers": [
+      {
+        "column": null,
+        "end": 20,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 14,
+        "requirement": "Footer:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 26,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 21,
+        "requirement": "Footer:Footer:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0"
+      },
+      {
+        "column": null,
+        "end": 32,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 27,
+        "requirement": "Footer:Footer:e914d50b37e6d75226fe156880116e527e9cd280d68106b639f6cd83cc9dd7f6"
+      },
+      {
+        "column": null,
+        "end": 45,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 33,
+        "requirement": "Footer:Footer:f51fb74eec047d1f9f432cbc0bd2c04e138bde4a8ae90e3cc267f2766cdfd067"
+      },
+      {
+        "column": null,
+        "end": 52,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 46,
+        "requirement": "Footer:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433"
+      }
+    ],
+    "output": "apps/main/src/components/footer.test.tsx",
+    "requirements": "df5c855e2358eff58f8f17df5eebf48db4ad4c9bfe1ddf6fef03237bd081d839",
+    "signature": "b9530cd8d4289f8d81c834811b7b0dd5671e89cb4bc6b44bd5f01280942e6561",
+    "source": "def/components/footer.lfy",
+    "target": "mainApp",
+    "text": "769ed18e47e1ca2f5e8c992bfdd93ccb4c85c2911a93579c26b69298cedef708"
+  },
+  {
+    "answered": [
+      "Footer:Footer:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0",
+      "Footer:Footer:e914d50b37e6d75226fe156880116e527e9cd280d68106b639f6cd83cc9dd7f6",
+      "Footer:Footer:f51fb74eec047d1f9f432cbc0bd2c04e138bde4a8ae90e3cc267f2766cdfd067",
+      "Footer:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Footer:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Footer:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Footer:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Footer:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Footer:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "Footer:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "Footer:fromFigma:ed60bab803da688912cb7e37bce90e18830b00c7154b0e23b1ddff8315f19239"
+    ],
+    "dependencies": {
+      "def/atoms.lfy": "5f11dd2f98f11de112046b2e179efaefc49d0e30f0b61311ca28d55a3d927905"
+    },
+    "generated": "2026-10-12T22:55:26Z",
+    "hash": "a889b514455cab83fc5a34f9d76543a3b5e119be74a35922a6f34b5ef59aafd0",
+    "markers": [
+      {
+        "column": null,
+        "end": 7,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 7,
+        "requirement": "Footer:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+      },
+      {
+        "column": null,
+        "end": 12,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 8,
+        "requirement": "Footer:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe"
+      },
+      {
+        "column": null,
+        "end": 22,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 13,
+        "requirement": "Footer:Footer:f51fb74eec047d1f9f432cbc0bd2c04e138bde4a8ae90e3cc267f2766cdfd067"
+      },
+      {
+        "column": null,
+        "end": 23,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 23,
+        "requirement": "Footer:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063"
+      },
+      {
+        "column": null,
+        "end": 25,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 24,
+        "requirement": "Footer:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 26,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 26,
+        "requirement": "Footer:fromFigma:ed60bab803da688912cb7e37bce90e18830b00c7154b0e23b1ddff8315f19239"
+      },
+      {
+        "column": null,
+        "end": 27,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 27,
+        "requirement": "Footer:Footer:e914d50b37e6d75226fe156880116e527e9cd280d68106b639f6cd83cc9dd7f6"
+      },
+      {
+        "column": null,
+        "end": 56,
+        "entity": "Footer",
+        "file": "def/components/footer.lfy",
+        "line": 5,
+        "outputLine": 28,
+        "requirement": "Footer:Footer:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0"
+      }
+    ],
+    "output": "apps/main/src/components/footer.tsx",
+    "requirements": "df5c855e2358eff58f8f17df5eebf48db4ad4c9bfe1ddf6fef03237bd081d839",
+    "signature": "b9530cd8d4289f8d81c834811b7b0dd5671e89cb4bc6b44bd5f01280942e6561",
+    "source": "def/components/footer.lfy",
+    "target": "mainApp",
+    "text": "096da66f086fb8cb8f81d7337fed0e568e3abef461a84423693216cbd09d797e"
+  }
+]

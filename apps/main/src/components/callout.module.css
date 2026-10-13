@@ -1,0 +1,70 @@
+/* Callout: Elfie Callout, kinds Info, Warning, and Danger */
+
+.callout {
+  display: flex;
+  gap: var(--space-12);
+  align-items: flex-start;
+  padding: var(--space-20);
+  border-radius: var(--radius-8);
+  background: var(--color-callout);
+  overflow: clip;
+}
+
+.info {
+  background: var(--color-callout);
+}
+
+.warning {
+  background: var(--color-callout-warning);
+}
+
+.danger {
+  background: var(--color-callout-danger);
+}
+
+.icon {
+  flex-shrink: 0;
+  inline-size: 18px;
+  block-size: 18px;
+}
+
+.message {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  gap: var(--space-6);
+  align-items: flex-start;
+  min-inline-size: 0;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-14);
+  font-style: normal;
+  overflow-wrap: anywhere;
+}
+
+.header {
+  color: var(--color-action);
+  font-weight: var(--font-weight-semibold);
+  line-height: normal;
+}
+
+.content {
+  display: flow-root;
+  inline-size: 100%;
+  color: var(--color-ink-secondary);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+}
+
+.content :global(*) {
+  margin: 0;
+  color: inherit;
+  font-size: inherit;
+}
+
+.content > :global(:where(p, ul, ol, pre, blockquote, div) + :where(p, ul, ol, pre, blockquote, div)) {
+  margin-block-start: var(--space-6);
+}
+
+.content :global(:where(ul, ol)) {
+  padding-inline-start: var(--space-20);
+}

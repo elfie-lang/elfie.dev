@@ -1,0 +1,25 @@
+[
+  {
+    "answered": [],
+    "dependencies": {},
+    "generated": "2026-10-12T00:24:35Z",
+    "hash": "5aab7d23c392a1bddf8e3b1961b4067bacb1d4f5c51070bbc1367ccc8379992e",
+    "markers": [
+      {
+        "column": null,
+        "end": 2,
+        "entity": "favicon",
+        "file": "def/tagets.lfy",
+        "line": 5,
+        "outputLine": 1,
+        "requirement": null
+      }
+    ],
+    "output": "apps/main/src/lib/tagets.ts",
+    "requirements": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "signature": "c7f00b5197f3fe8a3dd8f95be025779442392d8c3fd4fd08709ca817273ea841",
+    "source": "def/tagets.lfy",
+    "target": "mainApp",
+    "text": "7b7a5164ea66475d5751073a1cb1db8240a9c0121c7d776bae3888424e91c9f3"
+  }
+]

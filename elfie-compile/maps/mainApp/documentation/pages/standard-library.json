@@ -1,0 +1,182 @@
+[
+  {
+    "answered": [
+      "StandardLibraryPage:documentationArticle:163d38f92bd7c1834105128c8f0449fb3e5d26191e0b8868591fa64df3698bb0",
+      "StandardLibraryPage:documentationArticle:4032c1f089535c40779a9f063474c29d7fc56ff0a5bc0a1cd57e6cd270731cfa",
+      "StandardLibraryPage:documentationArticle:b1bb802db482dc653b54421796d81a9da4dd7411b1c48263fdf30d9e615ae2a7",
+      "StandardLibraryPage:documentationPage:7cb8cc1b043a2256e93b2d9e7bf44d6af8078b1727b458431796a7b071e6849e",
+      "StandardLibraryPage:documentationPage:9ade808f6afd80cf56c4b65ed47c4d3969a3420ae33888764348b0aeccd319dd",
+      "StandardLibraryPage:page:6a01d38139b100b7b8d9f4a6f601faaa6e766b62c0769607971eea266c168b58",
+      "StandardLibraryPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "StandardLibraryPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "StandardLibraryPage:page:ad39ecec030e20f77905124b572f5044d1fc0a3acb01fdc58c4fae65b404e3d4",
+      "StandardLibraryPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:08:51Z",
+    "hash": "dbd02e478f4d3cbef23e8a9213b6bbe0c8c417c197442cb46155acc18d28e39b",
+    "markers": [
+      {
+        "column": null,
+        "end": 15,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 14,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 16,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 16,
+        "requirement": "StandardLibraryPage:page:6a01d38139b100b7b8d9f4a6f601faaa6e766b62c0769607971eea266c168b58"
+      },
+      {
+        "column": null,
+        "end": 23,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 17,
+        "requirement": "StandardLibraryPage:documentationPage:9ade808f6afd80cf56c4b65ed47c4d3969a3420ae33888764348b0aeccd319dd"
+      },
+      {
+        "column": null,
+        "end": 31,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 24,
+        "requirement": "StandardLibraryPage:documentationPage:7cb8cc1b043a2256e93b2d9e7bf44d6af8078b1727b458431796a7b071e6849e"
+      },
+      {
+        "column": null,
+        "end": 38,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 32,
+        "requirement": "StandardLibraryPage:documentationArticle:b1bb802db482dc653b54421796d81a9da4dd7411b1c48263fdf30d9e615ae2a7"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 39,
+        "requirement": "StandardLibraryPage:documentationArticle:163d38f92bd7c1834105128c8f0449fb3e5d26191e0b8868591fa64df3698bb0"
+      },
+      {
+        "column": null,
+        "end": 49,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "StandardLibraryPage:documentationArticle:4032c1f089535c40779a9f063474c29d7fc56ff0a5bc0a1cd57e6cd270731cfa"
+      }
+    ],
+    "output": "apps/main/src/app/docs/standard-library/page.test.tsx",
+    "requirements": "e294b9a2ab788c3d80ef352231692d5ee1d4d6e09e73447992a3cd912b0ed4ed",
+    "signature": "49b3108c91b8baffba723fbfd84749029574b8ff4352b3470506b7c8748cdfb9",
+    "source": "def/documentation/pages/standard-library.lfy",
+    "target": "mainApp",
+    "text": "a05589379edf55eb184d4fbca7e0e0c296c6457f930b14bb285152e4a5a6c0cf"
+  },
+  {
+    "answered": [
+      "StandardLibraryPage:documentationArticle:163d38f92bd7c1834105128c8f0449fb3e5d26191e0b8868591fa64df3698bb0",
+      "StandardLibraryPage:documentationArticle:4032c1f089535c40779a9f063474c29d7fc56ff0a5bc0a1cd57e6cd270731cfa",
+      "StandardLibraryPage:documentationArticle:b1bb802db482dc653b54421796d81a9da4dd7411b1c48263fdf30d9e615ae2a7",
+      "StandardLibraryPage:documentationPage:7cb8cc1b043a2256e93b2d9e7bf44d6af8078b1727b458431796a7b071e6849e",
+      "StandardLibraryPage:documentationPage:9ade808f6afd80cf56c4b65ed47c4d3969a3420ae33888764348b0aeccd319dd",
+      "StandardLibraryPage:page:6a01d38139b100b7b8d9f4a6f601faaa6e766b62c0769607971eea266c168b58",
+      "StandardLibraryPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "StandardLibraryPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "StandardLibraryPage:page:ad39ecec030e20f77905124b572f5044d1fc0a3acb01fdc58c4fae65b404e3d4",
+      "StandardLibraryPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:08:51Z",
+    "hash": "dbd02e478f4d3cbef23e8a9213b6bbe0c8c417c197442cb46155acc18d28e39b",
+    "markers": [
+      {
+        "column": null,
+        "end": 9,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 7,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 137,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 10,
+        "requirement": "StandardLibraryPage:documentationArticle:163d38f92bd7c1834105128c8f0449fb3e5d26191e0b8868591fa64df3698bb0"
+      },
+      {
+        "column": null,
+        "end": 143,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 138,
+        "requirement": "StandardLibraryPage:documentationPage:7cb8cc1b043a2256e93b2d9e7bf44d6af8078b1727b458431796a7b071e6849e"
+      },
+      {
+        "column": null,
+        "end": 144,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 144,
+        "requirement": "StandardLibraryPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      },
+      {
+        "column": null,
+        "end": 146,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 145,
+        "requirement": "StandardLibraryPage:page:6a01d38139b100b7b8d9f4a6f601faaa6e766b62c0769607971eea266c168b58"
+      },
+      {
+        "column": null,
+        "end": 147,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 147,
+        "requirement": "StandardLibraryPage:documentationPage:9ade808f6afd80cf56c4b65ed47c4d3969a3420ae33888764348b0aeccd319dd"
+      },
+      {
+        "column": null,
+        "end": 155,
+        "entity": "StandardLibraryPage",
+        "file": "def/documentation/pages/standard-library.lfy",
+        "line": 4,
+        "outputLine": 148,
+        "requirement": "StandardLibraryPage:documentationArticle:b1bb802db482dc653b54421796d81a9da4dd7411b1c48263fdf30d9e615ae2a7"
+      }
+    ],
+    "output": "apps/main/src/app/docs/standard-library/page.tsx",
+    "requirements": "e294b9a2ab788c3d80ef352231692d5ee1d4d6e09e73447992a3cd912b0ed4ed",
+    "signature": "49b3108c91b8baffba723fbfd84749029574b8ff4352b3470506b7c8748cdfb9",
+    "source": "def/documentation/pages/standard-library.lfy",
+    "target": "mainApp",
+    "text": "1e69226946f94a66af61af8bf37e147b516550a46b04ba5609e621d9a1c35f07"
+  }
+]

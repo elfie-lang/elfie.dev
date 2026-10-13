@@ -1,0 +1,465 @@
+[
+  {
+    "answered": [
+      "Columns:Columns:4b8b2aa30315aa8618f135122203e5aa65ff30a1b5ebd11ac02cf1ef1360e397",
+      "Columns:Columns:b5a8a4f0def8beb89a7e9f3f85566bd1a4cc69b626e3a5930493589ac91e6673",
+      "Columns:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Columns:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Columns:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Columns:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Columns:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Columns:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "Flow:Flow:48ea308560893a8f80b527e8db8fa3f37e32f54cfb40ce47ab0827c0293f227a",
+      "Flow:Flow:5221f7540bc7fa6038cdab346bb8c64a9a60180b42f4baf978c9415821257756",
+      "Flow:Flow:5af4e3d43922a68608bf5873e9ca250b56a49b3b164b84e48bfdabfd679901dd",
+      "Flow:Flow:a22f0b84e417f7fa99de90f0bb220b543cf12f28f72a1427a907069e2e2b4ed0",
+      "Flow:Flow:a3dc18b74ca2487e7ba059765dfb6e9af24e473a9b69e1e5a456a6f5ba13fb89",
+      "Flow:Flow:b9877c95413e9bf9de70d0fae32a2538dd51cd7729f7e28d802222407ca22ab9",
+      "Flow:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Flow:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Flow:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Flow:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Flow:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Flow:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "Steps:Steps:1b18aff95f1be541b654be8071b5af28ddbd8f91ea9366d4874a0c920e5bab1f",
+      "Steps:Steps:3f882067bc70697ef6bb75fa6323ac15349236a717acf28c0e116ac4a8013230",
+      "Steps:Steps:8cecc0b7410ec5af4037f0c6c68ad192bb70c9d056a60b8d584aa8bd1327db7b",
+      "Steps:Steps:9cebe131992d9ff4df970e5af51699c1fdd767f198d3ddebb5cf2bb2605a858a",
+      "Steps:Steps:d87fa3ebdef3f977513cf31e0ae303cc5d1bb1226c8e4ff1be441f2c0624b9b6",
+      "Steps:Steps:f0593b7edb5a22d26fe00049f67e57cf451ca75876a26d021a28bde921b7aeba",
+      "Steps:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Steps:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Steps:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Steps:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Steps:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Steps:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+    ],
+    "dependencies": {},
+    "generated": "2026-10-13T01:28:14Z",
+    "hash": "a73075d3f898280ac9b58f3e4c582334292fe8876b88fc163eebf560f8d75848",
+    "markers": [
+      {
+        "column": null,
+        "end": 27,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 20,
+        "requirement": "Steps:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 28,
+        "requirement": "Steps:Steps:8cecc0b7410ec5af4037f0c6c68ad192bb70c9d056a60b8d584aa8bd1327db7b"
+      },
+      {
+        "column": null,
+        "end": 46,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 40,
+        "requirement": "Steps:Steps:9cebe131992d9ff4df970e5af51699c1fdd767f198d3ddebb5cf2bb2605a858a"
+      },
+      {
+        "column": null,
+        "end": 52,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 47,
+        "requirement": "Steps:Steps:d87fa3ebdef3f977513cf31e0ae303cc5d1bb1226c8e4ff1be441f2c0624b9b6"
+      },
+      {
+        "column": null,
+        "end": 58,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 53,
+        "requirement": "Steps:Steps:f0593b7edb5a22d26fe00049f67e57cf451ca75876a26d021a28bde921b7aeba"
+      },
+      {
+        "column": null,
+        "end": 67,
+        "entity": "Flow",
+        "file": "def/components/sequence.lfy",
+        "line": 33,
+        "outputLine": 59,
+        "requirement": "Flow:Flow:5221f7540bc7fa6038cdab346bb8c64a9a60180b42f4baf978c9415821257756"
+      },
+      {
+        "column": null,
+        "end": 73,
+        "entity": "Flow",
+        "file": "def/components/sequence.lfy",
+        "line": 33,
+        "outputLine": 68,
+        "requirement": "Flow:Flow:a3dc18b74ca2487e7ba059765dfb6e9af24e473a9b69e1e5a456a6f5ba13fb89"
+      },
+      {
+        "column": null,
+        "end": 88,
+        "entity": "Columns",
+        "file": "def/components/sequence.lfy",
+        "line": 56,
+        "outputLine": 74,
+        "requirement": "Columns:Columns:4b8b2aa30315aa8618f135122203e5aa65ff30a1b5ebd11ac02cf1ef1360e397"
+      },
+      {
+        "column": null,
+        "end": 93,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 89,
+        "requirement": "Steps:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433"
+      }
+    ],
+    "output": "apps/main/src/components/sequence.test.tsx",
+    "requirements": "971cf0e195603c12627e307cacdb59e1949c0899672ec9d3976f2d418b9cb33c",
+    "signature": "2f883dd8f503e1adb8b0f0419d4e3cd6860f3b64f8a414122711643d485be1f8",
+    "source": "def/components/sequence.lfy",
+    "target": "mainApp",
+    "text": "3442b8dcebf219f95f499a1bc16dc1785ad17a5911bb7d5d78ecb7f67644127f"
+  },
+  {
+    "answered": [
+      "Columns:Columns:4b8b2aa30315aa8618f135122203e5aa65ff30a1b5ebd11ac02cf1ef1360e397",
+      "Columns:Columns:b5a8a4f0def8beb89a7e9f3f85566bd1a4cc69b626e3a5930493589ac91e6673",
+      "Columns:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Columns:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Columns:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Columns:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Columns:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Columns:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "Flow:Flow:48ea308560893a8f80b527e8db8fa3f37e32f54cfb40ce47ab0827c0293f227a",
+      "Flow:Flow:5221f7540bc7fa6038cdab346bb8c64a9a60180b42f4baf978c9415821257756",
+      "Flow:Flow:5af4e3d43922a68608bf5873e9ca250b56a49b3b164b84e48bfdabfd679901dd",
+      "Flow:Flow:a22f0b84e417f7fa99de90f0bb220b543cf12f28f72a1427a907069e2e2b4ed0",
+      "Flow:Flow:a3dc18b74ca2487e7ba059765dfb6e9af24e473a9b69e1e5a456a6f5ba13fb89",
+      "Flow:Flow:b9877c95413e9bf9de70d0fae32a2538dd51cd7729f7e28d802222407ca22ab9",
+      "Flow:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Flow:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Flow:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Flow:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Flow:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Flow:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "Steps:Steps:1b18aff95f1be541b654be8071b5af28ddbd8f91ea9366d4874a0c920e5bab1f",
+      "Steps:Steps:3f882067bc70697ef6bb75fa6323ac15349236a717acf28c0e116ac4a8013230",
+      "Steps:Steps:8cecc0b7410ec5af4037f0c6c68ad192bb70c9d056a60b8d584aa8bd1327db7b",
+      "Steps:Steps:9cebe131992d9ff4df970e5af51699c1fdd767f198d3ddebb5cf2bb2605a858a",
+      "Steps:Steps:d87fa3ebdef3f977513cf31e0ae303cc5d1bb1226c8e4ff1be441f2c0624b9b6",
+      "Steps:Steps:f0593b7edb5a22d26fe00049f67e57cf451ca75876a26d021a28bde921b7aeba",
+      "Steps:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Steps:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Steps:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Steps:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Steps:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Steps:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+    ],
+    "dependencies": {},
+    "generated": "2026-10-13T01:28:14Z",
+    "hash": "a73075d3f898280ac9b58f3e4c582334292fe8876b88fc163eebf560f8d75848",
+    "markers": [
+      {
+        "column": null,
+        "end": 6,
+        "entity": "Step",
+        "file": "def/components/sequence.lfy",
+        "line": 3,
+        "outputLine": 5,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 8,
+        "entity": "Step.title",
+        "file": "def/components/sequence.lfy",
+        "line": 4,
+        "outputLine": 7,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 12,
+        "entity": "Step.content",
+        "file": "def/components/sequence.lfy",
+        "line": 5,
+        "outputLine": 9,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 13,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 13,
+        "requirement": "Steps:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+      },
+      {
+        "column": null,
+        "end": 18,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 14,
+        "requirement": "Steps:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe"
+      },
+      {
+        "column": null,
+        "end": 19,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 19,
+        "requirement": "Steps:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063"
+      },
+      {
+        "column": null,
+        "end": 21,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 20,
+        "requirement": "Steps:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 22,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 22,
+        "requirement": "Steps:Steps:8cecc0b7410ec5af4037f0c6c68ad192bb70c9d056a60b8d584aa8bd1327db7b"
+      },
+      {
+        "column": null,
+        "end": 23,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 23,
+        "requirement": "Steps:Steps:3f882067bc70697ef6bb75fa6323ac15349236a717acf28c0e116ac4a8013230"
+      },
+      {
+        "column": null,
+        "end": 24,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 24,
+        "requirement": "Steps:Steps:9cebe131992d9ff4df970e5af51699c1fdd767f198d3ddebb5cf2bb2605a858a"
+      },
+      {
+        "column": null,
+        "end": 25,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 25,
+        "requirement": "Steps:Steps:d87fa3ebdef3f977513cf31e0ae303cc5d1bb1226c8e4ff1be441f2c0624b9b6"
+      },
+      {
+        "column": null,
+        "end": 26,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 26,
+        "requirement": "Steps:Steps:f0593b7edb5a22d26fe00049f67e57cf451ca75876a26d021a28bde921b7aeba"
+      },
+      {
+        "column": null,
+        "end": 47,
+        "entity": "Steps",
+        "file": "def/components/sequence.lfy",
+        "line": 9,
+        "outputLine": 27,
+        "requirement": "Steps:Steps:1b18aff95f1be541b654be8071b5af28ddbd8f91ea9366d4874a0c920e5bab1f"
+      },
+      {
+        "column": null,
+        "end": 49,
+        "entity": "FlowStage",
+        "file": "def/components/sequence.lfy",
+        "line": 27,
+        "outputLine": 48,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 51,
+        "entity": "FlowStage.label",
+        "file": "def/components/sequence.lfy",
+        "line": 28,
+        "outputLine": 50,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 55,
+        "entity": "FlowStage.description",
+        "file": "def/components/sequence.lfy",
+        "line": 29,
+        "outputLine": 52,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 56,
+        "entity": "Flow",
+        "file": "def/components/sequence.lfy",
+        "line": 33,
+        "outputLine": 56,
+        "requirement": "Flow:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+      },
+      {
+        "column": null,
+        "end": 61,
+        "entity": "Flow",
+        "file": "def/components/sequence.lfy",
+        "line": 33,
+        "outputLine": 57,
+        "requirement": "Flow:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe"
+      },
+      {
+        "column": null,
+        "end": 62,
+        "entity": "Flow",
+        "file": "def/components/sequence.lfy",
+        "line": 33,
+        "outputLine": 62,
+        "requirement": "Flow:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063"
+      },
+      {
+        "column": null,
+        "end": 64,
+        "entity": "Flow",
+        "file": "def/components/sequence.lfy",
+        "line": 33,
+        "outputLine": 63,
+        "requirement": "Flow:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 65,
+        "entity": "Flow",
+        "file": "def/components/sequence.lfy",
+        "line": 33,
+        "outputLine": 65,
+        "requirement": "Flow:Flow:5221f7540bc7fa6038cdab346bb8c64a9a60180b42f4baf978c9415821257756"
+      },
+      {
+        "column": null,
+        "end": 66,
+        "entity": "Flow",
+        "file": "def/components/sequence.lfy",
+        "line": 33,
+        "outputLine": 66,
+        "requirement": "Flow:Flow:b9877c95413e9bf9de70d0fae32a2538dd51cd7729f7e28d802222407ca22ab9"
+      },
+      {
+        "column": null,
+        "end": 67,
+        "entity": "Flow",
+        "file": "def/components/sequence.lfy",
+        "line": 33,
+        "outputLine": 67,
+        "requirement": "Flow:Flow:a3dc18b74ca2487e7ba059765dfb6e9af24e473a9b69e1e5a456a6f5ba13fb89"
+      },
+      {
+        "column": null,
+        "end": 68,
+        "entity": "Flow",
+        "file": "def/components/sequence.lfy",
+        "line": 33,
+        "outputLine": 68,
+        "requirement": "Flow:Flow:48ea308560893a8f80b527e8db8fa3f37e32f54cfb40ce47ab0827c0293f227a"
+      },
+      {
+        "column": null,
+        "end": 69,
+        "entity": "Flow",
+        "file": "def/components/sequence.lfy",
+        "line": 33,
+        "outputLine": 69,
+        "requirement": "Flow:Flow:5af4e3d43922a68608bf5873e9ca250b56a49b3b164b84e48bfdabfd679901dd"
+      },
+      {
+        "column": null,
+        "end": 91,
+        "entity": "Flow",
+        "file": "def/components/sequence.lfy",
+        "line": 33,
+        "outputLine": 70,
+        "requirement": "Flow:Flow:a22f0b84e417f7fa99de90f0bb220b543cf12f28f72a1427a907069e2e2b4ed0"
+      },
+      {
+        "column": null,
+        "end": 92,
+        "entity": "Columns",
+        "file": "def/components/sequence.lfy",
+        "line": 56,
+        "outputLine": 92,
+        "requirement": "Columns:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+      },
+      {
+        "column": null,
+        "end": 97,
+        "entity": "Columns",
+        "file": "def/components/sequence.lfy",
+        "line": 56,
+        "outputLine": 93,
+        "requirement": "Columns:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe"
+      },
+      {
+        "column": null,
+        "end": 98,
+        "entity": "Columns",
+        "file": "def/components/sequence.lfy",
+        "line": 56,
+        "outputLine": 98,
+        "requirement": "Columns:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063"
+      },
+      {
+        "column": null,
+        "end": 100,
+        "entity": "Columns",
+        "file": "def/components/sequence.lfy",
+        "line": 56,
+        "outputLine": 99,
+        "requirement": "Columns:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 101,
+        "entity": "Columns",
+        "file": "def/components/sequence.lfy",
+        "line": 56,
+        "outputLine": 101,
+        "requirement": "Columns:Columns:4b8b2aa30315aa8618f135122203e5aa65ff30a1b5ebd11ac02cf1ef1360e397"
+      },
+      {
+        "column": null,
+        "end": 108,
+        "entity": "Columns",
+        "file": "def/components/sequence.lfy",
+        "line": 56,
+        "outputLine": 102,
+        "requirement": "Columns:Columns:b5a8a4f0def8beb89a7e9f3f85566bd1a4cc69b626e3a5930493589ac91e6673"
+      }
+    ],
+    "output": "apps/main/src/components/sequence.tsx",
+    "requirements": "971cf0e195603c12627e307cacdb59e1949c0899672ec9d3976f2d418b9cb33c",
+    "signature": "2f883dd8f503e1adb8b0f0419d4e3cd6860f3b64f8a414122711643d485be1f8",
+    "source": "def/components/sequence.lfy",
+    "target": "mainApp",
+    "text": "46efabf68c292339fa02cc30d5facff2e48d56d1d0e3baf205800b7370a8b2f8"
+  }
+]

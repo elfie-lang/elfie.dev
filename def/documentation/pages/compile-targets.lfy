@@ -1,0 +1,4 @@
+use "http";
+use "../layout";
+
+fn CompileTargetsPage() is page('/docs/compile-targets'), documentationArticle("compile-targets"): `The Compile targets page of the documentation` {}

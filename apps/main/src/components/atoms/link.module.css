@@ -1,0 +1,42 @@
+/* Link: Elfie/Label */
+
+.link {
+  display: inline-flex;
+  gap: var(--space-8);
+  align-items: center;
+  min-block-size: 32px;
+  padding: var(--space-0);
+  color: var(--color-action);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-medium);
+  line-height: normal;
+  letter-spacing: 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.link:focus-visible {
+  outline: var(--focus-ring-width) solid var(--color-action);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.indicator {
+  position: relative;
+  flex-shrink: 0;
+  inline-size: 16px;
+  block-size: 16px;
+}
+
+.indicatorImage {
+  position: absolute;
+  inset: -4.69%;
+  inline-size: auto;
+  block-size: auto;
+  max-inline-size: none;
+}

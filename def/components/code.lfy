@@ -1,0 +1,42 @@
+use "react";
+use "../traits";
+
+external CopyImage is image(
+  `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=54-452&t=5AeWwpuJzWSP1Pwq-4`,
+): `URL to the copy icon of a code block` = string;
+
+/// code: the source shown, exactly as written
+/// label: what the header names, such as a file path or Terminal
+/// caption: a sentence shown under the block
+fn CodeBlock(code: string, label: string, caption?: string) is component,
+  fromFigma(
+    `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=80-1799&t=5AeWwpuJzWSP1Pwq-4`,
+  ) {
+  @acceptanceCriteria
+    .add({
+      behavior = `Shows [[code]] character for character, keeping its spaces and line breaks, in the code font`,
+    })
+    .add({
+      situation = `A line of [[code]] is wider than the block`,
+      behavior = `The code body scrolls sideways inside the block; lines never wrap and the page never scrolls sideways`,
+    })
+    .add({ behavior = `The header shows [[label]]` })
+    .add({
+      behavior = `The header ends with a button showing [[CopyImage]], whose accessible name is Copy code`,
+    })
+    .add({
+      situation = `The copy button is pressed`,
+      behavior = `[[code]] is written to the clipboard`,
+    })
+    .add({
+      situation = `The copy button is pressed and the clipboard accepts the code`,
+      behavior = `The button's accessible name is Copied for 2 seconds, then Copy code again`,
+    })
+    .add({
+      situation = `The copy button is pressed and the clipboard refuses the code`,
+      behavior = `The text of the code body is selected, so it can be copied by hand`,
+    })
+    .add({ situation = `[[caption]] is given`, behavior = `[[caption]] is shown under the block, as in Figma` })
+    .add({ situation = `[[caption]] is left out`, behavior = `Nothing is shown under the block` })
+    .add({ behavior = `The block fills the width of its parent` });
+}

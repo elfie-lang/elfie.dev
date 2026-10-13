@@ -1,0 +1,45 @@
+use "react";
+use "../traits";
+use "./pages";
+
+external SearchImage is image(
+  `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=114-2836&t=5AeWwpuJzWSP1Pwq-4`,
+): `URL to the magnifying glass of the search field` = string;
+
+fn DocumentationSearch() is component,
+  fromFigma(
+    `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=114-2835&t=5AeWwpuJzWSP1Pwq-4`,
+  ) {
+  @acceptanceCriteria
+    .add({
+      behavior = `Shows a search field with [[SearchImage]], the placeholder Search docs, and the shortcut hint ⌘ K, as the design shows`,
+    })
+    .add({ behavior = `The field's accessible name is Search docs` })
+    .add({
+      situation = `The field holds text`,
+      behavior = `A list of the pages [[searchDocumentation]] gives for the text opens under the field, each showing its title and its description without backticks, and linking to its [[documentationPath]]`,
+    })
+    .add({
+      situation = [`The field holds text`, `[[searchDocumentation]] gives no page`],
+      behavior = `The list shows the line No pages match`,
+    })
+    .add({
+      behavior = `The field and the list follow the ARIA combobox pattern: the field has role combobox, the list has role listbox, and each result has role option`,
+    })
+    .add({
+      situation = `The list is open`,
+      behavior = [
+        `The down and up arrow keys move the highlight through the results`,
+        `Enter opens the highlighted result, or the first result when none is highlighted`,
+        `Escape closes the list and keeps the text`,
+      ],
+    })
+    .add({ situation = `The field loses focus to anything outside the list`, behavior = `The list closes` })
+    .add({
+      situation = `Command K or Control K is pressed anywhere on the page`,
+      behavior = `The field takes focus and its text is selected`,
+    })
+    .add({
+      behavior = `The list floats above the page under the field, at least as wide as the field, on the surface background with the decorative divider as its border and the control radius`,
+    });
+}

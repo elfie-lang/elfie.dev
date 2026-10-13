@@ -1,0 +1,4 @@
+use "http";
+use "../layout";
+
+fn YourFirstProgramPage() is page('/docs/your-first-program'), documentationArticle("your-first-program"): `The Your first program page of the documentation` {}

@@ -1,0 +1,164 @@
+[
+  {
+    "answered": [
+      "GettingStartedPage:documentationArticle:007636efa7915027837c8ac1c77834e1dd5e459f2b8665d67861d060fb787512",
+      "GettingStartedPage:documentationArticle:02bc7340b83c048a5515205607bc37d625e9f24b2a58d94b9c3d11116cb39eff",
+      "GettingStartedPage:documentationArticle:fb26f71669f88cf00b7f94fb1f7057a2e896e7f7f4306fb2211eace17c6ff0ec",
+      "GettingStartedPage:documentationPage:5508b8284c897385c88e847845aec57d4a1248f6c866fe3e047dcf725f995ac2",
+      "GettingStartedPage:documentationPage:b12e752cc415eb5332b785efd04b26d4cdf891830121077fd16ffa56cf9d44c7",
+      "GettingStartedPage:page:5c02f254dd9ee62fd8cd811a024bd29777b2a86878d9b6f4d03cc4f61da1c8a0",
+      "GettingStartedPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "GettingStartedPage:page:8a88a49371c602f11b1f91b30de7e792a4a9531bcab68547f78d9488f6b70fd2",
+      "GettingStartedPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "GettingStartedPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:09:42Z",
+    "hash": "33be13f904963fdd64a08ab589a8d7ade6939db8bb8c04afbcbf8a9029632e2f",
+    "markers": [
+      {
+        "column": null,
+        "end": 24,
+        "entity": "GettingStartedPage",
+        "file": "def/documentation/pages/getting-started.lfy",
+        "line": 4,
+        "outputLine": 18,
+        "requirement": "GettingStartedPage:documentationPage:5508b8284c897385c88e847845aec57d4a1248f6c866fe3e047dcf725f995ac2"
+      },
+      {
+        "column": null,
+        "end": 32,
+        "entity": "GettingStartedPage",
+        "file": "def/documentation/pages/getting-started.lfy",
+        "line": 4,
+        "outputLine": 25,
+        "requirement": "GettingStartedPage:documentationPage:b12e752cc415eb5332b785efd04b26d4cdf891830121077fd16ffa56cf9d44c7"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "GettingStartedPage",
+        "file": "def/documentation/pages/getting-started.lfy",
+        "line": 4,
+        "outputLine": 33,
+        "requirement": "GettingStartedPage:documentationArticle:02bc7340b83c048a5515205607bc37d625e9f24b2a58d94b9c3d11116cb39eff"
+      },
+      {
+        "column": null,
+        "end": 40,
+        "entity": "GettingStartedPage",
+        "file": "def/documentation/pages/getting-started.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "GettingStartedPage:documentationArticle:fb26f71669f88cf00b7f94fb1f7057a2e896e7f7f4306fb2211eace17c6ff0ec"
+      },
+      {
+        "column": null,
+        "end": 53,
+        "entity": "GettingStartedPage",
+        "file": "def/documentation/pages/getting-started.lfy",
+        "line": 4,
+        "outputLine": 41,
+        "requirement": "GettingStartedPage:documentationArticle:007636efa7915027837c8ac1c77834e1dd5e459f2b8665d67861d060fb787512"
+      }
+    ],
+    "output": "apps/main/src/app/docs/getting-started/page.test.tsx",
+    "requirements": "a089f677f9ba23cb201170e0e0af7c43aefc025d3dbf6bf1ab231166c8aaf795",
+    "signature": "d047a0c2dd23bdae86e42120796eab1d5235e4716739809c3baa2e42eee17b0f",
+    "source": "def/documentation/pages/getting-started.lfy",
+    "target": "mainApp",
+    "text": "0cf54b6feee345bc3b762432ac9960e99bb5db75945ddb72395f124b757a8c0d"
+  },
+  {
+    "answered": [
+      "GettingStartedPage:documentationArticle:007636efa7915027837c8ac1c77834e1dd5e459f2b8665d67861d060fb787512",
+      "GettingStartedPage:documentationArticle:02bc7340b83c048a5515205607bc37d625e9f24b2a58d94b9c3d11116cb39eff",
+      "GettingStartedPage:documentationArticle:fb26f71669f88cf00b7f94fb1f7057a2e896e7f7f4306fb2211eace17c6ff0ec",
+      "GettingStartedPage:documentationPage:5508b8284c897385c88e847845aec57d4a1248f6c866fe3e047dcf725f995ac2",
+      "GettingStartedPage:documentationPage:b12e752cc415eb5332b785efd04b26d4cdf891830121077fd16ffa56cf9d44c7",
+      "GettingStartedPage:page:5c02f254dd9ee62fd8cd811a024bd29777b2a86878d9b6f4d03cc4f61da1c8a0",
+      "GettingStartedPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "GettingStartedPage:page:8a88a49371c602f11b1f91b30de7e792a4a9531bcab68547f78d9488f6b70fd2",
+      "GettingStartedPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "GettingStartedPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:09:42Z",
+    "hash": "33be13f904963fdd64a08ab589a8d7ade6939db8bb8c04afbcbf8a9029632e2f",
+    "markers": [
+      {
+        "column": null,
+        "end": 154,
+        "entity": "GettingStartedPage",
+        "file": "def/documentation/pages/getting-started.lfy",
+        "line": 4,
+        "outputLine": 6,
+        "requirement": "GettingStartedPage:documentationArticle:fb26f71669f88cf00b7f94fb1f7057a2e896e7f7f4306fb2211eace17c6ff0ec"
+      },
+      {
+        "column": null,
+        "end": 160,
+        "entity": "GettingStartedPage",
+        "file": "def/documentation/pages/getting-started.lfy",
+        "line": 4,
+        "outputLine": 155,
+        "requirement": "GettingStartedPage:documentationPage:b12e752cc415eb5332b785efd04b26d4cdf891830121077fd16ffa56cf9d44c7"
+      },
+      {
+        "column": null,
+        "end": 162,
+        "entity": "GettingStartedPage",
+        "file": "def/documentation/pages/getting-started.lfy",
+        "line": 4,
+        "outputLine": 161,
+        "requirement": "GettingStartedPage:page:5c02f254dd9ee62fd8cd811a024bd29777b2a86878d9b6f4d03cc4f61da1c8a0"
+      },
+      {
+        "column": null,
+        "end": 163,
+        "entity": "GettingStartedPage",
+        "file": "def/documentation/pages/getting-started.lfy",
+        "line": 4,
+        "outputLine": 163,
+        "requirement": "GettingStartedPage:documentationArticle:02bc7340b83c048a5515205607bc37d625e9f24b2a58d94b9c3d11116cb39eff"
+      },
+      {
+        "column": null,
+        "end": 164,
+        "entity": "GettingStartedPage",
+        "file": "def/documentation/pages/getting-started.lfy",
+        "line": 4,
+        "outputLine": 164,
+        "requirement": "GettingStartedPage:documentationPage:5508b8284c897385c88e847845aec57d4a1248f6c866fe3e047dcf725f995ac2"
+      },
+      {
+        "column": null,
+        "end": 165,
+        "entity": "GettingStartedPage",
+        "file": "def/documentation/pages/getting-started.lfy",
+        "line": 4,
+        "outputLine": 165,
+        "requirement": "GettingStartedPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+      },
+      {
+        "column": null,
+        "end": 173,
+        "entity": "GettingStartedPage",
+        "file": "def/documentation/pages/getting-started.lfy",
+        "line": 4,
+        "outputLine": 166,
+        "requirement": "GettingStartedPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      }
+    ],
+    "output": "apps/main/src/app/docs/getting-started/page.tsx",
+    "requirements": "a089f677f9ba23cb201170e0e0af7c43aefc025d3dbf6bf1ab231166c8aaf795",
+    "signature": "d047a0c2dd23bdae86e42120796eab1d5235e4716739809c3baa2e42eee17b0f",
+    "source": "def/documentation/pages/getting-started.lfy",
+    "target": "mainApp",
+    "text": "8e6187306fdb3551afd8dc08f951af0534d0eb6ad0fa89ee1e96c1cb369d709e"
+  }
+]

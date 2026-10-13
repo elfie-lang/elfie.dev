@@ -1,0 +1,4 @@
+use "http";
+use "../layout";
+
+fn TestsAndDocumentationPage() is page('/docs/tests-and-documentation'), documentationArticle("tests-and-documentation"): `The Tests & documentation page of the documentation` {}

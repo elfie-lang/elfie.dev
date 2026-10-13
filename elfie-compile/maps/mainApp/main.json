@@ -1,0 +1,296 @@
+[
+  {
+    "answered": [
+      "Home:Home:147d9ea5c7d10f23936017a645932752133057536fe375b9ef640bd0a004a842",
+      "Home:Home:61d7edf461c5b23551a24cdf511883a533e986ff50f675dca04ea6a8f25fff5d",
+      "Home:Home:6433e78acd259c764c6fd5d0c878e85c1e3dd1761e653f0b6d59d429df028bcb",
+      "Home:Home:68b35d7ce54271c9776e50c4adc5a71a0589ec4c3181e2c6353a86783a0ef77a",
+      "Home:Home:aa6756d38dc289634ab70893caef5d8b1aea420bb3e6c46be8073b52d3e28ba6",
+      "Home:Home:e914d50b37e6d75226fe156880116e527e9cd280d68106b639f6cd83cc9dd7f6",
+      "Home:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "Home:fromFigma:f1b64edebb3d25791d66dd1c2136448c96c6db54718d716b387af4564a3e2ec2",
+      "Home:page:4969c847679bc932b419a832239427a8e8adf8036bc320ecd1c199b1a8a23755",
+      "Home:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "Home:page:8fba3a3dcbd12662e6d34707726b411d8daf3c19ab5c16a92532805b3c57a5ab",
+      "Home:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "Home:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/atoms.lfy": "5f11dd2f98f11de112046b2e179efaefc49d0e30f0b61311ca28d55a3d927905"
+    },
+    "generated": "2026-10-12T22:06:50Z",
+    "hash": "e4b89dd7dcf5af30b66d0851da4dd16ac7eefb9b5608cffaaacb85773c4b06ff",
+    "markers": [
+      {
+        "column": null,
+        "end": 14,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 8,
+        "requirement": "Home:page:4969c847679bc932b419a832239427a8e8adf8036bc320ecd1c199b1a8a23755"
+      },
+      {
+        "column": null,
+        "end": 21,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 15,
+        "requirement": "Home:Home:e914d50b37e6d75226fe156880116e527e9cd280d68106b639f6cd83cc9dd7f6"
+      },
+      {
+        "column": null,
+        "end": 29,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 22,
+        "requirement": "Home:Home:147d9ea5c7d10f23936017a645932752133057536fe375b9ef640bd0a004a842"
+      },
+      {
+        "column": null,
+        "end": 37,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 30,
+        "requirement": "Home:Home:61d7edf461c5b23551a24cdf511883a533e986ff50f675dca04ea6a8f25fff5d"
+      },
+      {
+        "column": null,
+        "end": 48,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 38,
+        "requirement": "Home:Home:aa6756d38dc289634ab70893caef5d8b1aea420bb3e6c46be8073b52d3e28ba6"
+      },
+      {
+        "column": null,
+        "end": 57,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 49,
+        "requirement": "Home:Home:68b35d7ce54271c9776e50c4adc5a71a0589ec4c3181e2c6353a86783a0ef77a"
+      },
+      {
+        "column": null,
+        "end": 65,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 58,
+        "requirement": "Home:Home:6433e78acd259c764c6fd5d0c878e85c1e3dd1761e653f0b6d59d429df028bcb"
+      },
+      {
+        "column": null,
+        "end": 72,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 66,
+        "requirement": "Home:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34"
+      }
+    ],
+    "output": "apps/main/src/app/page.test.tsx",
+    "requirements": "ca5534dcc134fdd666cf6351df9f1e353e8b5b70b0daece72fe82963801ea20c",
+    "signature": "2d971cf60821a69a85e66915a38d50cd3126e3aaa3ba7eea4b3f5a708143159c",
+    "source": "def/main.lfy",
+    "target": "mainApp",
+    "text": "f693787ecabd335a80de11bfc29af56c41ae64c8ff3c7b8ecc479813fdc69fcf"
+  },
+  {
+    "answered": [
+      "Home:Home:147d9ea5c7d10f23936017a645932752133057536fe375b9ef640bd0a004a842",
+      "Home:Home:61d7edf461c5b23551a24cdf511883a533e986ff50f675dca04ea6a8f25fff5d",
+      "Home:Home:6433e78acd259c764c6fd5d0c878e85c1e3dd1761e653f0b6d59d429df028bcb",
+      "Home:Home:68b35d7ce54271c9776e50c4adc5a71a0589ec4c3181e2c6353a86783a0ef77a",
+      "Home:Home:aa6756d38dc289634ab70893caef5d8b1aea420bb3e6c46be8073b52d3e28ba6",
+      "Home:Home:e914d50b37e6d75226fe156880116e527e9cd280d68106b639f6cd83cc9dd7f6",
+      "Home:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "Home:fromFigma:f1b64edebb3d25791d66dd1c2136448c96c6db54718d716b387af4564a3e2ec2",
+      "Home:page:4969c847679bc932b419a832239427a8e8adf8036bc320ecd1c199b1a8a23755",
+      "Home:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "Home:page:8fba3a3dcbd12662e6d34707726b411d8daf3c19ab5c16a92532805b3c57a5ab",
+      "Home:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "Home:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/atoms.lfy": "5f11dd2f98f11de112046b2e179efaefc49d0e30f0b61311ca28d55a3d927905"
+    },
+    "generated": "2026-10-12T22:06:50Z",
+    "hash": "e4b89dd7dcf5af30b66d0851da4dd16ac7eefb9b5608cffaaacb85773c4b06ff",
+    "markers": [
+      {
+        "column": null,
+        "end": 5,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 3,
+        "requirement": "Home:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34"
+      },
+      {
+        "column": null,
+        "end": 8,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 6,
+        "requirement": "Home:Home:aa6756d38dc289634ab70893caef5d8b1aea420bb3e6c46be8073b52d3e28ba6"
+      },
+      {
+        "column": null,
+        "end": 11,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 9,
+        "requirement": "Home:Home:147d9ea5c7d10f23936017a645932752133057536fe375b9ef640bd0a004a842"
+      },
+      {
+        "column": null,
+        "end": 14,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 12,
+        "requirement": "Home:Home:aa6756d38dc289634ab70893caef5d8b1aea420bb3e6c46be8073b52d3e28ba6"
+      },
+      {
+        "column": null,
+        "end": 17,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 15,
+        "requirement": "Home:Home:61d7edf461c5b23551a24cdf511883a533e986ff50f675dca04ea6a8f25fff5d"
+      },
+      {
+        "column": null,
+        "end": 28,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 18,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 43,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 29,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 51,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 44,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 70,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 52,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 73,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 71,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 76,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 74,
+        "requirement": "Home:Home:6433e78acd259c764c6fd5d0c878e85c1e3dd1761e653f0b6d59d429df028bcb"
+      },
+      {
+        "column": null,
+        "end": 94,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 77,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 95,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 95,
+        "requirement": "Home:page:4969c847679bc932b419a832239427a8e8adf8036bc320ecd1c199b1a8a23755"
+      },
+      {
+        "column": null,
+        "end": 96,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 96,
+        "requirement": "Home:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      },
+      {
+        "column": null,
+        "end": 98,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 97,
+        "requirement": "Home:fromFigma:f1b64edebb3d25791d66dd1c2136448c96c6db54718d716b387af4564a3e2ec2"
+      },
+      {
+        "column": null,
+        "end": 99,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 99,
+        "requirement": "Home:Home:e914d50b37e6d75226fe156880116e527e9cd280d68106b639f6cd83cc9dd7f6"
+      },
+      {
+        "column": null,
+        "end": 100,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 100,
+        "requirement": "Home:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+      },
+      {
+        "column": null,
+        "end": 270,
+        "entity": "Home",
+        "file": "def/main.lfy",
+        "line": 5,
+        "outputLine": 101,
+        "requirement": "Home:Home:68b35d7ce54271c9776e50c4adc5a71a0589ec4c3181e2c6353a86783a0ef77a"
+      }
+    ],
+    "output": "apps/main/src/app/page.tsx",
+    "requirements": "ca5534dcc134fdd666cf6351df9f1e353e8b5b70b0daece72fe82963801ea20c",
+    "signature": "2d971cf60821a69a85e66915a38d50cd3126e3aaa3ba7eea4b3f5a708143159c",
+    "source": "def/main.lfy",
+    "target": "mainApp",
+    "text": "e3e82e2d124f7a015766a03927161275efd6509631fddba462c638ac47445035"
+  }
+]

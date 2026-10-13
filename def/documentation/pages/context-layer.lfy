@@ -1,0 +1,4 @@
+use "http";
+use "../layout";
+
+fn ContextLayerPage() is page('/docs/context-layer'), documentationArticle("context-layer"): `The Context layer page of the documentation` {}

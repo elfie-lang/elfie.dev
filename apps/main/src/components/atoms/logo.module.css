@@ -1,0 +1,26 @@
+/* Logo: the exported logo, scaled to --logo-size */
+
+.logo {
+  --logo-size: 96px;
+
+  display: block;
+  flex-shrink: 0;
+  inline-size: var(--logo-size);
+  block-size: var(--logo-size);
+}
+
+.logo:focus-visible {
+  outline: var(--focus-ring-width) solid var(--color-action);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.logoImage {
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+@media (min-width: 45rem) {
+  .logo {
+    --logo-size: 128px;
+  }
+}

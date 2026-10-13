@@ -1,0 +1,25 @@
+use "bun";
+use "nextjs" as NextJS;
+use "./traits";
+
+external favicon is image(
+  `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=48-339&t=5AeWwpuJzWSP1Pwq-4`,
+): `URL to favicon image` = string;
+
+ace const mainApp: `Elfie.dev main app` = NextJS.app({
+  root = `apps/main`,
+  runtime = bun,
+  ecosystem = bunPackages,
+  dependencies = [
+    { name = "react-markdown", version = "^10" },
+    { name = "remark-gfm", version = "^4" },
+  ],
+});
+
+mainApp
+  @acceptanceCriteria
+  .add({
+    behavior = `Favicon is [[favicon]]`,
+  });
+
+global@targets.add(mainApp);

@@ -1,0 +1,79 @@
+use "react";
+use "../atoms";
+use "../traits";
+use "./content";
+use "./pages";
+
+/// slug: the slug of the current page
+fn Pager(slug: string) is component,
+  fromFigma(
+    `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=114-2922&t=5AeWwpuJzWSP1Pwq-4`,
+  ) {
+  @acceptanceCriteria
+    .add({ behavior = `Its pages are the ones [[neighborsOf]] gives for [[slug]]` })
+    .add({
+      situation = `There is a previous page`,
+      behavior = `The left side shows Previous over a link to the previous page's [[documentationPath]], reading ← and its title`,
+    })
+    .add({
+      situation = `There is a next page`,
+      behavior = `The right side shows Next over a link to the next page's [[documentationPath]], reading its title and →, aligned right`,
+    })
+    .add({
+      situation = `There is no previous page`,
+      behavior = `The left side is empty and the next link stays on the right`,
+    })
+    .add({ behavior = `It is a nav element whose accessible name is Pages` });
+}
+
+/// headings: the headings to list, in order
+fn OnThisPage(headings: DocumentationHeading[]) is component,
+  fromFigma(
+    `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=114-2932&t=5AeWwpuJzWSP1Pwq-4`,
+  ) {
+  @acceptanceCriteria
+    .add({
+      behavior = `Shows the label On this page, then one link per heading of [[headings]], reading its text and linking to # and its id`,
+    })
+    .add({
+      behavior = `Under a divider it shows a [[Link]] reading Report an issue to https://github.com/elfie-lang/elfie/issues, with the external indicator, then the note Found something unclear? Share a documentation suggestion.`,
+    })
+    .add({ situation = `[[headings]] is empty`, behavior = `The label and the heading links are left out` })
+    .add({ behavior = `It is a nav element whose accessible name is On this page` })
+    .add({
+      behavior = `It stays in view while the article scrolls, 32 pixels below the top of the window`,
+    });
+}
+
+/// slug: the slug of the page shown
+/// source: the page's Markdown
+fn Article(slug: string, source: string) is component,
+  fromFigma(
+    `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=114-2833&t=5AeWwpuJzWSP1Pwq-4`,
+  ) {
+  @acceptanceCriteria
+    .add({
+      behavior = `Its page is the one [[documentationPageOf]] gives for [[slug]]`,
+    })
+    .add({
+      behavior = `Lays out the Language article column and the On this page column of the design, without the documentation navigation, which the page places beside it`,
+    })
+    .add({
+      behavior = [
+        `The article introduction shows the breadcrumb Documentation / and the page's title, with Documentation linking to /docs`,
+        `Then the page's title as the page's only h1`,
+        `Then the page's description, with inline code in backticks shown as inline code`,
+        `Then a tag holding the page's section`,
+      ],
+    })
+    .add({ behavior = `The article's body is [[DocumentationContent]] of [[source]]` })
+    .add({
+      behavior = `After the body come a divider, a [[Pager]] for [[slug]], and the Article feedback row: the question Was this guide clear? and a [[Link]] reading Share a suggestion to https://github.com/elfie-lang/elfie/issues/new`,
+    })
+    .add({ behavior = `The On this page column is [[OnThisPage]] with the headings [[headingsOf]] gives for [[source]]` })
+    .add({
+      situation = `The window is narrower than 1200 pixels`,
+      behavior = `The On this page column is hidden and the article takes the full width`,
+    })
+    .add({ behavior = `The article column is an article element` });
+}

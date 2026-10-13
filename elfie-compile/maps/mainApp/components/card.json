@@ -1,0 +1,353 @@
+[
+  {
+    "answered": [
+      "CardGrid:CardGrid:26710262abee46e978c9cf314d5653f928f5620219731d6e88b8f14664d3c286",
+      "CardGrid:CardGrid:67a136ed7aeeda480aa4cbf3d37d77164d8e93b3c2ed006f75f51b04db81871f",
+      "CardGrid:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "CardGrid:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "CardGrid:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "CardGrid:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "CardGrid:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "CardGrid:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "ResourceCard:ResourceCard:1ad29294d72b8ed87aefdded18324673e1bdf76c8a7f33c7b5f86fafdce2f3df",
+      "ResourceCard:ResourceCard:787d7eeb2d2904b3a185464f3aa69569a0d97a7459cc7766d1c16a82a01b8aeb",
+      "ResourceCard:ResourceCard:d1b964502b54b676ee04d751d4351ee08cc47cb3970cc765b77b4ac38e4988a3",
+      "ResourceCard:ResourceCard:e213f3ce70b625b3e98135acbe921982081956e62c3e634f0ddb05d00e679c4c",
+      "ResourceCard:ResourceCard:f57e97364b9d6a94d9dcfaecc1eb0dc2444ea9fac3b3ec1a6b0de1ed03f8dbab",
+      "ResourceCard:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "ResourceCard:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "ResourceCard:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "ResourceCard:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "ResourceCard:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "ResourceCard:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "ResourceCard:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "ResourceCard:fromFigma:4fa9f0e39531f869165fcd4266f0b3f0c27d9241fc7a1438d556ebada9241513"
+    ],
+    "dependencies": {},
+    "generated": "2026-10-13T01:36:36Z",
+    "hash": "0e35420853e7c9011ca996e7da065e4f3393451a9c4a8834feec456ff3498d9a",
+    "markers": [
+      {
+        "column": null,
+        "end": 32,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 26,
+        "requirement": "ResourceCard:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 46,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 33,
+        "requirement": "ResourceCard:ResourceCard:d1b964502b54b676ee04d751d4351ee08cc47cb3970cc765b77b4ac38e4988a3"
+      },
+      {
+        "column": null,
+        "end": 57,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 47,
+        "requirement": "ResourceCard:ResourceCard:787d7eeb2d2904b3a185464f3aa69569a0d97a7459cc7766d1c16a82a01b8aeb"
+      },
+      {
+        "column": null,
+        "end": 67,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 58,
+        "requirement": "ResourceCard:ResourceCard:1ad29294d72b8ed87aefdded18324673e1bdf76c8a7f33c7b5f86fafdce2f3df"
+      },
+      {
+        "column": null,
+        "end": 73,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 68,
+        "requirement": "ResourceCard:ResourceCard:e213f3ce70b625b3e98135acbe921982081956e62c3e634f0ddb05d00e679c4c"
+      },
+      {
+        "column": null,
+        "end": 79,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 74,
+        "requirement": "ResourceCard:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433"
+      },
+      {
+        "column": null,
+        "end": 85,
+        "entity": "CardGrid",
+        "file": "def/components/card.lfy",
+        "line": 62,
+        "outputLine": 80,
+        "requirement": "CardGrid:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 100,
+        "entity": "CardGrid",
+        "file": "def/components/card.lfy",
+        "line": 62,
+        "outputLine": 86,
+        "requirement": "CardGrid:CardGrid:26710262abee46e978c9cf314d5653f928f5620219731d6e88b8f14664d3c286"
+      }
+    ],
+    "output": "apps/main/src/components/card.test.tsx",
+    "requirements": "2b476d1adc826ec9914e3cc9c9afe36f103cfc2d67b1942b9d3c26cd5a863658",
+    "signature": "fe28b2245a445ca0bf9d9715aab567805585eef3085002db9413f77102f42a95",
+    "source": "def/components/card.lfy",
+    "target": "mainApp",
+    "text": "a049ccf0da0625351504adc12423f943234d79de89d263d9c13da0d7f45a4a62"
+  },
+  {
+    "answered": [
+      "CardGrid:CardGrid:26710262abee46e978c9cf314d5653f928f5620219731d6e88b8f14664d3c286",
+      "CardGrid:CardGrid:67a136ed7aeeda480aa4cbf3d37d77164d8e93b3c2ed006f75f51b04db81871f",
+      "CardGrid:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "CardGrid:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "CardGrid:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "CardGrid:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "CardGrid:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "CardGrid:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "ResourceCard:ResourceCard:1ad29294d72b8ed87aefdded18324673e1bdf76c8a7f33c7b5f86fafdce2f3df",
+      "ResourceCard:ResourceCard:787d7eeb2d2904b3a185464f3aa69569a0d97a7459cc7766d1c16a82a01b8aeb",
+      "ResourceCard:ResourceCard:d1b964502b54b676ee04d751d4351ee08cc47cb3970cc765b77b4ac38e4988a3",
+      "ResourceCard:ResourceCard:e213f3ce70b625b3e98135acbe921982081956e62c3e634f0ddb05d00e679c4c",
+      "ResourceCard:ResourceCard:f57e97364b9d6a94d9dcfaecc1eb0dc2444ea9fac3b3ec1a6b0de1ed03f8dbab",
+      "ResourceCard:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "ResourceCard:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "ResourceCard:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "ResourceCard:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "ResourceCard:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "ResourceCard:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "ResourceCard:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "ResourceCard:fromFigma:4fa9f0e39531f869165fcd4266f0b3f0c27d9241fc7a1438d556ebada9241513"
+    ],
+    "dependencies": {},
+    "generated": "2026-10-13T01:36:36Z",
+    "hash": "0e35420853e7c9011ca996e7da065e4f3393451a9c4a8834feec456ff3498d9a",
+    "markers": [
+      {
+        "column": null,
+        "end": 8,
+        "entity": "BookIcon",
+        "file": "def/components/card.lfy",
+        "line": 4,
+        "outputLine": 6,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 11,
+        "entity": "CodeIcon",
+        "file": "def/components/card.lfy",
+        "line": 8,
+        "outputLine": 9,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 14,
+        "entity": "TerminalIcon",
+        "file": "def/components/card.lfy",
+        "line": 12,
+        "outputLine": 12,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 17,
+        "entity": "NotebookIcon",
+        "file": "def/components/card.lfy",
+        "line": 16,
+        "outputLine": 15,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 25,
+        "entity": "CardIcon",
+        "file": "def/components/card.lfy",
+        "line": 20,
+        "outputLine": 18,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 28,
+        "entity": "CardIcon",
+        "file": "def/components/card.lfy",
+        "line": 20,
+        "outputLine": 26,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 36,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 29,
+        "requirement": "ResourceCard:ResourceCard:d1b964502b54b676ee04d751d4351ee08cc47cb3970cc765b77b4ac38e4988a3"
+      },
+      {
+        "column": null,
+        "end": 37,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 37,
+        "requirement": "ResourceCard:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+      },
+      {
+        "column": null,
+        "end": 47,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 38,
+        "requirement": "ResourceCard:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe"
+      },
+      {
+        "column": null,
+        "end": 48,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 48,
+        "requirement": "ResourceCard:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063"
+      },
+      {
+        "column": null,
+        "end": 58,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 49,
+        "requirement": "ResourceCard:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 64,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 59,
+        "requirement": "ResourceCard:ResourceCard:1ad29294d72b8ed87aefdded18324673e1bdf76c8a7f33c7b5f86fafdce2f3df"
+      },
+      {
+        "column": null,
+        "end": 74,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 65,
+        "requirement": "ResourceCard:ResourceCard:e213f3ce70b625b3e98135acbe921982081956e62c3e634f0ddb05d00e679c4c"
+      },
+      {
+        "column": null,
+        "end": 75,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 75,
+        "requirement": "ResourceCard:fromFigma:4fa9f0e39531f869165fcd4266f0b3f0c27d9241fc7a1438d556ebada9241513"
+      },
+      {
+        "column": null,
+        "end": 76,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 76,
+        "requirement": "ResourceCard:ResourceCard:d1b964502b54b676ee04d751d4351ee08cc47cb3970cc765b77b4ac38e4988a3"
+      },
+      {
+        "column": null,
+        "end": 77,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 77,
+        "requirement": "ResourceCard:ResourceCard:787d7eeb2d2904b3a185464f3aa69569a0d97a7459cc7766d1c16a82a01b8aeb"
+      },
+      {
+        "column": null,
+        "end": 98,
+        "entity": "ResourceCard",
+        "file": "def/components/card.lfy",
+        "line": 33,
+        "outputLine": 78,
+        "requirement": "ResourceCard:ResourceCard:f57e97364b9d6a94d9dcfaecc1eb0dc2444ea9fac3b3ec1a6b0de1ed03f8dbab"
+      },
+      {
+        "column": null,
+        "end": 99,
+        "entity": "CardGrid",
+        "file": "def/components/card.lfy",
+        "line": 62,
+        "outputLine": 99,
+        "requirement": "CardGrid:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+      },
+      {
+        "column": null,
+        "end": 104,
+        "entity": "CardGrid",
+        "file": "def/components/card.lfy",
+        "line": 62,
+        "outputLine": 100,
+        "requirement": "CardGrid:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe"
+      },
+      {
+        "column": null,
+        "end": 105,
+        "entity": "CardGrid",
+        "file": "def/components/card.lfy",
+        "line": 62,
+        "outputLine": 105,
+        "requirement": "CardGrid:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063"
+      },
+      {
+        "column": null,
+        "end": 107,
+        "entity": "CardGrid",
+        "file": "def/components/card.lfy",
+        "line": 62,
+        "outputLine": 106,
+        "requirement": "CardGrid:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 108,
+        "entity": "CardGrid",
+        "file": "def/components/card.lfy",
+        "line": 62,
+        "outputLine": 108,
+        "requirement": "CardGrid:CardGrid:26710262abee46e978c9cf314d5653f928f5620219731d6e88b8f14664d3c286"
+      },
+      {
+        "column": null,
+        "end": 115,
+        "entity": "CardGrid",
+        "file": "def/components/card.lfy",
+        "line": 62,
+        "outputLine": 109,
+        "requirement": "CardGrid:CardGrid:67a136ed7aeeda480aa4cbf3d37d77164d8e93b3c2ed006f75f51b04db81871f"
+      }
+    ],
+    "output": "apps/main/src/components/card.tsx",
+    "requirements": "2b476d1adc826ec9914e3cc9c9afe36f103cfc2d67b1942b9d3c26cd5a863658",
+    "signature": "fe28b2245a445ca0bf9d9715aab567805585eef3085002db9413f77102f42a95",
+    "source": "def/components/card.lfy",
+    "target": "mainApp",
+    "text": "304651fed7128634c2e87becac8be46d1d9329c23adcdb34c103410110d27ceb"
+  }
+]

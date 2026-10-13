@@ -1,0 +1,4 @@
+use "http";
+use "../layout";
+
+fn AgenticStructuresPage() is page('/docs/agentic-structures'), documentationArticle("agentic-structures"): `The Agentic structures page of the documentation` {}

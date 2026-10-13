@@ -1,0 +1,60 @@
+use "react";
+
+d Step: `One step of a sequence` {
+  $title: `What the step is called` = string | (is component);
+  $content: `What the step says, which may hold paragraphs, lists, and code blocks` = (is component);
+}
+
+/// steps: the steps, in the order they are taken
+fn Steps(steps: Step[]) is component: `Numbered steps that are followed in order` {
+  @acceptanceCriteria
+    .add({ behavior = `Renders an ordered list with one item per step of [[steps]], in order` })
+    .add({
+      behavior = `Each item has a marker column 32 pixels wide and a body column that fills the rest`,
+    })
+    .add({
+      behavior = `The marker is a 30 pixel circle with a 1.5 pixel border in the action color, a surface background, and the step's number from 1 centered in the action color, semibold, at 13 pixels`,
+    })
+    .add({
+      behavior = `A 1.5 pixel line in the decorative divider color runs down from each marker to the next; the last step has none`,
+    })
+    .add({
+      behavior = `The body shows the step's title as a heading of level 3, at 17 pixels and semibold, then its content, with 14 pixels between them and 28 pixels below the last block of each step`,
+    })
+    .add({ behavior = `Content in the body, such as a code block, never makes the page scroll sideways` });
+}
+
+d FlowStage: `One stage of a pipeline` {
+  $label: `The stage's name` = string | (is component);
+  $description: `What happens in it, in a few words` = string | (is component);
+}
+
+/// stages: the stages, in order
+fn Flow(stages: FlowStage[]) is component: `A diagram of stages joined by arrows` {
+  @acceptanceCriteria
+    .add({ behavior = `Renders one box per stage of [[stages]], in order, as a list` })
+    .add({
+      behavior = `Each box has a surface background, a one pixel border in the decorative divider color, the control radius, 12 pixels of padding above and below and 14 to each side, the label at 14 pixels semibold, and the description under it at 13 pixels in the secondary ink color`,
+    })
+    .add({
+      behavior = `An arrow in the action color sits between each box and the next, hidden from assistive technology`,
+    })
+    .add({
+      behavior = `The boxes sit in a row that wraps, sharing its width, each at least 140 pixels wide, all the same height in a row`,
+    })
+    .add({
+      situation = `The diagram is narrower than 640 pixels`,
+      behavior = `The boxes stack in one column and the arrows point down`,
+    })
+    .add({
+      situation = `The boxes stack in one column`,
+      behavior = `Each box is only as tall as its label and description with its padding; no box keeps the 140 pixel width as a height`,
+    });
+}
+
+/// content: the blocks to set side by side, usually two code blocks
+fn Columns(content: (is component)) is component: `Blocks set side by side` {
+  @acceptanceCriteria
+    .add({ behavior = `Lays out each child of [[content]] in a column of equal width, with 12 pixels between them` })
+    .add({ situation = `It is narrower than 640 pixels`, behavior = `The children stack in one column` });
+}

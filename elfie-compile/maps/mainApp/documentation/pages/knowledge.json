@@ -1,0 +1,182 @@
+[
+  {
+    "answered": [
+      "KnowledgePage:documentationArticle:7c3b95e24e097d4e111e4edf7a5b8a6edf10b01f5823bb12fbaaf15bd00dbe05",
+      "KnowledgePage:documentationArticle:ac4787182664a4993d0f8ae900eb3897055038823a25048bdbef58c7770cc1a6",
+      "KnowledgePage:documentationArticle:e2f377d13559fe87735cb0300dac3384efcf899f25619a87a2eb160912878c47",
+      "KnowledgePage:documentationPage:9e030346e1c8d579be5002379d5d124ea62aad3a7e643263d9dab60810799dd4",
+      "KnowledgePage:documentationPage:f5fcf8892c0d282bdeef5aaa63c7eacf4b252db70e43560701ef46907a61af58",
+      "KnowledgePage:page:01f8e003ecf76538661d92e9e5a9206e11f7654a647c8609c311d739e0ae2b26",
+      "KnowledgePage:page:24b582091710d76076bf2bb58004baa956864e082e98615ef3046b1a5702683c",
+      "KnowledgePage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "KnowledgePage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "KnowledgePage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:08:51Z",
+    "hash": "3c7138eb47c80d7362d261726d940f5b81fcc8c327cabb33fb23074acbe4fae9",
+    "markers": [
+      {
+        "column": null,
+        "end": 15,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 14,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 16,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 16,
+        "requirement": "KnowledgePage:page:01f8e003ecf76538661d92e9e5a9206e11f7654a647c8609c311d739e0ae2b26"
+      },
+      {
+        "column": null,
+        "end": 23,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 17,
+        "requirement": "KnowledgePage:documentationPage:f5fcf8892c0d282bdeef5aaa63c7eacf4b252db70e43560701ef46907a61af58"
+      },
+      {
+        "column": null,
+        "end": 31,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 24,
+        "requirement": "KnowledgePage:documentationPage:9e030346e1c8d579be5002379d5d124ea62aad3a7e643263d9dab60810799dd4"
+      },
+      {
+        "column": null,
+        "end": 38,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 32,
+        "requirement": "KnowledgePage:documentationArticle:7c3b95e24e097d4e111e4edf7a5b8a6edf10b01f5823bb12fbaaf15bd00dbe05"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 39,
+        "requirement": "KnowledgePage:documentationArticle:ac4787182664a4993d0f8ae900eb3897055038823a25048bdbef58c7770cc1a6"
+      },
+      {
+        "column": null,
+        "end": 49,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "KnowledgePage:documentationArticle:e2f377d13559fe87735cb0300dac3384efcf899f25619a87a2eb160912878c47"
+      }
+    ],
+    "output": "apps/main/src/app/docs/knowledge/page.test.tsx",
+    "requirements": "ad20d8ac50e733213d0373b40588ec154fb6f9ce8f7355434466c9ecddd47c11",
+    "signature": "64cba95ae57271122294234c9abdc87f5a390f323b0fe1ceb67259290dfc5a37",
+    "source": "def/documentation/pages/knowledge.lfy",
+    "target": "mainApp",
+    "text": "98fb3c1b82a550a94a747580a9c435632a9fbdca1fa8e7f9059404e7d56361c8"
+  },
+  {
+    "answered": [
+      "KnowledgePage:documentationArticle:7c3b95e24e097d4e111e4edf7a5b8a6edf10b01f5823bb12fbaaf15bd00dbe05",
+      "KnowledgePage:documentationArticle:ac4787182664a4993d0f8ae900eb3897055038823a25048bdbef58c7770cc1a6",
+      "KnowledgePage:documentationArticle:e2f377d13559fe87735cb0300dac3384efcf899f25619a87a2eb160912878c47",
+      "KnowledgePage:documentationPage:9e030346e1c8d579be5002379d5d124ea62aad3a7e643263d9dab60810799dd4",
+      "KnowledgePage:documentationPage:f5fcf8892c0d282bdeef5aaa63c7eacf4b252db70e43560701ef46907a61af58",
+      "KnowledgePage:page:01f8e003ecf76538661d92e9e5a9206e11f7654a647c8609c311d739e0ae2b26",
+      "KnowledgePage:page:24b582091710d76076bf2bb58004baa956864e082e98615ef3046b1a5702683c",
+      "KnowledgePage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "KnowledgePage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "KnowledgePage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:08:51Z",
+    "hash": "3c7138eb47c80d7362d261726d940f5b81fcc8c327cabb33fb23074acbe4fae9",
+    "markers": [
+      {
+        "column": null,
+        "end": 9,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 7,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 77,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 10,
+        "requirement": "KnowledgePage:documentationArticle:ac4787182664a4993d0f8ae900eb3897055038823a25048bdbef58c7770cc1a6"
+      },
+      {
+        "column": null,
+        "end": 83,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 78,
+        "requirement": "KnowledgePage:documentationPage:9e030346e1c8d579be5002379d5d124ea62aad3a7e643263d9dab60810799dd4"
+      },
+      {
+        "column": null,
+        "end": 84,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 84,
+        "requirement": "KnowledgePage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      },
+      {
+        "column": null,
+        "end": 86,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 85,
+        "requirement": "KnowledgePage:page:01f8e003ecf76538661d92e9e5a9206e11f7654a647c8609c311d739e0ae2b26"
+      },
+      {
+        "column": null,
+        "end": 87,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 87,
+        "requirement": "KnowledgePage:documentationPage:f5fcf8892c0d282bdeef5aaa63c7eacf4b252db70e43560701ef46907a61af58"
+      },
+      {
+        "column": null,
+        "end": 95,
+        "entity": "KnowledgePage",
+        "file": "def/documentation/pages/knowledge.lfy",
+        "line": 4,
+        "outputLine": 88,
+        "requirement": "KnowledgePage:documentationArticle:7c3b95e24e097d4e111e4edf7a5b8a6edf10b01f5823bb12fbaaf15bd00dbe05"
+      }
+    ],
+    "output": "apps/main/src/app/docs/knowledge/page.tsx",
+    "requirements": "ad20d8ac50e733213d0373b40588ec154fb6f9ce8f7355434466c9ecddd47c11",
+    "signature": "64cba95ae57271122294234c9abdc87f5a390f323b0fe1ceb67259290dfc5a37",
+    "source": "def/documentation/pages/knowledge.lfy",
+    "target": "mainApp",
+    "text": "678b242874d1696d5bb004acb02a6c975adc80f916abb52abe80125c5b91fdae"
+  }
+]

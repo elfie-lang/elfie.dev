@@ -1,0 +1,293 @@
+[
+  {
+    "answered": [
+      "CodeBlock:CodeBlock:000965f7efd87b31425e91fffb5315be5c5dde877c05d254898cfd3d982e58c8",
+      "CodeBlock:CodeBlock:2280f3dd658357012806977fc9699f2fa06f86dee9b9ef0c94100987fc579bcc",
+      "CodeBlock:CodeBlock:486e6d023cd3e2591ff022850af2b1700c1205ff7f31f1c5b0d94a34672237a9",
+      "CodeBlock:CodeBlock:4cbae0aff3051a670e18bd0c4b3d14bda9db0437463ca9bf759b46bc9e297d4f",
+      "CodeBlock:CodeBlock:73925867fcc21a612acb006dfdbe1563eb812f918bc2662a9f88e7e8f4935485",
+      "CodeBlock:CodeBlock:79f327b7295a200ff97cab8a9ea31ae57a993265f203bd2458c5ba1ceed7038c",
+      "CodeBlock:CodeBlock:9a34705ece18c7065c03d21a13d662926e8e136a9e90120196339e7a86c171e9",
+      "CodeBlock:CodeBlock:a6db92d9fce9db52d1fa0a990f98bb6004328f61ffc8387a9fabd46d9f354685",
+      "CodeBlock:CodeBlock:a9896b84ad8659ba6747b4a815ab4ca9a468f7548e19519f0b27755b7b4ef217",
+      "CodeBlock:CodeBlock:eae42e76d538ee7740527bb41151f51f81156bc10d11ee2075fd80dfe912b057",
+      "CodeBlock:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "CodeBlock:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "CodeBlock:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "CodeBlock:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "CodeBlock:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "CodeBlock:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "CodeBlock:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "CodeBlock:fromFigma:1b56cb74e25e72156a181d74701087d7d6a795de3415eea342f589ebacabfc2f"
+    ],
+    "dependencies": {},
+    "generated": "2026-10-13T00:46:54Z",
+    "hash": "f4c3d6183391b673e5917c62ccc9555ddae8c34ef628dc6a6a780294b00e0599",
+    "markers": [
+      {
+        "column": null,
+        "end": 16,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 10,
+        "requirement": "CodeBlock:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 24,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 17,
+        "requirement": "CodeBlock:CodeBlock:9a34705ece18c7065c03d21a13d662926e8e136a9e90120196339e7a86c171e9"
+      },
+      {
+        "column": null,
+        "end": 30,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 25,
+        "requirement": "CodeBlock:CodeBlock:eae42e76d538ee7740527bb41151f51f81156bc10d11ee2075fd80dfe912b057"
+      },
+      {
+        "column": null,
+        "end": 40,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 31,
+        "requirement": "CodeBlock:CodeBlock:79f327b7295a200ff97cab8a9ea31ae57a993265f203bd2458c5ba1ceed7038c"
+      },
+      {
+        "column": null,
+        "end": 48,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 41,
+        "requirement": "CodeBlock:CodeBlock:a6db92d9fce9db52d1fa0a990f98bb6004328f61ffc8387a9fabd46d9f354685"
+      },
+      {
+        "column": null,
+        "end": 55,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 49,
+        "requirement": "CodeBlock:CodeBlock:a9896b84ad8659ba6747b4a815ab4ca9a468f7548e19519f0b27755b7b4ef217"
+      },
+      {
+        "column": null,
+        "end": 61,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 56,
+        "requirement": "CodeBlock:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433"
+      }
+    ],
+    "output": "apps/main/src/components/code.test.tsx",
+    "requirements": "b3f897528b8c554ee2b7d7ddd8bdb1cd135a690ad01373a63b551346a86f9ec5",
+    "signature": "ec2b2457f908098da06f65c6f4e270151260d2567cb0857fac7fb7e47428c701",
+    "source": "def/components/code.lfy",
+    "target": "mainApp",
+    "text": "52e21da826e01cff35492b014c98be3de21847091fd8a9fbdbadd2fdd32c8204"
+  },
+  {
+    "answered": [
+      "CodeBlock:CodeBlock:000965f7efd87b31425e91fffb5315be5c5dde877c05d254898cfd3d982e58c8",
+      "CodeBlock:CodeBlock:2280f3dd658357012806977fc9699f2fa06f86dee9b9ef0c94100987fc579bcc",
+      "CodeBlock:CodeBlock:486e6d023cd3e2591ff022850af2b1700c1205ff7f31f1c5b0d94a34672237a9",
+      "CodeBlock:CodeBlock:4cbae0aff3051a670e18bd0c4b3d14bda9db0437463ca9bf759b46bc9e297d4f",
+      "CodeBlock:CodeBlock:73925867fcc21a612acb006dfdbe1563eb812f918bc2662a9f88e7e8f4935485",
+      "CodeBlock:CodeBlock:79f327b7295a200ff97cab8a9ea31ae57a993265f203bd2458c5ba1ceed7038c",
+      "CodeBlock:CodeBlock:9a34705ece18c7065c03d21a13d662926e8e136a9e90120196339e7a86c171e9",
+      "CodeBlock:CodeBlock:a6db92d9fce9db52d1fa0a990f98bb6004328f61ffc8387a9fabd46d9f354685",
+      "CodeBlock:CodeBlock:a9896b84ad8659ba6747b4a815ab4ca9a468f7548e19519f0b27755b7b4ef217",
+      "CodeBlock:CodeBlock:eae42e76d538ee7740527bb41151f51f81156bc10d11ee2075fd80dfe912b057",
+      "CodeBlock:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "CodeBlock:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "CodeBlock:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "CodeBlock:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "CodeBlock:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "CodeBlock:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "CodeBlock:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "CodeBlock:fromFigma:1b56cb74e25e72156a181d74701087d7d6a795de3415eea342f589ebacabfc2f"
+    ],
+    "dependencies": {},
+    "generated": "2026-10-13T00:46:54Z",
+    "hash": "f4c3d6183391b673e5917c62ccc9555ddae8c34ef628dc6a6a780294b00e0599",
+    "markers": [
+      {
+        "column": null,
+        "end": 9,
+        "entity": "CopyImage",
+        "file": "def/components/code.lfy",
+        "line": 4,
+        "outputLine": 7,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 12,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 10,
+        "requirement": "CodeBlock:CodeBlock:486e6d023cd3e2591ff022850af2b1700c1205ff7f31f1c5b0d94a34672237a9"
+      },
+      {
+        "column": null,
+        "end": 24,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 13,
+        "requirement": "CodeBlock:CodeBlock:73925867fcc21a612acb006dfdbe1563eb812f918bc2662a9f88e7e8f4935485"
+      },
+      {
+        "column": null,
+        "end": 25,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 25,
+        "requirement": "CodeBlock:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+      },
+      {
+        "column": null,
+        "end": 32,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 26,
+        "requirement": "CodeBlock:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe"
+      },
+      {
+        "column": null,
+        "end": 33,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 33,
+        "requirement": "CodeBlock:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 34,
+        "requirement": "CodeBlock:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 48,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 40,
+        "requirement": "CodeBlock:CodeBlock:486e6d023cd3e2591ff022850af2b1700c1205ff7f31f1c5b0d94a34672237a9"
+      },
+      {
+        "column": null,
+        "end": 49,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 49,
+        "requirement": "CodeBlock:CodeBlock:2280f3dd658357012806977fc9699f2fa06f86dee9b9ef0c94100987fc579bcc"
+      },
+      {
+        "column": null,
+        "end": 62,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 50,
+        "requirement": "CodeBlock:CodeBlock:73925867fcc21a612acb006dfdbe1563eb812f918bc2662a9f88e7e8f4935485"
+      },
+      {
+        "column": null,
+        "end": 63,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 63,
+        "requirement": "CodeBlock:fromFigma:1b56cb74e25e72156a181d74701087d7d6a795de3415eea342f589ebacabfc2f"
+      },
+      {
+        "column": null,
+        "end": 64,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 64,
+        "requirement": "CodeBlock:CodeBlock:4cbae0aff3051a670e18bd0c4b3d14bda9db0437463ca9bf759b46bc9e297d4f"
+      },
+      {
+        "column": null,
+        "end": 65,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 65,
+        "requirement": "CodeBlock:CodeBlock:eae42e76d538ee7740527bb41151f51f81156bc10d11ee2075fd80dfe912b057"
+      },
+      {
+        "column": null,
+        "end": 66,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 66,
+        "requirement": "CodeBlock:CodeBlock:79f327b7295a200ff97cab8a9ea31ae57a993265f203bd2458c5ba1ceed7038c"
+      },
+      {
+        "column": null,
+        "end": 67,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 67,
+        "requirement": "CodeBlock:CodeBlock:9a34705ece18c7065c03d21a13d662926e8e136a9e90120196339e7a86c171e9"
+      },
+      {
+        "column": null,
+        "end": 68,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 68,
+        "requirement": "CodeBlock:CodeBlock:000965f7efd87b31425e91fffb5315be5c5dde877c05d254898cfd3d982e58c8"
+      },
+      {
+        "column": null,
+        "end": 69,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 69,
+        "requirement": "CodeBlock:CodeBlock:a6db92d9fce9db52d1fa0a990f98bb6004328f61ffc8387a9fabd46d9f354685"
+      },
+      {
+        "column": null,
+        "end": 101,
+        "entity": "CodeBlock",
+        "file": "def/components/code.lfy",
+        "line": 11,
+        "outputLine": 70,
+        "requirement": "CodeBlock:CodeBlock:a9896b84ad8659ba6747b4a815ab4ca9a468f7548e19519f0b27755b7b4ef217"
+      }
+    ],
+    "output": "apps/main/src/components/code.tsx",
+    "requirements": "b3f897528b8c554ee2b7d7ddd8bdb1cd135a690ad01373a63b551346a86f9ec5",
+    "signature": "ec2b2457f908098da06f65c6f4e270151260d2567cb0857fac7fb7e47428c701",
+    "source": "def/components/code.lfy",
+    "target": "mainApp",
+    "text": "6387b68d7b75a92dc91936b690f1b3a9f4f0a20a844119292713f5b275463442"
+  }
+]

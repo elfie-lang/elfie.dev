@@ -1,0 +1,24 @@
+use "react";
+
+/// columns: the heading of each column, in order
+/// rows: the cells of each row, one per column, in order
+fn Table(columns: (string | (is component))[], rows: List<List<string | (is component)>>) is component {
+  @acceptanceCriteria
+    .add({
+      behavior = `Renders a table whose header row holds [[columns]] and whose body holds one row per item of [[rows]], in order`,
+    })
+    .add({
+      behavior = `Looks like the Concept definitions list of https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=114-2888: a surface background, a one pixel border in the decorative divider color, the control radius, and a one pixel divider between rows`,
+    })
+    .add({
+      behavior = `Cells have 12 pixels of padding above and below and 20 pixels to each side, align to the top, and use the body font at 14 pixels in the ink color`,
+    })
+    .add({
+      behavior = `Header cells use 13 pixels, the semibold weight, and the secondary ink color, on the canvas background`,
+    })
+    .add({
+      situation = `The table is wider than its parent`,
+      behavior = `It scrolls sideways inside its own border; the page never scrolls sideways`,
+    })
+    .add({ behavior = `Inline code inside a cell never wraps` });
+}
