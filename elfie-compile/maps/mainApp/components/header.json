@@ -1,0 +1,294 @@
+[
+  {
+    "answered": [
+      "Header:Header:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0",
+      "Header:Header:83dd1370092bfccd1d779662da542898bdd318c0091dd4ab2a542fb28b3e0748",
+      "Header:Header:db64c671bfb6b8e5802e8b49a16498172412fb3b09dca7889dfdb166495755d7",
+      "Header:Header:e914d50b37e6d75226fe156880116e527e9cd280d68106b639f6cd83cc9dd7f6",
+      "Header:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Header:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Header:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Header:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Header:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Header:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "Header:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "Header:fromFigma:75716b6da2896b2de2b0bd9b7a073795232d7be3649e1cbbd2d9c28daff115d1",
+      "HeaderItem:HeaderItem:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0",
+      "HeaderItem:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "HeaderItem:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "HeaderItem:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "HeaderItem:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "HeaderItem:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "HeaderItem:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "HeaderItem:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "HeaderItem:fromFigma:baea81fc0f8dc85885f125376a14cfba480cf69baa64d0ef1336a5c1805b90df"
+    ],
+    "dependencies": {
+      "def/atoms.lfy": "5f11dd2f98f11de112046b2e179efaefc49d0e30f0b61311ca28d55a3d927905"
+    },
+    "generated": "2026-10-12T22:55:26Z",
+    "hash": "52ef62959e1a2e8e3edaa177018cc46260ce29386e6e7ed462260dec02c825af",
+    "markers": [
+      {
+        "column": null,
+        "end": 14,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 14,
+        "requirement": "Header:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 23,
+        "entity": "HeaderItem",
+        "file": "def/components/header.lfy",
+        "line": 5,
+        "outputLine": 15,
+        "requirement": "HeaderItem:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 32,
+        "entity": "HeaderItem",
+        "file": "def/components/header.lfy",
+        "line": 5,
+        "outputLine": 24,
+        "requirement": "HeaderItem:HeaderItem:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "HeaderItem",
+        "file": "def/components/header.lfy",
+        "line": 5,
+        "outputLine": 33,
+        "requirement": "HeaderItem:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433"
+      },
+      {
+        "column": null,
+        "end": 45,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 40,
+        "requirement": "Header:Header:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0"
+      },
+      {
+        "column": null,
+        "end": 51,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 46,
+        "requirement": "Header:Header:e914d50b37e6d75226fe156880116e527e9cd280d68106b639f6cd83cc9dd7f6"
+      },
+      {
+        "column": null,
+        "end": 70,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 52,
+        "requirement": "Header:Header:db64c671bfb6b8e5802e8b49a16498172412fb3b09dca7889dfdb166495755d7"
+      },
+      {
+        "column": null,
+        "end": 81,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 71,
+        "requirement": "Header:Header:83dd1370092bfccd1d779662da542898bdd318c0091dd4ab2a542fb28b3e0748"
+      },
+      {
+        "column": null,
+        "end": 88,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 82,
+        "requirement": "Header:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433"
+      }
+    ],
+    "output": "apps/main/src/components/header.test.tsx",
+    "requirements": "282c25b1aaed8840c6187b02e90e3c42a0b1faad7d5dd64e7f2c7c99c5cfc9b7",
+    "signature": "22fcfc965e23e0b59c4ed6fcbe7b22a4bc4a2fa4d0a49b57efdba8ab79044dd6",
+    "source": "def/components/header.lfy",
+    "target": "mainApp",
+    "text": "606940da9e190e7dfc12c1973f83856d2e6cafea102e6023517ca4f1a64670f4"
+  },
+  {
+    "answered": [
+      "Header:Header:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0",
+      "Header:Header:83dd1370092bfccd1d779662da542898bdd318c0091dd4ab2a542fb28b3e0748",
+      "Header:Header:db64c671bfb6b8e5802e8b49a16498172412fb3b09dca7889dfdb166495755d7",
+      "Header:Header:e914d50b37e6d75226fe156880116e527e9cd280d68106b639f6cd83cc9dd7f6",
+      "Header:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Header:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Header:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Header:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Header:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Header:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "Header:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "Header:fromFigma:75716b6da2896b2de2b0bd9b7a073795232d7be3649e1cbbd2d9c28daff115d1",
+      "HeaderItem:HeaderItem:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0",
+      "HeaderItem:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "HeaderItem:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "HeaderItem:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "HeaderItem:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "HeaderItem:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "HeaderItem:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "HeaderItem:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "HeaderItem:fromFigma:baea81fc0f8dc85885f125376a14cfba480cf69baa64d0ef1336a5c1805b90df"
+    ],
+    "dependencies": {
+      "def/atoms.lfy": "5f11dd2f98f11de112046b2e179efaefc49d0e30f0b61311ca28d55a3d927905"
+    },
+    "generated": "2026-10-12T22:55:26Z",
+    "hash": "52ef62959e1a2e8e3edaa177018cc46260ce29386e6e7ed462260dec02c825af",
+    "markers": [
+      {
+        "column": null,
+        "end": 8,
+        "entity": "HeaderItem",
+        "file": "def/components/header.lfy",
+        "line": 5,
+        "outputLine": 8,
+        "requirement": "HeaderItem:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+      },
+      {
+        "column": null,
+        "end": 15,
+        "entity": "HeaderItem",
+        "file": "def/components/header.lfy",
+        "line": 5,
+        "outputLine": 9,
+        "requirement": "HeaderItem:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe"
+      },
+      {
+        "column": null,
+        "end": 16,
+        "entity": "HeaderItem",
+        "file": "def/components/header.lfy",
+        "line": 5,
+        "outputLine": 16,
+        "requirement": "HeaderItem:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063"
+      },
+      {
+        "column": null,
+        "end": 18,
+        "entity": "HeaderItem",
+        "file": "def/components/header.lfy",
+        "line": 5,
+        "outputLine": 17,
+        "requirement": "HeaderItem:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 19,
+        "entity": "HeaderItem",
+        "file": "def/components/header.lfy",
+        "line": 5,
+        "outputLine": 19,
+        "requirement": "HeaderItem:fromFigma:baea81fc0f8dc85885f125376a14cfba480cf69baa64d0ef1336a5c1805b90df"
+      },
+      {
+        "column": null,
+        "end": 31,
+        "entity": "HeaderItem",
+        "file": "def/components/header.lfy",
+        "line": 5,
+        "outputLine": 20,
+        "requirement": "HeaderItem:HeaderItem:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0"
+      },
+      {
+        "column": null,
+        "end": 32,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 32,
+        "requirement": "Header:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+      },
+      {
+        "column": null,
+        "end": 37,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 33,
+        "requirement": "Header:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe"
+      },
+      {
+        "column": null,
+        "end": 45,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 38,
+        "requirement": "Header:Header:83dd1370092bfccd1d779662da542898bdd318c0091dd4ab2a542fb28b3e0748"
+      },
+      {
+        "column": null,
+        "end": 46,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 46,
+        "requirement": "Header:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063"
+      },
+      {
+        "column": null,
+        "end": 48,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 47,
+        "requirement": "Header:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 49,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 49,
+        "requirement": "Header:fromFigma:75716b6da2896b2de2b0bd9b7a073795232d7be3649e1cbbd2d9c28daff115d1"
+      },
+      {
+        "column": null,
+        "end": 50,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 50,
+        "requirement": "Header:Header:db64c671bfb6b8e5802e8b49a16498172412fb3b09dca7889dfdb166495755d7"
+      },
+      {
+        "column": null,
+        "end": 51,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 51,
+        "requirement": "Header:Header:e914d50b37e6d75226fe156880116e527e9cd280d68106b639f6cd83cc9dd7f6"
+      },
+      {
+        "column": null,
+        "end": 77,
+        "entity": "Header",
+        "file": "def/components/header.lfy",
+        "line": 11,
+        "outputLine": 52,
+        "requirement": "Header:Header:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0"
+      }
+    ],
+    "output": "apps/main/src/components/header.tsx",
+    "requirements": "282c25b1aaed8840c6187b02e90e3c42a0b1faad7d5dd64e7f2c7c99c5cfc9b7",
+    "signature": "22fcfc965e23e0b59c4ed6fcbe7b22a4bc4a2fa4d0a49b57efdba8ab79044dd6",
+    "source": "def/components/header.lfy",
+    "target": "mainApp",
+    "text": "91080bc0a898dae2c850ce211132bddd8e2cdbe782cfb53abccefa40cc9b3220"
+  }
+]

@@ -1,0 +1,68 @@
+use "react";
+use "../traits";
+
+external BookIcon is image(
+  `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=54-610&t=5AeWwpuJzWSP1Pwq-4`,
+): `URL to the book icon` = string;
+
+external CodeIcon is image(
+  `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=54-618&t=5AeWwpuJzWSP1Pwq-4`,
+): `URL to the code icon` = string;
+
+external TerminalIcon is image(
+  `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=54-627&t=5AeWwpuJzWSP1Pwq-4`,
+): `URL to the terminal icon` = string;
+
+external NotebookIcon is image(
+  `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=54-635&t=5AeWwpuJzWSP1Pwq-4`,
+): `URL to the notebook and pen icon` = string;
+
+enum CardIcon: `The icon in the top corner of a card` {
+  book = `A book, for guides`,
+  code = `Code brackets, for examples and language features`,
+  terminal = `A prompt, for commands`,
+  notebook = `A notebook and pen, for notes and design`,
+}
+
+/// icon: the icon in the top left corner
+/// label: the short label in the top right corner
+/// title: the card's heading
+/// content: the description under the heading
+/// href: where the card's link goes
+/// action: the text of the card's link
+fn ResourceCard(
+  icon: CardIcon,
+  label: string,
+  title: string,
+  content: string | (is component),
+  href: string,
+  action: string,
+) is component,
+  fromFigma(
+    `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=54-608&t=5AeWwpuJzWSP1Pwq-4`,
+  ) {
+  @acceptanceCriteria
+    .add({
+      behavior = `The icon is [[BookIcon]], [[CodeIcon]], [[TerminalIcon]], or [[NotebookIcon]] for the [[icon]] of the same name`,
+    })
+    .add({
+      behavior = `Shows [[label]], [[title]], and [[content]] where Figma shows the metadata, heading, and description`,
+    })
+    .add({ behavior = `Ends with a link to [[href]] reading [[action]] followed by an arrow` })
+    .add({
+      situation = `[[href]] begins with a slash`,
+      behavior = `The link is a Next.js link`,
+    })
+    .add({
+      behavior = `Cards placed side by side in a row stretch to the same height, with the link at the bottom of each`,
+    });
+}
+
+/// content: the cards, in order
+fn CardGrid(content: (is component)) is component {
+  @acceptanceCriteria
+    .add({
+      behavior = `Lays out [[content]] in two equal columns with the gap between resource cards in Figma, as in https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=54-605`,
+    })
+    .add({ situation = `The grid is narrower than 520 pixels`, behavior = `The cards stack in one column` });
+}

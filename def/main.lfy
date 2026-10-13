@@ -1,0 +1,25 @@
+use "http";
+use "./atoms";
+use "./traits";
+
+fn Home() is page('/'),
+  fromFigma(
+    `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=54-349&t=5AeWwpuJzWSP1Pwq-4`,
+  ) {
+  @acceptanceCriteria
+    .add({ behavior = `Usese [[Logo]] for the logo` })
+    .add({ behavior = `All [[Button]] links use href and are rendered as <a> tags` })
+    .add({ behavior = `Download button links to https://github.com/elfie-lang/elfie/releases` })
+    .add({ behavior = `Community link links to https://github.com/elfie-lang/elfie` })
+    .add({ behavior = [
+      `Learn more button links to /docs`,
+      `Documentation link links to /docs`,
+    ] })
+    .add({
+      situation = `Creating component at https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=80-2306&t=5AeWwpuJzWSP1Pwq-4`,
+      behavior = `Export from Figma as an SVG`,
+      sideEffect = [
+        `Diagram is statically rendered rather than a dynamic piece of the page`,
+      ],
+    });
+}

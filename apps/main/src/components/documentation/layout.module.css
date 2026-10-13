@@ -1,0 +1,72 @@
+/* DocumentationLayout: Header, the Reading workspace with Navigation beside the content, then Footer */
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-0);
+  min-block-size: 100vh;
+  min-block-size: 100dvh;
+  background: var(--color-canvas);
+}
+
+.workspace {
+  display: grid;
+  flex: 1 0 auto;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-24);
+  align-items: start;
+  inline-size: 100%;
+  max-inline-size: 1280px;
+  margin-inline: auto;
+  padding-block: var(--space-32) var(--space-0);
+  padding-inline: var(--space-20);
+}
+
+.menuButton {
+  padding-block: var(--space-12);
+  padding-inline: var(--space-16);
+  border: 1px solid var(--color-divider-decorative);
+  border-radius: var(--radius-8);
+  background: var(--color-surface);
+  color: var(--color-action);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-semibold);
+  line-height: normal;
+  text-align: start;
+  cursor: pointer;
+}
+
+.menuButton:focus-visible {
+  outline: var(--focus-ring-width) solid var(--color-action);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.navigation {
+  display: none;
+}
+
+.navigation[data-expanded="true"] {
+  display: block;
+}
+
+.content {
+  min-inline-size: 0;
+}
+
+@media (min-width: 900px) {
+  .workspace {
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: var(--space-44);
+    padding-block: var(--space-48) var(--space-0);
+    padding-inline: var(--space-64);
+  }
+
+  .menuButton {
+    display: none;
+  }
+
+  .navigation {
+    display: block;
+  }
+}

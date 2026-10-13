@@ -1,0 +1,164 @@
+[
+  {
+    "answered": [
+      "ConfigurationPage:documentationArticle:8558eb7036e8d6a43b73e22ebc6dae68b5383dd48a4c77766c1b44a6a3638c1b",
+      "ConfigurationPage:documentationArticle:af34a6add51662efd96ee94e04e1a91c732bc100c04566e57a538baecefcc6bc",
+      "ConfigurationPage:documentationArticle:f3374aebb468b0767ade962192896c3b6902d24ae62c1e6cc68b756fd76dee52",
+      "ConfigurationPage:documentationPage:bcbc46134506f3a5791f12ad24bd23e289701f8c15a5c57da7cdde3428f92d2f",
+      "ConfigurationPage:documentationPage:bfdc4f6496727d05fe1e4203733050a291bbe26077689e24c6df929a924c5385",
+      "ConfigurationPage:page:5135cd19d3e294867a06c436c26cacbe080079b5662929a0d5768ce28509d920",
+      "ConfigurationPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "ConfigurationPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "ConfigurationPage:page:a2ba83b6a4e162b27609bbda43583300363cf2557689878a3716237759cb6a80",
+      "ConfigurationPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:09:42Z",
+    "hash": "5046840c6a3c6f80ce86e25e45437f328358b93a32e549408d07f2d0c247de64",
+    "markers": [
+      {
+        "column": null,
+        "end": 24,
+        "entity": "ConfigurationPage",
+        "file": "def/documentation/pages/configuration.lfy",
+        "line": 4,
+        "outputLine": 18,
+        "requirement": "ConfigurationPage:documentationPage:bfdc4f6496727d05fe1e4203733050a291bbe26077689e24c6df929a924c5385"
+      },
+      {
+        "column": null,
+        "end": 32,
+        "entity": "ConfigurationPage",
+        "file": "def/documentation/pages/configuration.lfy",
+        "line": 4,
+        "outputLine": 25,
+        "requirement": "ConfigurationPage:documentationPage:bcbc46134506f3a5791f12ad24bd23e289701f8c15a5c57da7cdde3428f92d2f"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "ConfigurationPage",
+        "file": "def/documentation/pages/configuration.lfy",
+        "line": 4,
+        "outputLine": 33,
+        "requirement": "ConfigurationPage:documentationArticle:8558eb7036e8d6a43b73e22ebc6dae68b5383dd48a4c77766c1b44a6a3638c1b"
+      },
+      {
+        "column": null,
+        "end": 40,
+        "entity": "ConfigurationPage",
+        "file": "def/documentation/pages/configuration.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "ConfigurationPage:documentationArticle:af34a6add51662efd96ee94e04e1a91c732bc100c04566e57a538baecefcc6bc"
+      },
+      {
+        "column": null,
+        "end": 50,
+        "entity": "ConfigurationPage",
+        "file": "def/documentation/pages/configuration.lfy",
+        "line": 4,
+        "outputLine": 41,
+        "requirement": "ConfigurationPage:documentationArticle:f3374aebb468b0767ade962192896c3b6902d24ae62c1e6cc68b756fd76dee52"
+      }
+    ],
+    "output": "apps/main/src/app/docs/configuration/page.test.tsx",
+    "requirements": "a1d2770ec88321b48cd20830347e4c5d84e15330363866f96b7d2725f8f61b14",
+    "signature": "3236f2592f2551cfde9e79f276d38cf93813cb5250bb69796784e91c198d1464",
+    "source": "def/documentation/pages/configuration.lfy",
+    "target": "mainApp",
+    "text": "ec4ceaa4465a3b4d49eec761d6675bdc3394743881e456885a6d0b1415cb2006"
+  },
+  {
+    "answered": [
+      "ConfigurationPage:documentationArticle:8558eb7036e8d6a43b73e22ebc6dae68b5383dd48a4c77766c1b44a6a3638c1b",
+      "ConfigurationPage:documentationArticle:af34a6add51662efd96ee94e04e1a91c732bc100c04566e57a538baecefcc6bc",
+      "ConfigurationPage:documentationArticle:f3374aebb468b0767ade962192896c3b6902d24ae62c1e6cc68b756fd76dee52",
+      "ConfigurationPage:documentationPage:bcbc46134506f3a5791f12ad24bd23e289701f8c15a5c57da7cdde3428f92d2f",
+      "ConfigurationPage:documentationPage:bfdc4f6496727d05fe1e4203733050a291bbe26077689e24c6df929a924c5385",
+      "ConfigurationPage:page:5135cd19d3e294867a06c436c26cacbe080079b5662929a0d5768ce28509d920",
+      "ConfigurationPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "ConfigurationPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "ConfigurationPage:page:a2ba83b6a4e162b27609bbda43583300363cf2557689878a3716237759cb6a80",
+      "ConfigurationPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:09:42Z",
+    "hash": "5046840c6a3c6f80ce86e25e45437f328358b93a32e549408d07f2d0c247de64",
+    "markers": [
+      {
+        "column": null,
+        "end": 83,
+        "entity": "ConfigurationPage",
+        "file": "def/documentation/pages/configuration.lfy",
+        "line": 4,
+        "outputLine": 6,
+        "requirement": "ConfigurationPage:documentationArticle:af34a6add51662efd96ee94e04e1a91c732bc100c04566e57a538baecefcc6bc"
+      },
+      {
+        "column": null,
+        "end": 89,
+        "entity": "ConfigurationPage",
+        "file": "def/documentation/pages/configuration.lfy",
+        "line": 4,
+        "outputLine": 84,
+        "requirement": "ConfigurationPage:documentationPage:bcbc46134506f3a5791f12ad24bd23e289701f8c15a5c57da7cdde3428f92d2f"
+      },
+      {
+        "column": null,
+        "end": 91,
+        "entity": "ConfigurationPage",
+        "file": "def/documentation/pages/configuration.lfy",
+        "line": 4,
+        "outputLine": 90,
+        "requirement": "ConfigurationPage:page:a2ba83b6a4e162b27609bbda43583300363cf2557689878a3716237759cb6a80"
+      },
+      {
+        "column": null,
+        "end": 92,
+        "entity": "ConfigurationPage",
+        "file": "def/documentation/pages/configuration.lfy",
+        "line": 4,
+        "outputLine": 92,
+        "requirement": "ConfigurationPage:documentationArticle:8558eb7036e8d6a43b73e22ebc6dae68b5383dd48a4c77766c1b44a6a3638c1b"
+      },
+      {
+        "column": null,
+        "end": 93,
+        "entity": "ConfigurationPage",
+        "file": "def/documentation/pages/configuration.lfy",
+        "line": 4,
+        "outputLine": 93,
+        "requirement": "ConfigurationPage:documentationPage:bfdc4f6496727d05fe1e4203733050a291bbe26077689e24c6df929a924c5385"
+      },
+      {
+        "column": null,
+        "end": 94,
+        "entity": "ConfigurationPage",
+        "file": "def/documentation/pages/configuration.lfy",
+        "line": 4,
+        "outputLine": 94,
+        "requirement": "ConfigurationPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+      },
+      {
+        "column": null,
+        "end": 102,
+        "entity": "ConfigurationPage",
+        "file": "def/documentation/pages/configuration.lfy",
+        "line": 4,
+        "outputLine": 95,
+        "requirement": "ConfigurationPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      }
+    ],
+    "output": "apps/main/src/app/docs/configuration/page.tsx",
+    "requirements": "a1d2770ec88321b48cd20830347e4c5d84e15330363866f96b7d2725f8f61b14",
+    "signature": "3236f2592f2551cfde9e79f276d38cf93813cb5250bb69796784e91c198d1464",
+    "source": "def/documentation/pages/configuration.lfy",
+    "target": "mainApp",
+    "text": "af116e0167d88b8a0f548473d8d52f3e862ddee981dd1dcef775c740446f3e01"
+  }
+]

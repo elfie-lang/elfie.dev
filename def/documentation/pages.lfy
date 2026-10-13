@@ -1,0 +1,201 @@
+/// The pages of the documentation, in one list that the navigation, the search, the pager, and
+/// every article read.
+
+enum DocumentationSection: `A group of pages in the documentation navigation, valued with its label` {
+  startHere = `Start here`,
+  languageGuide = `Language guide`,
+  diveDeeper = `Dive deeper`,
+  reference = `Reference`,
+}
+
+d DocumentationPage: `One page of the documentation` {
+  $slug: `The last segment of its URL; unique among the pages` = string;
+  $title: `Its name, used as its heading, its navigation label, and its pager label` = string;
+  $section: `The navigation group it is listed under` = DocumentationSection;
+  $description: `One or two sentences that introduce it; may hold inline code in backticks` = string;
+}
+
+const documentationPages: `Every page of the documentation, in navigation order` = [
+  {
+    slug = "overview",
+    title = "Overview",
+    section = DocumentationSection.startHere,
+    description = "Explore the ideas behind Elfie, learn the shape of the language, and find your way from intent to a first program.",
+  },
+  {
+    slug = "getting-started",
+    title = "Getting started",
+    section = DocumentationSection.startHere,
+    description = "Install the compiler, connect the agent that writes your code, and create your first project.",
+  },
+  {
+    slug = "your-first-program",
+    title = "Your first program",
+    section = DocumentationSection.startHere,
+    description = "Build a small command-line greeter in Python. You'll go from an empty project to code that has been generated, tested, and reviewed, and then you'll change it.",
+  },
+  {
+    slug = "familiar-concepts",
+    title = "Familiar concepts",
+    section = DocumentationSection.languageGuide,
+    description = "Under its agentic features, Elfie is a small, expression-based language. If you've written TypeScript, JavaScript, or Rust, most of it will look familiar. This page covers that common ground and points out the places where Elfie differs.",
+  },
+  {
+    slug = "context-layer",
+    title = "Context layer",
+    section = DocumentationSection.languageGuide,
+    description = "Every entity in Elfie has a context layer: its name, what it means, what it must do, and how it is tested. The compiler reads this layer to write your code, and the verifier reads it to check that code.",
+  },
+  {
+    slug = "agentic-structures",
+    title = "Agentic structures",
+    section = DocumentationSection.languageGuide,
+    description = "`d` and `fn` are the heart of Elfie. You write what must be true, the compiler writes the code, and a separate verifier checks the code against what you wrote.",
+  },
+  {
+    slug = "ace",
+    title = "At Compile Execution (ace)",
+    section = DocumentationSection.languageGuide,
+    description = "`ace` runs a statement while your program is compiled, not when it runs. Use it to build criteria, lookup tables, and targets from code instead of writing them out by hand.",
+  },
+  {
+    slug = "traits",
+    title = "Traits",
+    section = DocumentationSection.languageGuide,
+    description = "A trait packages members, criteria, and rules so that many entities can share them. Traits are how Elfie composes behavior, and how targets, frameworks, and team conventions reach your code.",
+  },
+  {
+    slug = "compile-targets",
+    title = "Compile targets",
+    section = DocumentationSection.languageGuide,
+    description = "A target is one thing your definitions are built into, such as an app, a crate, or a script. You declare targets in your source, assembled from layers that packages provide.",
+  },
+  {
+    slug = "tests-and-documentation",
+    title = "Tests & documentation",
+    section = DocumentationSection.languageGuide,
+    description = "Tests pin down the cases that prose leaves open. Documentation explains your intent to the people who read your definitions, and to the compiler.",
+  },
+  {
+    slug = "scope-management",
+    title = "Scope management",
+    section = DocumentationSection.diveDeeper,
+    description = "The scope layer holds an entity's members. `$` reaches into it, traits add to it, and `with` attaches rules to a single member.",
+  },
+  {
+    slug = "custom-compile-targets",
+    title = "Custom compile targets",
+    section = DocumentationSection.diveDeeper,
+    description = "Targets are assembled from packages and are never built into the compiler. When no package covers your stack, or your team has rules every target should follow, write a layer of your own.",
+  },
+  {
+    slug = "knowledge",
+    title = "Knowledge",
+    section = DocumentationSection.diveDeeper,
+    description = "Knowledge is reading material for the compiler: references, examples, and definitions it might not already know. It ships with your code, so every compile reads the same text.",
+  },
+  {
+    slug = "compiler-details",
+    title = "Compiler details",
+    section = DocumentationSection.diveDeeper,
+    description = "What happens between `elfie compile` and reviewed output, and the choices behind the design.",
+  },
+  {
+    slug = "cli",
+    title = "CLI reference",
+    section = DocumentationSection.reference,
+    description = "Every `elfie` command, option, and exit code.",
+  },
+  {
+    slug = "configuration",
+    title = "Configuration",
+    section = DocumentationSection.reference,
+    description = "What `elfie.json` holds, what the compiler and verifier commands receive, and the files Elfie writes.",
+  },
+  {
+    slug = "global-properties",
+    title = "Global properties",
+    section = DocumentationSection.reference,
+    description = "`global` is the entity that stands for your whole program. What you add to it reaches every entity of every file.",
+  },
+  {
+    slug = "context-api",
+    title = "Context API",
+    section = DocumentationSection.reference,
+    description = "Every member of the context layer, for every kind of entity, and the records criteria, tests, knowledge, and commands are made of.",
+  },
+  {
+    slug = "standard-library",
+    title = "Standard library",
+    section = DocumentationSection.reference,
+    description = "The package `elfie`: the values every program works with, the system modules for files, paths, JSON, time, and processes, and the vocabulary targets are built from.",
+  },
+];
+
+/// slug: the slug of a page
+ace function titleOfPage(slug: string): `The title of the page of [[documentationPages]] with [[slug]], while compiling` -> string {
+  for (const page in documentationPages) {
+    if (page.slug == slug) {
+      return page.title;
+    }
+  }
+  return "";
+}
+
+/// slug: the slug of a page
+fn documentationPath(slug: string): `The URL path of the documentation page with [[slug]]` => string {
+  @acceptanceCriteria
+    .add({ situation = `[[slug]] is overview`, behavior = `Returns /docs` })
+    .add({ situation = `[[slug]] is not overview`, behavior = `Returns /docs/ followed by [[slug]]` });
+  @test({ input = ["overview"], expect = "/docs" }, { input = ["traits"], expect = "/docs/traits" });
+}
+
+/// slug: the slug of a page
+fn documentationPageOf(slug: string): `The page of [[documentationPages]] with [[slug]]; undefined when there is none` => DocumentationPage | undefined {
+  @test(
+    { input = ["traits"], expect = DocumentationPage@like(`the page titled Traits`) },
+    { input = ["missing"], expect = undefined },
+  );
+}
+
+/// slug: the slug of the current page
+fn neighborsOf(slug: string): `The pages of [[documentationPages]] just before and just after the page with [[slug]]` => DocumentationNeighbors {
+  @acceptanceCriteria
+    .add({ situation = `[[slug]] is the first page`, behavior = `previous is undefined` })
+    .add({ situation = `[[slug]] is the last page`, behavior = `next is undefined` })
+    .add({ situation = `No page has [[slug]]`, behavior = `previous and next are both undefined` });
+  @test(
+    {
+      input = ["getting-started"],
+      expect = DocumentationNeighbors@like(`previous is Overview, next is Your first program`),
+    },
+    { input = ["standard-library"], expect = DocumentationNeighbors@like(`previous is Context API, next is undefined`) },
+  );
+}
+
+d DocumentationNeighbors: `The pages on either side of one page, in navigation order` {
+  $previous: `The page before it; undefined for the first page` = DocumentationPage | undefined;
+  $next: `The page after it; undefined for the last page` = DocumentationPage | undefined;
+}
+
+/// query: what a person typed into the search field
+fn searchDocumentation(query: string): `The pages of [[documentationPages]] that match a search` => DocumentationPage[] {
+  @acceptanceCriteria
+    .add({
+      behavior = `A page matches when every word of [[query]] occurs in its title or its description, ignoring case and backticks`,
+    })
+    .add({
+      behavior = `Pages whose title holds the whole of [[query]] come first; otherwise the navigation order is kept`,
+    })
+    .add({ behavior = `Returns at most 8 pages` })
+    .add({ situation = `[[query]] is empty or only whitespace`, behavior = `Returns an empty list` });
+  @test(
+    {
+      input = ["traits"],
+      expect = DocumentationPage[]@like(`Traits first, then any other page whose description mentions traits`),
+    },
+    { input = ["CLI"], expect = DocumentationPage[]@like(`CLI reference first`) },
+    { input = ["  "], expect = [] },
+    { input = ["zebra"], expect = [] },
+  );
+}

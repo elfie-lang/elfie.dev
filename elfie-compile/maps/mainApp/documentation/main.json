@@ -1,0 +1,306 @@
+[
+  {
+    "answered": [
+      "Documentation:Documentation:2e108cfb87507712ac22bbefd19cf19a8ddaabcf68e68de84df601205558192d",
+      "Documentation:Documentation:735f29c6fb82c7b663da6baba133452f79e9594540a54a2ff903371e347350a8",
+      "Documentation:Documentation:9ae6830e4c2071bde0d5435294a05194a15eafc63ca59388d5f792a38ee5bf7d",
+      "Documentation:Documentation:bc4eb5a8e9953e0f97ec55afb42f3d46dde20cfcde16c73a1b54e3b79e323ac5",
+      "Documentation:Documentation:f2475185e510d4ab57205b2883e56b1a3ac3e2e8023df4b022ad1c0af848d155",
+      "Documentation:documentationPage:1d0d6564d52373071a6ef6c9916ff4f842ecc06339aa563a77e7645a2bd49844",
+      "Documentation:documentationPage:352b964a716b2ee92c582f46963ffdd7f0f90ae8e5c084e0105c9a418915b6c2",
+      "Documentation:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "Documentation:fromFigma:c208cf7bab311dcb76280ab6931f70fa336e14becbfc8919e88b85c176be9650",
+      "Documentation:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "Documentation:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "Documentation:page:b50661584d4a33f85db5fb765f35b8ad836346e6f4ddbd25c14de78f46e941df",
+      "Documentation:page:cfa99fa23eb35e6c4f01179626fa0dea067d3d44bdd25418869f20e78093fb9b",
+      "Documentation:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/atoms.lfy": "5f11dd2f98f11de112046b2e179efaefc49d0e30f0b61311ca28d55a3d927905",
+      "def/components/callout.lfy": "9982ecdfc38acbdf3b51b84378ff89844deeff37396589c941ce9894a6f2ddc3",
+      "def/components/card.lfy": "fe28b2245a445ca0bf9d9715aab567805585eef3085002db9413f77102f42a95",
+      "def/components/code.lfy": "ec2b2457f908098da06f65c6f4e270151260d2567cb0857fac7fb7e47428c701",
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:37:20Z",
+    "hash": "25ad15c13ebeaa372d26d5c70da869518072bf0da2894c292fe7a0f0b716cb11",
+    "markers": [
+      {
+        "column": null,
+        "end": 55,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 47,
+        "requirement": "Documentation:page:cfa99fa23eb35e6c4f01179626fa0dea067d3d44bdd25418869f20e78093fb9b"
+      },
+      {
+        "column": null,
+        "end": 62,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 56,
+        "requirement": "Documentation:documentationPage:352b964a716b2ee92c582f46963ffdd7f0f90ae8e5c084e0105c9a418915b6c2"
+      },
+      {
+        "column": null,
+        "end": 70,
+        "entity": "Navigation",
+        "file": "def/documentation/navigation.lfy",
+        "line": 23,
+        "outputLine": 63,
+        "requirement": "Navigation:Navigation:5f0476ea1bc845fc2f770cf5edb331003302365dd7dbcc4f3c399384038d927e"
+      },
+      {
+        "column": null,
+        "end": 78,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 71,
+        "requirement": "Documentation:documentationPage:1d0d6564d52373071a6ef6c9916ff4f842ecc06339aa563a77e7645a2bd49844"
+      },
+      {
+        "column": null,
+        "end": 95,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 79,
+        "requirement": "Documentation:Documentation:735f29c6fb82c7b663da6baba133452f79e9594540a54a2ff903371e347350a8"
+      },
+      {
+        "column": null,
+        "end": 113,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 96,
+        "requirement": "Documentation:Documentation:f2475185e510d4ab57205b2883e56b1a3ac3e2e8023df4b022ad1c0af848d155"
+      },
+      {
+        "column": null,
+        "end": 127,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 114,
+        "requirement": "Documentation:Documentation:bc4eb5a8e9953e0f97ec55afb42f3d46dde20cfcde16c73a1b54e3b79e323ac5"
+      },
+      {
+        "column": null,
+        "end": 183,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 128,
+        "requirement": "Documentation:Documentation:9ae6830e4c2071bde0d5435294a05194a15eafc63ca59388d5f792a38ee5bf7d"
+      },
+      {
+        "column": null,
+        "end": 196,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 184,
+        "requirement": "Documentation:Documentation:2e108cfb87507712ac22bbefd19cf19a8ddaabcf68e68de84df601205558192d"
+      }
+    ],
+    "output": "apps/main/src/app/docs/page.test.tsx",
+    "requirements": "8b5bd83dbeaf9baf67530e83e7be5fd5adc6c08eba40bcadfae26943022e081b",
+    "signature": "11017e8c20e6e36eacfcacb8f0b63e602683072727028215a26443faca202a73",
+    "source": "def/documentation/main.lfy",
+    "target": "mainApp",
+    "text": "e61605742dae82640abdbb12456f4baa38d4cd08e89988f72128b1489be5902c"
+  },
+  {
+    "answered": [
+      "Documentation:Documentation:2e108cfb87507712ac22bbefd19cf19a8ddaabcf68e68de84df601205558192d",
+      "Documentation:Documentation:735f29c6fb82c7b663da6baba133452f79e9594540a54a2ff903371e347350a8",
+      "Documentation:Documentation:9ae6830e4c2071bde0d5435294a05194a15eafc63ca59388d5f792a38ee5bf7d",
+      "Documentation:Documentation:bc4eb5a8e9953e0f97ec55afb42f3d46dde20cfcde16c73a1b54e3b79e323ac5",
+      "Documentation:Documentation:f2475185e510d4ab57205b2883e56b1a3ac3e2e8023df4b022ad1c0af848d155",
+      "Documentation:documentationPage:1d0d6564d52373071a6ef6c9916ff4f842ecc06339aa563a77e7645a2bd49844",
+      "Documentation:documentationPage:352b964a716b2ee92c582f46963ffdd7f0f90ae8e5c084e0105c9a418915b6c2",
+      "Documentation:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "Documentation:fromFigma:c208cf7bab311dcb76280ab6931f70fa336e14becbfc8919e88b85c176be9650",
+      "Documentation:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "Documentation:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "Documentation:page:b50661584d4a33f85db5fb765f35b8ad836346e6f4ddbd25c14de78f46e941df",
+      "Documentation:page:cfa99fa23eb35e6c4f01179626fa0dea067d3d44bdd25418869f20e78093fb9b",
+      "Documentation:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/atoms.lfy": "5f11dd2f98f11de112046b2e179efaefc49d0e30f0b61311ca28d55a3d927905",
+      "def/components/callout.lfy": "9982ecdfc38acbdf3b51b84378ff89844deeff37396589c941ce9894a6f2ddc3",
+      "def/components/card.lfy": "fe28b2245a445ca0bf9d9715aab567805585eef3085002db9413f77102f42a95",
+      "def/components/code.lfy": "ec2b2457f908098da06f65c6f4e270151260d2567cb0857fac7fb7e47428c701",
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:37:20Z",
+    "hash": "25ad15c13ebeaa372d26d5c70da869518072bf0da2894c292fe7a0f0b716cb11",
+    "markers": [
+      {
+        "column": null,
+        "end": 12,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 10,
+        "requirement": "Documentation:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34"
+      },
+      {
+        "column": null,
+        "end": 13,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 13,
+        "requirement": "Documentation:Documentation:bc4eb5a8e9953e0f97ec55afb42f3d46dde20cfcde16c73a1b54e3b79e323ac5"
+      },
+      {
+        "column": null,
+        "end": 22,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 14,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 23,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 23,
+        "requirement": "Documentation:documentationPage:1d0d6564d52373071a6ef6c9916ff4f842ecc06339aa563a77e7645a2bd49844"
+      },
+      {
+        "column": null,
+        "end": 29,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 24,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 30,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 30,
+        "requirement": "Documentation:page:cfa99fa23eb35e6c4f01179626fa0dea067d3d44bdd25418869f20e78093fb9b"
+      },
+      {
+        "column": null,
+        "end": 32,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 31,
+        "requirement": "Documentation:page:b50661584d4a33f85db5fb765f35b8ad836346e6f4ddbd25c14de78f46e941df"
+      },
+      {
+        "column": null,
+        "end": 61,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 33,
+        "requirement": "Documentation:Documentation:735f29c6fb82c7b663da6baba133452f79e9594540a54a2ff903371e347350a8"
+      },
+      {
+        "column": null,
+        "end": 93,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 62,
+        "requirement": "Documentation:Documentation:f2475185e510d4ab57205b2883e56b1a3ac3e2e8023df4b022ad1c0af848d155"
+      },
+      {
+        "column": null,
+        "end": 147,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 94,
+        "requirement": "Documentation:Documentation:9ae6830e4c2071bde0d5435294a05194a15eafc63ca59388d5f792a38ee5bf7d"
+      },
+      {
+        "column": null,
+        "end": 163,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 148,
+        "requirement": "Documentation:Documentation:2e108cfb87507712ac22bbefd19cf19a8ddaabcf68e68de84df601205558192d"
+      },
+      {
+        "column": null,
+        "end": 164,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 164,
+        "requirement": "Documentation:documentationPage:352b964a716b2ee92c582f46963ffdd7f0f90ae8e5c084e0105c9a418915b6c2"
+      },
+      {
+        "column": null,
+        "end": 165,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 165,
+        "requirement": "Documentation:fromFigma:c208cf7bab311dcb76280ab6931f70fa336e14becbfc8919e88b85c176be9650"
+      },
+      {
+        "column": null,
+        "end": 166,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 166,
+        "requirement": "Documentation:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      },
+      {
+        "column": null,
+        "end": 167,
+        "entity": "Documentation",
+        "file": "def/documentation/main.lfy",
+        "line": 9,
+        "outputLine": 167,
+        "requirement": "Documentation:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+      },
+      {
+        "column": null,
+        "end": 168,
+        "entity": "Navigation",
+        "file": "def/documentation/navigation.lfy",
+        "line": 23,
+        "outputLine": 168,
+        "requirement": "Navigation:Navigation:5f0476ea1bc845fc2f770cf5edb331003302365dd7dbcc4f3c399384038d927e"
+      },
+      {
+        "column": null,
+        "end": 184,
+        "entity": "Navigation",
+        "file": "def/documentation/navigation.lfy",
+        "line": 23,
+        "outputLine": 169,
+        "requirement": "Navigation:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433"
+      }
+    ],
+    "output": "apps/main/src/app/docs/page.tsx",
+    "requirements": "8b5bd83dbeaf9baf67530e83e7be5fd5adc6c08eba40bcadfae26943022e081b",
+    "signature": "11017e8c20e6e36eacfcacb8f0b63e602683072727028215a26443faca202a73",
+    "source": "def/documentation/main.lfy",
+    "target": "mainApp",
+    "text": "5f7df77c3bb3f133a5814d7fb5817fa84e8405cb4abdbf863792b79bc180baaf"
+  }
+]

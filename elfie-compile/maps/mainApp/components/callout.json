@@ -1,0 +1,249 @@
+[
+  {
+    "answered": [
+      "Callout:Callout:248ee43449e4981b297adcdefcfe1a37770c8a87082119a07feaddfcd6f4f4ed",
+      "Callout:Callout:49cc088e4f0f92a04a99d23aba566419ed4adb6b0e010739edcb313f1a939537",
+      "Callout:Callout:542ebb55e82cdc4d6ed671dcab621a050671f910978c6ed41793756aa64b6915",
+      "Callout:Callout:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0",
+      "Callout:Callout:8f62ee75c8b6930689caad67fd0cfdddb2713fb9b7674ce711d4b7551386fca2",
+      "Callout:Callout:927104a6212cb123555706f56e71ea66ea3e5d4a7d30c24c3990b29d43d797b3",
+      "Callout:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Callout:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Callout:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Callout:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Callout:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Callout:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "Callout:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "Callout:fromFigma:88438a62ef4eea7de6e16950e177340c3162121896e774412754869cc958075d"
+    ],
+    "dependencies": {},
+    "generated": "2026-10-13T01:36:36Z",
+    "hash": "364ecca7cd05eff6a4ec664e31379e8a3fd105546ba76127aa564d0c2bec577b",
+    "markers": [
+      {
+        "column": null,
+        "end": 14,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 8,
+        "requirement": "Callout:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 22,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 15,
+        "requirement": "Callout:Callout:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0"
+      },
+      {
+        "column": null,
+        "end": 34,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 23,
+        "requirement": "Callout:Callout:8f62ee75c8b6930689caad67fd0cfdddb2713fb9b7674ce711d4b7551386fca2"
+      },
+      {
+        "column": null,
+        "end": 45,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 35,
+        "requirement": "Callout:Callout:927104a6212cb123555706f56e71ea66ea3e5d4a7d30c24c3990b29d43d797b3"
+      },
+      {
+        "column": null,
+        "end": 53,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 46,
+        "requirement": "Callout:Callout:542ebb55e82cdc4d6ed671dcab621a050671f910978c6ed41793756aa64b6915"
+      },
+      {
+        "column": null,
+        "end": 60,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 54,
+        "requirement": "Callout:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433"
+      }
+    ],
+    "output": "apps/main/src/components/callout.test.tsx",
+    "requirements": "6157e5fa7dbd2d4c2880ad9424ae22a2fa5c37f150f1ce7d5527a1461daffef1",
+    "signature": "9982ecdfc38acbdf3b51b84378ff89844deeff37396589c941ce9894a6f2ddc3",
+    "source": "def/components/callout.lfy",
+    "target": "mainApp",
+    "text": "91590a6ea01ad8e7aec1382372b63a25e73713eea8de4b38c501e1cd784d9fa9"
+  },
+  {
+    "answered": [
+      "Callout:Callout:248ee43449e4981b297adcdefcfe1a37770c8a87082119a07feaddfcd6f4f4ed",
+      "Callout:Callout:49cc088e4f0f92a04a99d23aba566419ed4adb6b0e010739edcb313f1a939537",
+      "Callout:Callout:542ebb55e82cdc4d6ed671dcab621a050671f910978c6ed41793756aa64b6915",
+      "Callout:Callout:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0",
+      "Callout:Callout:8f62ee75c8b6930689caad67fd0cfdddb2713fb9b7674ce711d4b7551386fca2",
+      "Callout:Callout:927104a6212cb123555706f56e71ea66ea3e5d4a7d30c24c3990b29d43d797b3",
+      "Callout:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "Callout:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "Callout:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "Callout:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "Callout:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "Callout:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "Callout:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "Callout:fromFigma:88438a62ef4eea7de6e16950e177340c3162121896e774412754869cc958075d"
+    ],
+    "dependencies": {},
+    "generated": "2026-10-13T01:36:36Z",
+    "hash": "364ecca7cd05eff6a4ec664e31379e8a3fd105546ba76127aa564d0c2bec577b",
+    "markers": [
+      {
+        "column": null,
+        "end": 7,
+        "entity": "InfoImage",
+        "file": "def/components/callout.lfy",
+        "line": 4,
+        "outputLine": 5,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 14,
+        "entity": "CalloutKind",
+        "file": "def/components/callout.lfy",
+        "line": 8,
+        "outputLine": 8,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 17,
+        "entity": "CalloutKind",
+        "file": "def/components/callout.lfy",
+        "line": 8,
+        "outputLine": 15,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 24,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 18,
+        "requirement": "Callout:Callout:542ebb55e82cdc4d6ed671dcab621a050671f910978c6ed41793756aa64b6915"
+      },
+      {
+        "column": null,
+        "end": 31,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 25,
+        "requirement": "Callout:Callout:927104a6212cb123555706f56e71ea66ea3e5d4a7d30c24c3990b29d43d797b3"
+      },
+      {
+        "column": null,
+        "end": 32,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 32,
+        "requirement": "Callout:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 33,
+        "requirement": "Callout:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe"
+      },
+      {
+        "column": null,
+        "end": 40,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 40,
+        "requirement": "Callout:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063"
+      },
+      {
+        "column": null,
+        "end": 48,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 41,
+        "requirement": "Callout:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 49,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 49,
+        "requirement": "Callout:fromFigma:88438a62ef4eea7de6e16950e177340c3162121896e774412754869cc958075d"
+      },
+      {
+        "column": null,
+        "end": 50,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 50,
+        "requirement": "Callout:Callout:927104a6212cb123555706f56e71ea66ea3e5d4a7d30c24c3990b29d43d797b3"
+      },
+      {
+        "column": null,
+        "end": 51,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 51,
+        "requirement": "Callout:Callout:8f62ee75c8b6930689caad67fd0cfdddb2713fb9b7674ce711d4b7551386fca2"
+      },
+      {
+        "column": null,
+        "end": 52,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 52,
+        "requirement": "Callout:Callout:248ee43449e4981b297adcdefcfe1a37770c8a87082119a07feaddfcd6f4f4ed"
+      },
+      {
+        "column": null,
+        "end": 53,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 53,
+        "requirement": "Callout:Callout:661a5b3d6c48efed7635c264e756a0991b9df5a29386ba24da69002906cfdef0"
+      },
+      {
+        "column": null,
+        "end": 73,
+        "entity": "Callout",
+        "file": "def/components/callout.lfy",
+        "line": 17,
+        "outputLine": 54,
+        "requirement": "Callout:Callout:49cc088e4f0f92a04a99d23aba566419ed4adb6b0e010739edcb313f1a939537"
+      }
+    ],
+    "output": "apps/main/src/components/callout.tsx",
+    "requirements": "6157e5fa7dbd2d4c2880ad9424ae22a2fa5c37f150f1ce7d5527a1461daffef1",
+    "signature": "9982ecdfc38acbdf3b51b84378ff89844deeff37396589c941ce9894a6f2ddc3",
+    "source": "def/components/callout.lfy",
+    "target": "mainApp",
+    "text": "e574e60369632489634b78edaa84261fa0923a4fae8f6594dae3828acdb42817"
+  }
+]

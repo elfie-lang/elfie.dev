@@ -1,0 +1,4 @@
+use "http";
+use "../layout";
+
+fn ScopeManagementPage() is page('/docs/scope-management'), documentationArticle("scope-management"): `The Scope management page of the documentation` {}

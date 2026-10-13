@@ -1,0 +1,50 @@
+/* Table: Elfie Concept definitions list */
+
+.frame {
+  max-inline-size: 100%;
+  min-inline-size: 0;
+  border: 1px solid var(--color-divider-decorative);
+  border-radius: var(--radius-control);
+  background: var(--color-surface);
+  overflow-x: auto;
+}
+
+.frame:focus-visible {
+  outline: var(--focus-ring-width) solid var(--color-boundary);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.table {
+  inline-size: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-family-base);
+}
+
+.headerCell {
+  padding-block: var(--space-12);
+  padding-inline: var(--space-20);
+  background: var(--color-canvas);
+  color: var(--color-ink-secondary);
+  font-size: var(--font-size-13);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-body);
+  text-align: start;
+  vertical-align: top;
+}
+
+.cell {
+  padding-block: var(--space-12);
+  padding-inline: var(--space-20);
+  border-block-start: 1px solid var(--color-divider-decorative);
+  color: var(--color-ink);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+  text-align: start;
+  vertical-align: top;
+}
+
+.cell :global(:where(code)),
+.headerCell :global(:where(code)) {
+  white-space: nowrap;
+}

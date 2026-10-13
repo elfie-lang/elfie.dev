@@ -1,0 +1,182 @@
+[
+  {
+    "answered": [
+      "ScopeManagementPage:documentationArticle:8757e788b1de6b7f2c13d846030f44b2f09d68e22b1456aea95dcddea2c656d7",
+      "ScopeManagementPage:documentationArticle:a9ab095d6b4858d910383454601a8edea1699cdc2ca4d41da4f572c2fa52bf75",
+      "ScopeManagementPage:documentationArticle:f819a8120920b08c6baf11f1d5da0c9ef7f7f446b9adca791942fafb04b6296c",
+      "ScopeManagementPage:documentationPage:04edc50f47c1392c7414d3d9511f655e335f5b914d773cde7f286e66cf9c53ab",
+      "ScopeManagementPage:documentationPage:8066d7b3e0e291cd9a75a4feec28ccb41e55915e4e2df21b05b6daceabe9d897",
+      "ScopeManagementPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "ScopeManagementPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "ScopeManagementPage:page:a16e581ab97b2d9d729391970655e837b87d3585e65d0e5f7a879bf28946b391",
+      "ScopeManagementPage:page:b913d8e9cd95013756c8cc8bf37d2efed67f4bbfd231f47b0803e4fbda75609c",
+      "ScopeManagementPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:08:51Z",
+    "hash": "88612f30bcc673fc0d8b6a03e4ad408852a14f230ab489fba11aedf27e2b52a6",
+    "markers": [
+      {
+        "column": null,
+        "end": 15,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 14,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 16,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 16,
+        "requirement": "ScopeManagementPage:page:b913d8e9cd95013756c8cc8bf37d2efed67f4bbfd231f47b0803e4fbda75609c"
+      },
+      {
+        "column": null,
+        "end": 23,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 17,
+        "requirement": "ScopeManagementPage:documentationPage:8066d7b3e0e291cd9a75a4feec28ccb41e55915e4e2df21b05b6daceabe9d897"
+      },
+      {
+        "column": null,
+        "end": 31,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 24,
+        "requirement": "ScopeManagementPage:documentationPage:04edc50f47c1392c7414d3d9511f655e335f5b914d773cde7f286e66cf9c53ab"
+      },
+      {
+        "column": null,
+        "end": 38,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 32,
+        "requirement": "ScopeManagementPage:documentationArticle:f819a8120920b08c6baf11f1d5da0c9ef7f7f446b9adca791942fafb04b6296c"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 39,
+        "requirement": "ScopeManagementPage:documentationArticle:a9ab095d6b4858d910383454601a8edea1699cdc2ca4d41da4f572c2fa52bf75"
+      },
+      {
+        "column": null,
+        "end": 49,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "ScopeManagementPage:documentationArticle:8757e788b1de6b7f2c13d846030f44b2f09d68e22b1456aea95dcddea2c656d7"
+      }
+    ],
+    "output": "apps/main/src/app/docs/scope-management/page.test.tsx",
+    "requirements": "3386ff4caf72ae0dc4a081dca9c72620668d3c08bd7461f424445a72ddf1621a",
+    "signature": "296da145a5c7923e1740a3d4e32773dd6b59db37898b8b82d4d1df21a0d9f21e",
+    "source": "def/documentation/pages/scope-management.lfy",
+    "target": "mainApp",
+    "text": "bb6c655a5ef2836bab780fa43bce95294c8e53c09dc4593ce8f188834b4aa39d"
+  },
+  {
+    "answered": [
+      "ScopeManagementPage:documentationArticle:8757e788b1de6b7f2c13d846030f44b2f09d68e22b1456aea95dcddea2c656d7",
+      "ScopeManagementPage:documentationArticle:a9ab095d6b4858d910383454601a8edea1699cdc2ca4d41da4f572c2fa52bf75",
+      "ScopeManagementPage:documentationArticle:f819a8120920b08c6baf11f1d5da0c9ef7f7f446b9adca791942fafb04b6296c",
+      "ScopeManagementPage:documentationPage:04edc50f47c1392c7414d3d9511f655e335f5b914d773cde7f286e66cf9c53ab",
+      "ScopeManagementPage:documentationPage:8066d7b3e0e291cd9a75a4feec28ccb41e55915e4e2df21b05b6daceabe9d897",
+      "ScopeManagementPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "ScopeManagementPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "ScopeManagementPage:page:a16e581ab97b2d9d729391970655e837b87d3585e65d0e5f7a879bf28946b391",
+      "ScopeManagementPage:page:b913d8e9cd95013756c8cc8bf37d2efed67f4bbfd231f47b0803e4fbda75609c",
+      "ScopeManagementPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:08:51Z",
+    "hash": "88612f30bcc673fc0d8b6a03e4ad408852a14f230ab489fba11aedf27e2b52a6",
+    "markers": [
+      {
+        "column": null,
+        "end": 9,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 7,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 95,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 10,
+        "requirement": "ScopeManagementPage:documentationArticle:a9ab095d6b4858d910383454601a8edea1699cdc2ca4d41da4f572c2fa52bf75"
+      },
+      {
+        "column": null,
+        "end": 101,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 96,
+        "requirement": "ScopeManagementPage:documentationPage:04edc50f47c1392c7414d3d9511f655e335f5b914d773cde7f286e66cf9c53ab"
+      },
+      {
+        "column": null,
+        "end": 102,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 102,
+        "requirement": "ScopeManagementPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      },
+      {
+        "column": null,
+        "end": 104,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 103,
+        "requirement": "ScopeManagementPage:page:b913d8e9cd95013756c8cc8bf37d2efed67f4bbfd231f47b0803e4fbda75609c"
+      },
+      {
+        "column": null,
+        "end": 105,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 105,
+        "requirement": "ScopeManagementPage:documentationPage:8066d7b3e0e291cd9a75a4feec28ccb41e55915e4e2df21b05b6daceabe9d897"
+      },
+      {
+        "column": null,
+        "end": 113,
+        "entity": "ScopeManagementPage",
+        "file": "def/documentation/pages/scope-management.lfy",
+        "line": 4,
+        "outputLine": 106,
+        "requirement": "ScopeManagementPage:documentationArticle:f819a8120920b08c6baf11f1d5da0c9ef7f7f446b9adca791942fafb04b6296c"
+      }
+    ],
+    "output": "apps/main/src/app/docs/scope-management/page.tsx",
+    "requirements": "3386ff4caf72ae0dc4a081dca9c72620668d3c08bd7461f424445a72ddf1621a",
+    "signature": "296da145a5c7923e1740a3d4e32773dd6b59db37898b8b82d4d1df21a0d9f21e",
+    "source": "def/documentation/pages/scope-management.lfy",
+    "target": "mainApp",
+    "text": "0d11ea6e66471fd72f4b370d7ba921e8d11bdaf30569ae034f62a2971abe39f2"
+  }
+]

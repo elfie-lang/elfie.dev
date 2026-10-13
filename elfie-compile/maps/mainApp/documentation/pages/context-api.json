@@ -1,0 +1,164 @@
+[
+  {
+    "answered": [
+      "ContextApiPage:documentationArticle:10b7bd28f2616fbf27104c15d81745d67c402923f4ef4f2e336279fe6c1feb36",
+      "ContextApiPage:documentationArticle:47100568f245a173d481704e4a4c143223e8c65b8d9943bc2ebaee4e0a4e7017",
+      "ContextApiPage:documentationArticle:ab5115b986655c5b84cde2e3a46dfd2ab414a39a17ada3c4805eb1e31fe74cf0",
+      "ContextApiPage:documentationPage:781eec0f6f1829c8eec2be02a8c12039e6ea342caaa012fba836c306a6947ad5",
+      "ContextApiPage:documentationPage:b5d7e93315026e3a61ba8074f287aea08f6fc8289936e5c4172c8b7068c6f7b4",
+      "ContextApiPage:page:262e7dba49d7c9e13e7484f9c60733a24d769e73fec8ed75b9ffbce8552ff488",
+      "ContextApiPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "ContextApiPage:page:94d773db91254cb931844339717b043f6937717358f976a72fa617a7f1231b79",
+      "ContextApiPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "ContextApiPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:09:42Z",
+    "hash": "830600ca05974a25f7c0c229c9d1ca0974dc45f831bfd70bdfdab783e1435df1",
+    "markers": [
+      {
+        "column": null,
+        "end": 24,
+        "entity": "ContextApiPage",
+        "file": "def/documentation/pages/context-api.lfy",
+        "line": 4,
+        "outputLine": 18,
+        "requirement": "ContextApiPage:documentationPage:b5d7e93315026e3a61ba8074f287aea08f6fc8289936e5c4172c8b7068c6f7b4"
+      },
+      {
+        "column": null,
+        "end": 32,
+        "entity": "ContextApiPage",
+        "file": "def/documentation/pages/context-api.lfy",
+        "line": 4,
+        "outputLine": 25,
+        "requirement": "ContextApiPage:documentationPage:781eec0f6f1829c8eec2be02a8c12039e6ea342caaa012fba836c306a6947ad5"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "ContextApiPage",
+        "file": "def/documentation/pages/context-api.lfy",
+        "line": 4,
+        "outputLine": 33,
+        "requirement": "ContextApiPage:documentationArticle:10b7bd28f2616fbf27104c15d81745d67c402923f4ef4f2e336279fe6c1feb36"
+      },
+      {
+        "column": null,
+        "end": 40,
+        "entity": "ContextApiPage",
+        "file": "def/documentation/pages/context-api.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "ContextApiPage:documentationArticle:ab5115b986655c5b84cde2e3a46dfd2ab414a39a17ada3c4805eb1e31fe74cf0"
+      },
+      {
+        "column": null,
+        "end": 50,
+        "entity": "ContextApiPage",
+        "file": "def/documentation/pages/context-api.lfy",
+        "line": 4,
+        "outputLine": 41,
+        "requirement": "ContextApiPage:documentationArticle:47100568f245a173d481704e4a4c143223e8c65b8d9943bc2ebaee4e0a4e7017"
+      }
+    ],
+    "output": "apps/main/src/app/docs/context-api/page.test.tsx",
+    "requirements": "cdbfda794657dafdf2651642e7db56159bf284192455f2778c3f97a1501c7eeb",
+    "signature": "cee707dda875fab999df17ae8d23321c4a57ec6a82dfbf9018c47ab07785c50e",
+    "source": "def/documentation/pages/context-api.lfy",
+    "target": "mainApp",
+    "text": "69c1b1329dc3530f899423625bda2cbd1328802269956a1af479cb2bb0e55fdf"
+  },
+  {
+    "answered": [
+      "ContextApiPage:documentationArticle:10b7bd28f2616fbf27104c15d81745d67c402923f4ef4f2e336279fe6c1feb36",
+      "ContextApiPage:documentationArticle:47100568f245a173d481704e4a4c143223e8c65b8d9943bc2ebaee4e0a4e7017",
+      "ContextApiPage:documentationArticle:ab5115b986655c5b84cde2e3a46dfd2ab414a39a17ada3c4805eb1e31fe74cf0",
+      "ContextApiPage:documentationPage:781eec0f6f1829c8eec2be02a8c12039e6ea342caaa012fba836c306a6947ad5",
+      "ContextApiPage:documentationPage:b5d7e93315026e3a61ba8074f287aea08f6fc8289936e5c4172c8b7068c6f7b4",
+      "ContextApiPage:page:262e7dba49d7c9e13e7484f9c60733a24d769e73fec8ed75b9ffbce8552ff488",
+      "ContextApiPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "ContextApiPage:page:94d773db91254cb931844339717b043f6937717358f976a72fa617a7f1231b79",
+      "ContextApiPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "ContextApiPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:09:42Z",
+    "hash": "830600ca05974a25f7c0c229c9d1ca0974dc45f831bfd70bdfdab783e1435df1",
+    "markers": [
+      {
+        "column": null,
+        "end": 102,
+        "entity": "ContextApiPage",
+        "file": "def/documentation/pages/context-api.lfy",
+        "line": 4,
+        "outputLine": 6,
+        "requirement": "ContextApiPage:documentationArticle:ab5115b986655c5b84cde2e3a46dfd2ab414a39a17ada3c4805eb1e31fe74cf0"
+      },
+      {
+        "column": null,
+        "end": 108,
+        "entity": "ContextApiPage",
+        "file": "def/documentation/pages/context-api.lfy",
+        "line": 4,
+        "outputLine": 103,
+        "requirement": "ContextApiPage:documentationPage:781eec0f6f1829c8eec2be02a8c12039e6ea342caaa012fba836c306a6947ad5"
+      },
+      {
+        "column": null,
+        "end": 110,
+        "entity": "ContextApiPage",
+        "file": "def/documentation/pages/context-api.lfy",
+        "line": 4,
+        "outputLine": 109,
+        "requirement": "ContextApiPage:page:262e7dba49d7c9e13e7484f9c60733a24d769e73fec8ed75b9ffbce8552ff488"
+      },
+      {
+        "column": null,
+        "end": 111,
+        "entity": "ContextApiPage",
+        "file": "def/documentation/pages/context-api.lfy",
+        "line": 4,
+        "outputLine": 111,
+        "requirement": "ContextApiPage:documentationArticle:10b7bd28f2616fbf27104c15d81745d67c402923f4ef4f2e336279fe6c1feb36"
+      },
+      {
+        "column": null,
+        "end": 112,
+        "entity": "ContextApiPage",
+        "file": "def/documentation/pages/context-api.lfy",
+        "line": 4,
+        "outputLine": 112,
+        "requirement": "ContextApiPage:documentationPage:b5d7e93315026e3a61ba8074f287aea08f6fc8289936e5c4172c8b7068c6f7b4"
+      },
+      {
+        "column": null,
+        "end": 113,
+        "entity": "ContextApiPage",
+        "file": "def/documentation/pages/context-api.lfy",
+        "line": 4,
+        "outputLine": 113,
+        "requirement": "ContextApiPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+      },
+      {
+        "column": null,
+        "end": 121,
+        "entity": "ContextApiPage",
+        "file": "def/documentation/pages/context-api.lfy",
+        "line": 4,
+        "outputLine": 114,
+        "requirement": "ContextApiPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      }
+    ],
+    "output": "apps/main/src/app/docs/context-api/page.tsx",
+    "requirements": "cdbfda794657dafdf2651642e7db56159bf284192455f2778c3f97a1501c7eeb",
+    "signature": "cee707dda875fab999df17ae8d23321c4a57ec6a82dfbf9018c47ab07785c50e",
+    "source": "def/documentation/pages/context-api.lfy",
+    "target": "mainApp",
+    "text": "80a3732b2d6c3653fd7d197f3ce89c9a6db0716d7efdb05cbed89982dcb9b6d1"
+  }
+]

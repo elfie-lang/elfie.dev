@@ -1,0 +1,164 @@
+[
+  {
+    "answered": [
+      "FamiliarConceptsPage:documentationArticle:28d99c78dc528618b28e2ad8bb2a952937fb5092e65ccb27f250f6df3ad5e465",
+      "FamiliarConceptsPage:documentationArticle:711e8db8a5259d2e377beaa3d7c9555f59020216d561724315ba45743668b006",
+      "FamiliarConceptsPage:documentationArticle:c913482a865285c8a589c179ac8d0425a15929cc31c52b03d6fc512a3bc264ad",
+      "FamiliarConceptsPage:documentationPage:75119a6b5f536f1e555870f1a4125d18bc0e6e6fca7a80e9f219b9ad39d41954",
+      "FamiliarConceptsPage:documentationPage:ea92972ec7da8f14f47b437c1000561d363271b156c835ff95b4c5f598a569f8",
+      "FamiliarConceptsPage:page:2b13a3f14cd6fc7b25501f813ec5850c8852d89fc4603006c1b291098367ae8e",
+      "FamiliarConceptsPage:page:363c145c849be87f91368745d2f38d9fc0b4693c77bce4219b51fd40478972c8",
+      "FamiliarConceptsPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "FamiliarConceptsPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "FamiliarConceptsPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:09:42Z",
+    "hash": "60587ba3cdf0a0a2b05a69232a6d4b6c16d95f65654c4f4f62aaabbda27c14f0",
+    "markers": [
+      {
+        "column": null,
+        "end": 24,
+        "entity": "FamiliarConceptsPage",
+        "file": "def/documentation/pages/familiar-concepts.lfy",
+        "line": 4,
+        "outputLine": 18,
+        "requirement": "FamiliarConceptsPage:documentationPage:75119a6b5f536f1e555870f1a4125d18bc0e6e6fca7a80e9f219b9ad39d41954"
+      },
+      {
+        "column": null,
+        "end": 32,
+        "entity": "FamiliarConceptsPage",
+        "file": "def/documentation/pages/familiar-concepts.lfy",
+        "line": 4,
+        "outputLine": 25,
+        "requirement": "FamiliarConceptsPage:documentationPage:ea92972ec7da8f14f47b437c1000561d363271b156c835ff95b4c5f598a569f8"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "FamiliarConceptsPage",
+        "file": "def/documentation/pages/familiar-concepts.lfy",
+        "line": 4,
+        "outputLine": 33,
+        "requirement": "FamiliarConceptsPage:documentationArticle:c913482a865285c8a589c179ac8d0425a15929cc31c52b03d6fc512a3bc264ad"
+      },
+      {
+        "column": null,
+        "end": 40,
+        "entity": "FamiliarConceptsPage",
+        "file": "def/documentation/pages/familiar-concepts.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "FamiliarConceptsPage:documentationArticle:28d99c78dc528618b28e2ad8bb2a952937fb5092e65ccb27f250f6df3ad5e465"
+      },
+      {
+        "column": null,
+        "end": 53,
+        "entity": "FamiliarConceptsPage",
+        "file": "def/documentation/pages/familiar-concepts.lfy",
+        "line": 4,
+        "outputLine": 41,
+        "requirement": "FamiliarConceptsPage:documentationArticle:711e8db8a5259d2e377beaa3d7c9555f59020216d561724315ba45743668b006"
+      }
+    ],
+    "output": "apps/main/src/app/docs/familiar-concepts/page.test.tsx",
+    "requirements": "ec3fc2e195de5f8a8ad78872456910033916230a3799de13684bdf15b25e2782",
+    "signature": "1a2321823cc10d94b654188cc80244a0c103f39b7300b359353cbaadd4fcec3d",
+    "source": "def/documentation/pages/familiar-concepts.lfy",
+    "target": "mainApp",
+    "text": "9f568c0e445236518d274e5d71744526b85f37b65ba866ec7f06a0b2c22e8e19"
+  },
+  {
+    "answered": [
+      "FamiliarConceptsPage:documentationArticle:28d99c78dc528618b28e2ad8bb2a952937fb5092e65ccb27f250f6df3ad5e465",
+      "FamiliarConceptsPage:documentationArticle:711e8db8a5259d2e377beaa3d7c9555f59020216d561724315ba45743668b006",
+      "FamiliarConceptsPage:documentationArticle:c913482a865285c8a589c179ac8d0425a15929cc31c52b03d6fc512a3bc264ad",
+      "FamiliarConceptsPage:documentationPage:75119a6b5f536f1e555870f1a4125d18bc0e6e6fca7a80e9f219b9ad39d41954",
+      "FamiliarConceptsPage:documentationPage:ea92972ec7da8f14f47b437c1000561d363271b156c835ff95b4c5f598a569f8",
+      "FamiliarConceptsPage:page:2b13a3f14cd6fc7b25501f813ec5850c8852d89fc4603006c1b291098367ae8e",
+      "FamiliarConceptsPage:page:363c145c849be87f91368745d2f38d9fc0b4693c77bce4219b51fd40478972c8",
+      "FamiliarConceptsPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "FamiliarConceptsPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "FamiliarConceptsPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:09:42Z",
+    "hash": "60587ba3cdf0a0a2b05a69232a6d4b6c16d95f65654c4f4f62aaabbda27c14f0",
+    "markers": [
+      {
+        "column": null,
+        "end": 240,
+        "entity": "FamiliarConceptsPage",
+        "file": "def/documentation/pages/familiar-concepts.lfy",
+        "line": 4,
+        "outputLine": 6,
+        "requirement": "FamiliarConceptsPage:documentationArticle:28d99c78dc528618b28e2ad8bb2a952937fb5092e65ccb27f250f6df3ad5e465"
+      },
+      {
+        "column": null,
+        "end": 246,
+        "entity": "FamiliarConceptsPage",
+        "file": "def/documentation/pages/familiar-concepts.lfy",
+        "line": 4,
+        "outputLine": 241,
+        "requirement": "FamiliarConceptsPage:documentationPage:ea92972ec7da8f14f47b437c1000561d363271b156c835ff95b4c5f598a569f8"
+      },
+      {
+        "column": null,
+        "end": 248,
+        "entity": "FamiliarConceptsPage",
+        "file": "def/documentation/pages/familiar-concepts.lfy",
+        "line": 4,
+        "outputLine": 247,
+        "requirement": "FamiliarConceptsPage:page:2b13a3f14cd6fc7b25501f813ec5850c8852d89fc4603006c1b291098367ae8e"
+      },
+      {
+        "column": null,
+        "end": 249,
+        "entity": "FamiliarConceptsPage",
+        "file": "def/documentation/pages/familiar-concepts.lfy",
+        "line": 4,
+        "outputLine": 249,
+        "requirement": "FamiliarConceptsPage:documentationArticle:c913482a865285c8a589c179ac8d0425a15929cc31c52b03d6fc512a3bc264ad"
+      },
+      {
+        "column": null,
+        "end": 250,
+        "entity": "FamiliarConceptsPage",
+        "file": "def/documentation/pages/familiar-concepts.lfy",
+        "line": 4,
+        "outputLine": 250,
+        "requirement": "FamiliarConceptsPage:documentationPage:75119a6b5f536f1e555870f1a4125d18bc0e6e6fca7a80e9f219b9ad39d41954"
+      },
+      {
+        "column": null,
+        "end": 251,
+        "entity": "FamiliarConceptsPage",
+        "file": "def/documentation/pages/familiar-concepts.lfy",
+        "line": 4,
+        "outputLine": 251,
+        "requirement": "FamiliarConceptsPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+      },
+      {
+        "column": null,
+        "end": 259,
+        "entity": "FamiliarConceptsPage",
+        "file": "def/documentation/pages/familiar-concepts.lfy",
+        "line": 4,
+        "outputLine": 252,
+        "requirement": "FamiliarConceptsPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      }
+    ],
+    "output": "apps/main/src/app/docs/familiar-concepts/page.tsx",
+    "requirements": "ec3fc2e195de5f8a8ad78872456910033916230a3799de13684bdf15b25e2782",
+    "signature": "1a2321823cc10d94b654188cc80244a0c103f39b7300b359353cbaadd4fcec3d",
+    "source": "def/documentation/pages/familiar-concepts.lfy",
+    "target": "mainApp",
+    "text": "832c50ec622bd16f6251df881415915edea8c8523bfc278d65925798cd32829a"
+  }
+]

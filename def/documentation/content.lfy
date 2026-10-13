@@ -1,0 +1,145 @@
+use "react";
+use "../components/callout";
+use "../components/card";
+use "../components/code";
+use "../components/sequence";
+use "../components/table";
+
+/// How a documentation page is written: CommonMark with GitHub tables, plus blocks that open with a
+/// line beginning ::: and a name and close with a line that is exactly :::. The content files are
+/// under content/docs in the project root.
+
+d DocumentationHeading: `A second level heading of a documentation page` {
+  $text: `The heading's text, without Markdown` = string;
+  $id: `The id its heading element has, and the fragment that links to it` = string;
+}
+
+/// source: documentation Markdown
+fn headingsOf(source: string): `The second level headings of [[source]], in order` => DocumentationHeading[] {
+  @acceptanceCriteria
+    .add({
+      behavior = `Each line of [[source]] that begins with ## and a space, outside a code fence and outside a ::: block, gives one heading`,
+    })
+    .add({
+      behavior = `[[DocumentationHeading.text]] is the rest of the line, trimmed, with backticks and emphasis marks removed and each link replaced by its text`,
+    })
+    .add({
+      behavior = `[[DocumentationHeading.id]] is the text in lower case, with every run of characters other than a to z and 0 to 9 replaced by one hyphen, and no hyphen at either end`,
+    })
+    .add({
+      situation = `Two headings would have the same id`,
+      behavior = `The second and later ones end in -2, -3, and so on`,
+    });
+  @test(
+    {
+      input = ["## The agent server\n\n```text\n## not a heading\n```\n\n## `use` and names"],
+      expect = [
+        { text = "The agent server", id = "the-agent-server" },
+        { text = "use and names", id = "use-and-names" },
+      ],
+    },
+    {
+      input = ["## Data with d\n## Data with d"],
+      expect = [{ text = "Data with d", id = "data-with-d" }, { text = "Data with d", id = "data-with-d-2" }],
+    },
+    { input = ["No headings here"], expect = [] },
+  );
+}
+
+/// source: documentation Markdown
+fn DocumentationContent(source: string) is component {
+  // Rendering
+  @acceptanceCriteria
+    .add({
+      behavior = `Renders [[source]] as CommonMark with GitHub tables, using the react-markdown and remark-gfm dependencies of the target`,
+    })
+    .add({ behavior = `HTML written in [[source]] is shown as text, never rendered` })
+    .add({
+      behavior = `Its children are laid out in one column with 20 pixels between blocks, at most 792 pixels wide, as the article sections of https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=114-2860 are`,
+    })
+    .add({
+      behavior = `Paragraphs and list items use the body font at 16 pixels with the body line height in the ink color, as the Description text of that design does`,
+    });
+
+  // Headings
+  @acceptanceCriteria
+    .add({
+      behavior = `A heading of level 2 is an h2 styled as the Heading of an Article section in that design, whose id is the one [[headingsOf]] gives for it`,
+    })
+    .add({ behavior = `A heading of level 3 is an h3 at 17 pixels, semibold` });
+
+  // Inline
+  @acceptanceCriteria
+    .add({
+      behavior = `Inline code is a code element in the code font at 0.86em on the code background, with 1 pixel of padding above and below, 5 to each side, and a 4 pixel radius`,
+    })
+    .add({ situation = `A link's address begins with a slash`, behavior = `It is a Next.js link` })
+    .add({
+      situation = `A link's address begins with http`,
+      behavior = `It opens in a new tab, with rel noopener`,
+    })
+    .add({ behavior = `Links use the action color and are underlined` });
+
+  // Code
+  @acceptanceCriteria
+    .add({
+      behavior = `A fenced code block is a [[CodeBlock]] whose code is the fence's text without its final line break`,
+    })
+    .add({
+      behavior = `The info string of a fence is a language followed by attributes written key="value"; the title attribute is the [[CodeBlock]]'s label, and the caption attribute its caption`,
+    })
+    .add({
+      situation = `A fence has no title attribute`,
+      behavior = `The label is Elfie for lfy, Terminal for bash, Output for text, JSON for json, TypeScript for ts, Python for python, and Code for anything else or no language`,
+    });
+
+  // Tables
+  @acceptanceCriteria.add({
+    behavior = `A table is a [[Table]] whose columns are the header cells and whose rows are the body rows, each cell rendered as inline Markdown`,
+  });
+
+  // Blocks
+  @acceptanceCriteria
+    .add({
+      behavior = `A line that begins with ::: and a name, outside a code fence, opens a block that holds every following line up to the next line that is exactly :::, outside a code fence`,
+    })
+    .add({
+      situation = `The block's line reads :::callout, then a kind, then a title`,
+      behavior = `It is a [[Callout]] whose header is the title rendered as inline Markdown and whose content is the block's lines rendered as Markdown`,
+    })
+    .add({
+      situation = `A callout's kind is info or tip`,
+      behavior = `The [[Callout]]'s kind is [[CalloutKind.info]]`,
+    })
+    .add({
+      situation = `A callout's kind is warning or danger`,
+      behavior = `The [[Callout]]'s kind is the [[CalloutKind]] of the same name`,
+    })
+    .add({
+      situation = `The block's line reads :::cards`,
+      behavior = [
+        `It is a [[CardGrid]] holding one [[ResourceCard]] per line of the block that begins with ### and a space, in order`,
+        `A card's title is the rest of that line`,
+        `A line of the card that begins with meta: gives the label before the · and the icon after it`,
+        `The icon book is [[CardIcon.book]], code is [[CardIcon.code]], terminal is [[CardIcon.terminal]], and edit is [[CardIcon.notebook]]`,
+        `The card's last line that is only a Markdown link gives the href and, from the link's text, the action`,
+        `The card's other lines, rendered as Markdown, are its content`,
+      ],
+    })
+    .add({
+      situation = `The block's line reads :::steps`,
+      behavior = `It is [[Steps]] with one step per line of the block that begins with ### and a space, whose title is the rest of that line and whose content is the lines up to the next such line, rendered as this component renders Markdown`,
+    })
+    .add({
+      situation = `The block's line reads :::flow`,
+      behavior = `It is a [[Flow]] with one stage per line of the block that is not blank, whose label is the text before the first | and whose description is the text after it, both trimmed and rendered as inline Markdown`,
+    })
+    .add({
+      situation = `The block's line reads :::compare`,
+      behavior = `It is [[Columns]] holding one [[CodeBlock]] per fenced code block of the block, in order, labeled as other fences are`,
+    })
+    .add({
+      situation = `A ::: line names anything else`,
+      behavior = `The block's lines are rendered as Markdown, without the ::: lines`,
+    });
+}

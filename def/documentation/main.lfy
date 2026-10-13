@@ -1,0 +1,44 @@
+use "http";
+use "../atoms";
+use "../components/callout";
+use "../components/card";
+use "../components/code";
+use "../traits";
+use "./layout";
+
+fn Documentation() is page('/docs'),
+  documentationPage("overview"),
+  fromFigma(
+    `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=54-1668&t=5AeWwpuJzWSP1Pwq-4`,
+  ) {
+  @acceptanceCriteria
+    .add({
+      behavior = [
+        `The introduction's section label reads Documentation, its heading A little guidance. A lot to build., and its description Explore the ideas behind Elfie, learn the shape of the language, and find your way from intent to a first program.`,
+        `Its [[Callout]] has the header An early guide to an early language and the content The syntax, commands, and capabilities shown here are where the language stands today, and it is still changing quickly. Share feedback, ask questions, or report problems with the guide or the compiler in our GitHub repository.`,
+        `The words GitHub repository in the callout link to https://github.com/elfie-lang/elfie`,
+      ],
+    })
+    .add({
+      behavior = [
+        `The Getting started feature's section label reads New to Elfie?, its heading Start with a small idea., and its description Take a tour of the core ideas of the language and what it can do. Then build your first program with a guided example.`,
+        `Its [[Button]] reads Read the getting started guide and links to /docs/getting-started`,
+        `Its code example is a [[CodeBlock]] labeled hello.lfy with the caption A tiny example to start`,
+      ],
+    })
+    .add({
+      behavior = `The code example's code is these five lines: fn hello(): \`Greets the world\` {, then two spaces and @acceptanceCriteria.add({, then four spaces and behavior = \`Prints "Hello world!"\`, with its trailing comma, then two spaces and });, then }`,
+    })
+    .add({
+      behavior = [
+        `The resource cards are four [[ResourceCard]]s in a [[CardGrid]], under the heading Find your next step`,
+        `The first has the book icon, the label Core concepts, the title Language guide, the content Understand the building blocks you can use to build your next piece of software., and the action Explore the guide, to /docs/familiar-concepts`,
+        `The second has the code icon, the label Diving deeper, the title Building with agents, the content See how d, fn, and acceptance criteria turn intent into code that an agent writes and another agent checks., with d and fn as inline code, and the action See agentic structures, to /docs/agentic-structures`,
+        `The third has the terminal icon, the label Compiling code, the title CLI reference, the content A reference to the Elfie CLI: how to build your app, and every flag, setting, and file you need to get going., and the action View command examples, to /docs/cli`,
+        `The fourth has the notebook icon, the label Behind the language, the title Compiler details, the content Explore how a compile works and the language choices behind it., and the action Read the compiler details, to /docs/compiler-details`,
+      ],
+    })
+    .add({
+      behavior = `The learning route's heading reads Prefer learning by doing?, its description Follow a step-by-step tutorial and build a small program from the ground up., and its link Explore tutorials goes to /tutorials`,
+    });
+}

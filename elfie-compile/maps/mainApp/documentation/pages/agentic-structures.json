@@ -1,0 +1,191 @@
+[
+  {
+    "answered": [
+      "AgenticStructuresPage:documentationArticle:7621cbe9f82bc1d2effdd6afe4dc603c2956e7a9f68ff3c1ee402dd6cedba02c",
+      "AgenticStructuresPage:documentationArticle:8d2bd0442ca450b14cc234a42daf031071e2e7fb1250009901584113abe40f8d",
+      "AgenticStructuresPage:documentationArticle:c86880e541148a76af77b4247b633e818703c945193f34fa0e84fcf9d91b30cc",
+      "AgenticStructuresPage:documentationPage:43d80e041dc55726cd86dd51129069895e83107f3cb46c58a052453786087287",
+      "AgenticStructuresPage:documentationPage:903c3754f8453aa21646bf87bcade5f1b930559d8ab09bb7c739a1fea8f82799",
+      "AgenticStructuresPage:page:46628d9a4fdd9ef1cd41375e30fe362add9f622981322977cc571bddf95c362c",
+      "AgenticStructuresPage:page:64b3be39e0f47a7b69235fcccaaaa17734b4ddd6d6e332e5e1577ccfaf96e282",
+      "AgenticStructuresPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "AgenticStructuresPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "AgenticStructuresPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:23:50Z",
+    "hash": "c6d4efddfafe6f16beaa4c54ec3f3c64a6da5b1c58a294fc6f53cf60cee7be4f",
+    "markers": [
+      {
+        "column": null,
+        "end": 24,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 19,
+        "requirement": "AgenticStructuresPage:page:46628d9a4fdd9ef1cd41375e30fe362add9f622981322977cc571bddf95c362c"
+      },
+      {
+        "column": null,
+        "end": 31,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 25,
+        "requirement": "AgenticStructuresPage:documentationPage:903c3754f8453aa21646bf87bcade5f1b930559d8ab09bb7c739a1fea8f82799"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 32,
+        "requirement": "AgenticStructuresPage:documentationPage:43d80e041dc55726cd86dd51129069895e83107f3cb46c58a052453786087287"
+      },
+      {
+        "column": null,
+        "end": 46,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "AgenticStructuresPage:documentationArticle:c86880e541148a76af77b4247b633e818703c945193f34fa0e84fcf9d91b30cc"
+      },
+      {
+        "column": null,
+        "end": 47,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 47,
+        "requirement": "AgenticStructuresPage:documentationArticle:7621cbe9f82bc1d2effdd6afe4dc603c2956e7a9f68ff3c1ee402dd6cedba02c"
+      },
+      {
+        "column": null,
+        "end": 57,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 48,
+        "requirement": "AgenticStructuresPage:documentationArticle:8d2bd0442ca450b14cc234a42daf031071e2e7fb1250009901584113abe40f8d"
+      }
+    ],
+    "output": "apps/main/src/app/docs/agentic-structures/page.test.tsx",
+    "requirements": "da409708673d0ffd8595af185d5063e0e798c021a128f69fa84f9b5cb3f6bf95",
+    "signature": "7858ce5df166140aabff5bd55bda6d9db8e35afb6fd3f8fec87e64e55c15cdfc",
+    "source": "def/documentation/pages/agentic-structures.lfy",
+    "target": "mainApp",
+    "text": "b19a93ba8b6304382e9073c4e8a8245e8d15720f5d958befbf20bb6501f7cf1a"
+  },
+  {
+    "answered": [
+      "AgenticStructuresPage:documentationArticle:7621cbe9f82bc1d2effdd6afe4dc603c2956e7a9f68ff3c1ee402dd6cedba02c",
+      "AgenticStructuresPage:documentationArticle:8d2bd0442ca450b14cc234a42daf031071e2e7fb1250009901584113abe40f8d",
+      "AgenticStructuresPage:documentationArticle:c86880e541148a76af77b4247b633e818703c945193f34fa0e84fcf9d91b30cc",
+      "AgenticStructuresPage:documentationPage:43d80e041dc55726cd86dd51129069895e83107f3cb46c58a052453786087287",
+      "AgenticStructuresPage:documentationPage:903c3754f8453aa21646bf87bcade5f1b930559d8ab09bb7c739a1fea8f82799",
+      "AgenticStructuresPage:page:46628d9a4fdd9ef1cd41375e30fe362add9f622981322977cc571bddf95c362c",
+      "AgenticStructuresPage:page:64b3be39e0f47a7b69235fcccaaaa17734b4ddd6d6e332e5e1577ccfaf96e282",
+      "AgenticStructuresPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "AgenticStructuresPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "AgenticStructuresPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:23:50Z",
+    "hash": "c6d4efddfafe6f16beaa4c54ec3f3c64a6da5b1c58a294fc6f53cf60cee7be4f",
+    "markers": [
+      {
+        "column": null,
+        "end": 154,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 7,
+        "requirement": "AgenticStructuresPage:documentationArticle:7621cbe9f82bc1d2effdd6afe4dc603c2956e7a9f68ff3c1ee402dd6cedba02c"
+      },
+      {
+        "column": null,
+        "end": 167,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 162,
+        "requirement": "AgenticStructuresPage:documentationPage:43d80e041dc55726cd86dd51129069895e83107f3cb46c58a052453786087287"
+      },
+      {
+        "column": null,
+        "end": 168,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 168,
+        "requirement": "AgenticStructuresPage:page:46628d9a4fdd9ef1cd41375e30fe362add9f622981322977cc571bddf95c362c"
+      },
+      {
+        "column": null,
+        "end": 170,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 169,
+        "requirement": "AgenticStructuresPage:page:64b3be39e0f47a7b69235fcccaaaa17734b4ddd6d6e332e5e1577ccfaf96e282"
+      },
+      {
+        "column": null,
+        "end": 171,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 171,
+        "requirement": "AgenticStructuresPage:documentationArticle:c86880e541148a76af77b4247b633e818703c945193f34fa0e84fcf9d91b30cc"
+      },
+      {
+        "column": null,
+        "end": 172,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 172,
+        "requirement": "AgenticStructuresPage:documentationPage:903c3754f8453aa21646bf87bcade5f1b930559d8ab09bb7c739a1fea8f82799"
+      },
+      {
+        "column": null,
+        "end": 173,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 173,
+        "requirement": "AgenticStructuresPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+      },
+      {
+        "column": null,
+        "end": 174,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 174,
+        "requirement": "AgenticStructuresPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      },
+      {
+        "column": null,
+        "end": 182,
+        "entity": "AgenticStructuresPage",
+        "file": "def/documentation/pages/agentic-structures.lfy",
+        "line": 4,
+        "outputLine": 175,
+        "requirement": "AgenticStructuresPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34"
+      }
+    ],
+    "output": "apps/main/src/app/docs/agentic-structures/page.tsx",
+    "requirements": "da409708673d0ffd8595af185d5063e0e798c021a128f69fa84f9b5cb3f6bf95",
+    "signature": "7858ce5df166140aabff5bd55bda6d9db8e35afb6fd3f8fec87e64e55c15cdfc",
+    "source": "def/documentation/pages/agentic-structures.lfy",
+    "target": "mainApp",
+    "text": "13ccd889556153d367a0969a7eb40e70c3abe3928a1fe8b773ca7fc77bef798b"
+  }
+]

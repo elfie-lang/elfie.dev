@@ -1,0 +1,250 @@
+[
+  {
+    "answered": [
+      "DocumentationSearch:DocumentationSearch:1e9ac72f67e9e12343e69fb94ca52904af2793a533d1e4947f8c274baf904d2d",
+      "DocumentationSearch:DocumentationSearch:5a1ed5a4b4bab25eacd9a3edb88d2dc7acda44dec07b56b6ed54c07e5689d580",
+      "DocumentationSearch:DocumentationSearch:5b1ec26f0e4a8dd70039d2c407845835396f7bacea4675700b72c74722993d2c",
+      "DocumentationSearch:DocumentationSearch:76cae05876b761a04a876fa41db7b9758d7c68c109e65376d2bc102810758f90",
+      "DocumentationSearch:DocumentationSearch:90452e8af00e782ce261a8d2d321319af5e7d62ddba1c9983605482cbc5793a1",
+      "DocumentationSearch:DocumentationSearch:b8547279e78e29dc26f06c1a6b6f08fdf9199c7ddf459ba44f63c8ed0d79190b",
+      "DocumentationSearch:DocumentationSearch:e9a59f3af2cc8d3b9afb3a594e4a7d3e849634f0f6c0427fd7e777b289b19d0f",
+      "DocumentationSearch:DocumentationSearch:f29388bda717a5ec5ffc24fd19caebf39b4c61208290bd209601867306b69a89",
+      "DocumentationSearch:DocumentationSearch:f81f35a519b72a5c51aa45f291b53b67507168abf50f58cb691f1b15311e24f6",
+      "DocumentationSearch:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "DocumentationSearch:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "DocumentationSearch:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "DocumentationSearch:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "DocumentationSearch:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "DocumentationSearch:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "DocumentationSearch:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "DocumentationSearch:fromFigma:c186aca8ddb4437469a640a0dfdab14793ae619e5d05cd0774dfefb8d730b39b"
+    ],
+    "dependencies": {
+      "def/documentation/pages.lfy": "4844bcac3754cb52b5dbd071d779797f0f9e809a4d565e579ebe33d36e4d491c"
+    },
+    "generated": "2026-10-13T01:09:14Z",
+    "hash": "06ad000678e31f11d997327e9c7bae0135c3666d7f2e64b94a6213f8218ce4b0",
+    "markers": [
+      {
+        "column": null,
+        "end": 17,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 12,
+        "requirement": "DocumentationSearch:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 25,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 18,
+        "requirement": "DocumentationSearch:DocumentationSearch:e9a59f3af2cc8d3b9afb3a594e4a7d3e849634f0f6c0427fd7e777b289b19d0f"
+      },
+      {
+        "column": null,
+        "end": 30,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 26,
+        "requirement": "DocumentationSearch:DocumentationSearch:5a1ed5a4b4bab25eacd9a3edb88d2dc7acda44dec07b56b6ed54c07e5689d580"
+      },
+      {
+        "column": null,
+        "end": 40,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 31,
+        "requirement": "DocumentationSearch:DocumentationSearch:1e9ac72f67e9e12343e69fb94ca52904af2793a533d1e4947f8c274baf904d2d"
+      },
+      {
+        "column": null,
+        "end": 53,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 41,
+        "requirement": "DocumentationSearch:DocumentationSearch:76cae05876b761a04a876fa41db7b9758d7c68c109e65376d2bc102810758f90"
+      },
+      {
+        "column": null,
+        "end": 58,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 54,
+        "requirement": "DocumentationSearch:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433"
+      }
+    ],
+    "output": "apps/main/src/components/documentation/search.test.tsx",
+    "requirements": "95d1671b9792c5192eba07d63da52181eb739ba48532da7b8c495423ccf330dc",
+    "signature": "a47c8cdf34b77e22f0f5683a989907b809383cd034c009a3415f8a8a4471eaa5",
+    "source": "def/documentation/search.lfy",
+    "target": "mainApp",
+    "text": "922e4044d872bac880bb7fb0dc6da6d49c51b90cb1734ae674c9d174f6a46c44"
+  },
+  {
+    "answered": [
+      "DocumentationSearch:DocumentationSearch:1e9ac72f67e9e12343e69fb94ca52904af2793a533d1e4947f8c274baf904d2d",
+      "DocumentationSearch:DocumentationSearch:5a1ed5a4b4bab25eacd9a3edb88d2dc7acda44dec07b56b6ed54c07e5689d580",
+      "DocumentationSearch:DocumentationSearch:5b1ec26f0e4a8dd70039d2c407845835396f7bacea4675700b72c74722993d2c",
+      "DocumentationSearch:DocumentationSearch:76cae05876b761a04a876fa41db7b9758d7c68c109e65376d2bc102810758f90",
+      "DocumentationSearch:DocumentationSearch:90452e8af00e782ce261a8d2d321319af5e7d62ddba1c9983605482cbc5793a1",
+      "DocumentationSearch:DocumentationSearch:b8547279e78e29dc26f06c1a6b6f08fdf9199c7ddf459ba44f63c8ed0d79190b",
+      "DocumentationSearch:DocumentationSearch:e9a59f3af2cc8d3b9afb3a594e4a7d3e849634f0f6c0427fd7e777b289b19d0f",
+      "DocumentationSearch:DocumentationSearch:f29388bda717a5ec5ffc24fd19caebf39b4c61208290bd209601867306b69a89",
+      "DocumentationSearch:DocumentationSearch:f81f35a519b72a5c51aa45f291b53b67507168abf50f58cb691f1b15311e24f6",
+      "DocumentationSearch:component:672ccb51917bf1bc38897f2711c908712450d00a7969a6824a12f46624f34433",
+      "DocumentationSearch:component:85b63371a088bb4a894d438a609f6e91806c1dbdab78a0840b1858a9aa1459fe",
+      "DocumentationSearch:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e",
+      "DocumentationSearch:component:c28bad8a4cb0b340bf17e394e2e9c7dd114f27bfe98a7b7b40b38f9e14b971a9",
+      "DocumentationSearch:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063",
+      "DocumentationSearch:component:e0d5a65545a376a9b3621b003d41d99811ea7a3a87ce294d757d5ffac0e57a15",
+      "DocumentationSearch:fromFigma:1270ecabe115edb68dcab4e2b80043252b6cda50428cebd11d1d8a0b4124f492",
+      "DocumentationSearch:fromFigma:c186aca8ddb4437469a640a0dfdab14793ae619e5d05cd0774dfefb8d730b39b"
+    ],
+    "dependencies": {
+      "def/documentation/pages.lfy": "4844bcac3754cb52b5dbd071d779797f0f9e809a4d565e579ebe33d36e4d491c"
+    },
+    "generated": "2026-10-13T01:09:14Z",
+    "hash": "06ad000678e31f11d997327e9c7bae0135c3666d7f2e64b94a6213f8218ce4b0",
+    "markers": [
+      {
+        "column": null,
+        "end": 23,
+        "entity": "SearchImage",
+        "file": "def/documentation/search.lfy",
+        "line": 5,
+        "outputLine": 21,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 24,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 24,
+        "requirement": "DocumentationSearch:component:9c8275c3e331bb09c56e84bc90676cb83e91fffd66a869052c6829fd983bf39e"
+      },
+      {
+        "column": null,
+        "end": 33,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 25,
+        "requirement": "DocumentationSearch:component:dcdaadb98aeb43710c52a33c6ea55d7800c90b914a5ac7c24b404128b5fa2063"
+      },
+      {
+        "column": null,
+        "end": 38,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 34,
+        "requirement": "DocumentationSearch:DocumentationSearch:5b1ec26f0e4a8dd70039d2c407845835396f7bacea4675700b72c74722993d2c"
+      },
+      {
+        "column": null,
+        "end": 51,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 39,
+        "requirement": "DocumentationSearch:DocumentationSearch:90452e8af00e782ce261a8d2d321319af5e7d62ddba1c9983605482cbc5793a1"
+      },
+      {
+        "column": null,
+        "end": 84,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 52,
+        "requirement": "DocumentationSearch:DocumentationSearch:f81f35a519b72a5c51aa45f291b53b67507168abf50f58cb691f1b15311e24f6"
+      },
+      {
+        "column": null,
+        "end": 96,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 85,
+        "requirement": "DocumentationSearch:DocumentationSearch:b8547279e78e29dc26f06c1a6b6f08fdf9199c7ddf459ba44f63c8ed0d79190b"
+      },
+      {
+        "column": null,
+        "end": 97,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 97,
+        "requirement": "DocumentationSearch:fromFigma:c186aca8ddb4437469a640a0dfdab14793ae619e5d05cd0774dfefb8d730b39b"
+      },
+      {
+        "column": null,
+        "end": 98,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 98,
+        "requirement": "DocumentationSearch:DocumentationSearch:e9a59f3af2cc8d3b9afb3a594e4a7d3e849634f0f6c0427fd7e777b289b19d0f"
+      },
+      {
+        "column": null,
+        "end": 99,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 99,
+        "requirement": "DocumentationSearch:DocumentationSearch:5a1ed5a4b4bab25eacd9a3edb88d2dc7acda44dec07b56b6ed54c07e5689d580"
+      },
+      {
+        "column": null,
+        "end": 100,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 100,
+        "requirement": "DocumentationSearch:DocumentationSearch:1e9ac72f67e9e12343e69fb94ca52904af2793a533d1e4947f8c274baf904d2d"
+      },
+      {
+        "column": null,
+        "end": 101,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 101,
+        "requirement": "DocumentationSearch:DocumentationSearch:5b1ec26f0e4a8dd70039d2c407845835396f7bacea4675700b72c74722993d2c"
+      },
+      {
+        "column": null,
+        "end": 102,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 102,
+        "requirement": "DocumentationSearch:DocumentationSearch:f29388bda717a5ec5ffc24fd19caebf39b4c61208290bd209601867306b69a89"
+      },
+      {
+        "column": null,
+        "end": 179,
+        "entity": "DocumentationSearch",
+        "file": "def/documentation/search.lfy",
+        "line": 9,
+        "outputLine": 103,
+        "requirement": "DocumentationSearch:DocumentationSearch:76cae05876b761a04a876fa41db7b9758d7c68c109e65376d2bc102810758f90"
+      }
+    ],
+    "output": "apps/main/src/components/documentation/search.tsx",
+    "requirements": "95d1671b9792c5192eba07d63da52181eb739ba48532da7b8c495423ccf330dc",
+    "signature": "a47c8cdf34b77e22f0f5683a989907b809383cd034c009a3415f8a8a4471eaa5",
+    "source": "def/documentation/search.lfy",
+    "target": "mainApp",
+    "text": "41b771fd00b4e5e03b341f553357fd9e5de2b1a08a8d3023941b03bd065decec"
+  }
+]

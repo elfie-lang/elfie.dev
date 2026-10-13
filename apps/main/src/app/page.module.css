@@ -1,0 +1,423 @@
+/* Home: lays out the page and places its atoms; the atoms style themselves */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--space-0);
+  min-block-size: 100vh;
+  padding-block: var(--space-0);
+  padding-inline: var(--space-20);
+  background: var(--color-canvas);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  block-size: 96px;
+  overflow: clip;
+}
+
+.wordmark {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-25);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-heading);
+  letter-spacing: var(--letter-spacing-wordmark);
+  color: var(--color-action);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-0);
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-28);
+  padding-block: var(--space-32) var(--space-58);
+  padding-inline: var(--space-0);
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-22);
+  inline-size: 1000px;
+  max-inline-size: 100%;
+  text-align: center;
+}
+
+.heroTitle {
+  font-family: var(--font-family-base);
+  font-size: clamp(var(--font-size-40), 11vw, var(--font-size-76));
+  font-weight: var(--font-weight-regular);
+  line-height: 1.08;
+  letter-spacing: -0.05em;
+  color: var(--color-ink);
+}
+
+.heroLine {
+  display: block;
+}
+
+.heroLead {
+  inline-size: 570px;
+  max-inline-size: 100%;
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.55;
+  color: var(--color-ink-secondary);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--space-28);
+}
+
+.learnMore {
+  min-inline-size: 181px;
+}
+
+/* The Elfie language */
+
+.language {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-12);
+  padding-block: var(--space-28);
+  padding-inline: var(--space-0);
+  overflow: clip;
+  background: linear-gradient(
+    to right,
+    var(--color-canvas),
+    var(--color-feature) 50%,
+    var(--color-canvas)
+  );
+  text-align: center;
+}
+
+.languageTitle {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-semibold);
+  line-height: normal;
+  color: var(--color-action);
+}
+
+.languageBody {
+  inline-size: 620px;
+  max-inline-size: 100%;
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.5;
+  color: var(--color-ink-secondary);
+}
+
+.languageLine {
+  display: block;
+}
+
+/* Resource links */
+
+.resources {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--space-28);
+  padding-block: var(--space-30);
+  padding-inline: var(--space-0);
+  list-style: none;
+}
+
+.resource {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-7);
+  inline-size: 230px;
+  max-inline-size: 100%;
+}
+
+.resourceCaption {
+  font-size: var(--font-size-13);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+  color: var(--color-ink-secondary);
+  white-space: nowrap;
+}
+
+/* Why Choose Elfie */
+
+.why {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-0);
+}
+
+.explainerHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-28);
+  padding-block: var(--space-28);
+}
+
+.divider {
+  inline-size: 436px;
+  block-size: 1px;
+  max-inline-size: 100%;
+}
+
+.whyTitle {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-36);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-heading);
+  letter-spacing: var(--letter-spacing-title);
+  color: var(--color-ink);
+  text-align: center;
+}
+
+.example {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-56);
+  padding-block: var(--space-28);
+  padding-inline: var(--space-0);
+}
+
+.exampleText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-self: stretch;
+  gap: var(--space-8);
+  inline-size: 428px;
+  max-inline-size: 100%;
+  color: var(--color-ink);
+}
+
+.exampleTitle {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-26);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-heading);
+  letter-spacing: var(--letter-spacing-heading);
+}
+
+.exampleBody {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+}
+
+.exampleCode {
+  inline-size: 536px;
+  max-inline-size: 100%;
+}
+
+/* Code block: a file name over its code */
+
+.codeBlock {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-0);
+  block-size: 100%;
+  overflow: clip;
+  border: 1px solid var(--color-divider-decorative);
+  border-radius: var(--radius-8);
+  background: var(--color-code);
+}
+
+.codeHeader {
+  padding-block: var(--space-12);
+  padding-inline: var(--space-22);
+  border-block-end: 1px solid var(--color-divider-decorative);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-12);
+  font-weight: var(--font-weight-regular);
+  line-height: normal;
+  color: var(--color-ink-secondary);
+  white-space: nowrap;
+}
+
+.codeBody {
+  flex: 1 0 0;
+  min-block-size: 0;
+  overflow: auto;
+  padding: var(--space-22);
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-code);
+  color: var(--color-green);
+  white-space: pre;
+}
+
+.codeBody:focus-visible {
+  outline: var(--focus-ring-width) solid var(--color-action);
+  outline-offset: var(--focus-ring-offset);
+}
+
+/* Illustration: exported from the design as one static SVG */
+
+.illustration {
+  inline-size: 652px;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+/* Compile to any languages */
+
+.compile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-12);
+  padding-block: var(--space-28);
+  padding-inline: var(--space-0);
+}
+
+.compileSource {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-48);
+  inline-size: 536px;
+  max-inline-size: 100%;
+}
+
+.compileText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: var(--space-8);
+  color: var(--color-ink);
+}
+
+.connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  gap: var(--space-4);
+  padding-inline: var(--space-10);
+}
+
+.connectorLabel {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-code);
+  color: var(--color-ink);
+  white-space: nowrap;
+}
+
+.connectorArrow {
+  position: relative;
+  inline-size: 130px;
+  block-size: 0;
+}
+
+.connectorArrowImage {
+  position: absolute;
+  inset: -7.36px -0.77%;
+  inline-size: calc(100% + 1.54%);
+  block-size: 14.72px;
+  max-inline-size: none;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-14);
+  inline-size: 500px;
+  max-inline-size: 100%;
+  padding: var(--space-10);
+}
+
+.outputLanguages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-8);
+  list-style: none;
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-code);
+}
+
+.outputLanguage {
+  color: var(--color-action);
+  white-space: nowrap;
+}
+
+.outputLanguage[aria-current="true"] {
+  color: var(--color-boundary);
+  text-decoration: underline;
+}
+
+.outputCode {
+  block-size: 372px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  block-size: 60px;
+  border-block-start: 1px solid var(--color-divider-decorative);
+}
+
+.footerText {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-12);
+  font-weight: var(--font-weight-regular);
+  line-height: normal;
+  color: var(--color-ink-secondary);
+}
+
+@media (min-width: 45rem) {
+  .home {
+    padding-inline: var(--space-64);
+  }
+
+  .heroTitle {
+    font-size: var(--font-size-76);
+    letter-spacing: var(--letter-spacing-hero);
+  }
+
+  .heroLead {
+    font-size: var(--font-size-18);
+  }
+
+  .resources {
+    gap: var(--space-56);
+  }
+}
+
+@media (min-width: 80rem) {
+  .connector {
+    padding-block-start: var(--space-128);
+  }
+}

@@ -1,0 +1,64 @@
+use "react";
+use "elfie/system/file";
+use "../components/header";
+use "../components/footer";
+use "./article";
+use "./navigation";
+use "./pages";
+use "./search";
+
+/// currentSlug: the slug of the page in documentationPages that is shown
+/// content: the page's contents, beside the navigation
+fn DocumentationLayout(currentSlug: string, content: (is component)) is component {
+  @acceptanceCriteria
+    .add({
+      behavior = [
+        `Uses [[Header]] for the top navigation, with [[DocumentationSearch]] as its content`,
+        `Uses [[Footer]] as the last item in the page, with the content An early language, a little magic. Site content is a conceptual draft.`,
+        `Uses a layout of [[Header]] at the top, then a main area of a two column layout with [[Navigation]] on the left and [[content]] on the right, and finally the [[Footer]]`,
+        `Takes up at least 100% of the visual viewport height, with the two column layout stretching to fill any space`,
+        `The two column layout in the middle has a max width of 1280px and is centered on the page horizontally`,
+        `The spacing of the two column layout and the width of the navigation column are those of the Reading workspace in https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=114-2833`,
+      ],
+    })
+    .add({ behavior = `[[Navigation]] is given [[currentSlug]] as its current slug` })
+    .add({ behavior = `[[content]] is inside a main element` })
+    .add({ behavior = `[[Navigation]] is rendered once, and no id appears twice in the page` })
+    .add({
+      situation = `The window is narrower than 900 pixels`,
+      behavior = [
+        `[[Navigation]] sits above [[content]], and [[content]] takes the full width`,
+        `A button reading Documentation menu sits above [[Navigation]], whose aria-controls names it and whose aria-expanded says whether it is shown`,
+        `[[Navigation]] is hidden until the button is pressed, and each press shows or hides it`,
+      ],
+    })
+    .add({
+      situation = `The window is 900 pixels or wider`,
+      behavior = `The Documentation menu button is hidden and [[Navigation]] is always shown`,
+    });
+}
+
+/// slug: the slug of the page in documentationPages that is shown
+trait documentationPage(slug: string) {
+  @acceptanceCriteria
+    .add({ behavior = `The page is a [[DocumentationLayout]] whose current slug is {{slug}}` })
+    .add({
+      behavior = `The page's metadata title is {{titleOfPage(slug)}} · Elfie documentation, and its metadata description is the page's description without backticks`,
+    });
+}
+
+/// slug: the slug of the page in documentationPages that is shown; its Markdown is content/docs/ then the slug and .md, under the project root
+trait documentationArticle(slug: string) extends documentationPage(slug) {
+  @acceptanceCriteria
+    .add({
+      behavior = `The [[DocumentationLayout]]'s content is an [[Article]] for {{slug}}, whose source is the page's Markdown`,
+    })
+    .add({
+      behavior = `The page's Markdown is the text of content/docs/{{slug}}.md under the project root, held in the page's own file character for character, {{read(
+        "content/docs/" + slug + ".md",
+      ).length}} characters long`,
+    })
+    .add({
+      behavior = `A test reads content/docs/{{slug}}.md from the project root and checks that it equals the Markdown the page holds`,
+    });
+}

@@ -1,0 +1,95 @@
+/* ResourceCard and CardGrid: Elfie Resource card and Resource rows */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-18);
+  align-items: flex-start;
+  min-inline-size: 0;
+  block-size: 100%;
+  min-block-size: 220px;
+  padding: var(--space-28);
+  border: 1px solid var(--color-boundary);
+  border-radius: var(--radius-8);
+  background: var(--color-surface);
+  overflow: clip;
+  font-family: var(--font-family-base);
+  font-style: normal;
+  overflow-wrap: anywhere;
+}
+
+.metadata {
+  display: flex;
+  gap: var(--space-0);
+  align-items: center;
+  justify-content: space-between;
+  inline-size: 100%;
+}
+
+.icon {
+  flex-shrink: 0;
+  inline-size: 23px;
+  block-size: 23px;
+}
+
+.label {
+  color: var(--color-ink-secondary);
+  font-size: var(--font-size-12);
+  font-weight: var(--font-weight-regular);
+  line-height: normal;
+}
+
+.title {
+  inline-size: 100%;
+  color: var(--color-ink);
+  font-size: var(--font-size-20);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-heading);
+  letter-spacing: var(--letter-spacing-heading);
+}
+
+.content {
+  inline-size: 100%;
+  color: var(--color-ink-secondary);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+}
+
+.action {
+  margin-block-start: auto;
+  color: var(--color-action);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-semibold);
+  line-height: normal;
+  text-decoration: none;
+  border-radius: var(--radius-control);
+}
+
+.action:hover {
+  color: var(--color-action-hover);
+  text-decoration: underline;
+}
+
+.action:focus-visible {
+  outline: var(--focus-ring-width) solid var(--color-boundary);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.gridContainer {
+  container-type: inline-size;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: var(--space-24);
+  column-gap: var(--space-20);
+  align-items: stretch;
+}
+
+@container (min-width: 520px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

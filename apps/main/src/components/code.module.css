@@ -1,0 +1,88 @@
+/* CodeBlock: Elfie Code Block */
+
+.codeBlock {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  align-items: stretch;
+  inline-size: 100%;
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  padding: var(--space-0);
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  min-inline-size: 0;
+  border: 1px solid var(--color-divider-decorative);
+  border-radius: var(--radius-8);
+  background: var(--color-code);
+  overflow: clip;
+}
+
+.header {
+  display: flex;
+  gap: var(--space-12);
+  align-items: center;
+  justify-content: space-between;
+  padding-block: var(--space-12);
+  padding-inline: var(--space-22);
+  border-block-end: 1px solid var(--color-divider-decorative);
+}
+
+.label {
+  min-inline-size: 0;
+  color: var(--color-ink-secondary);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-12);
+  font-weight: var(--font-weight-regular);
+  line-height: normal;
+  overflow-wrap: anywhere;
+}
+
+.copy {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-0);
+  border: 0;
+  border-radius: var(--radius-control);
+  background: var(--color-transparent);
+  cursor: pointer;
+}
+
+.copy:focus-visible {
+  outline: var(--focus-ring-width) solid var(--color-boundary);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.copyIcon {
+  inline-size: 16px;
+  block-size: 16px;
+}
+
+.body {
+  margin: 0;
+  padding: var(--space-22);
+  overflow-x: auto;
+  color: var(--color-ink);
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-13);
+  line-height: var(--line-height-code);
+  white-space: pre;
+}
+
+.body:focus-visible {
+  outline: var(--focus-ring-width) solid var(--color-boundary);
+  outline-offset: calc(var(--focus-ring-width) * -1);
+}
+
+.caption {
+  color: var(--color-ink-secondary);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-12);
+  font-weight: var(--font-weight-regular);
+  line-height: normal;
+}

@@ -1,0 +1,125 @@
+/* Header: Elfie Navigation, and HeaderItem: Elfie Navigation item */
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-16) var(--space-32);
+  align-items: center;
+  justify-content: space-between;
+  min-block-size: var(--space-96);
+  padding-block: var(--space-16);
+  padding-inline: var(--space-20);
+  border-block-end: 1px solid var(--color-divider-decorative);
+}
+
+.brand {
+  display: flex;
+  flex-shrink: 0;
+  gap: var(--space-12);
+  align-items: center;
+}
+
+/* The Logo atom renders at its own size; this slot scales it to 32px. */
+.logoSlot {
+  position: relative;
+  flex-shrink: 0;
+  inline-size: 32px;
+  block-size: 32px;
+}
+
+.logoSlot:focus-within {
+  outline: var(--focus-ring-width) solid var(--color-action);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.logoScale {
+  position: absolute;
+  inset: 0 auto auto 0;
+  transform: scale(calc(32 / 96));
+  transform-origin: top left;
+}
+
+.wordmark {
+  color: var(--color-action);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-25);
+  font-weight: var(--font-weight-semibold);
+  line-height: normal;
+  letter-spacing: var(--letter-spacing-wordmark);
+  white-space: nowrap;
+}
+
+.rightNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-16) var(--space-32);
+  align-items: center;
+  justify-content: center;
+}
+
+.siteLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8) var(--space-32);
+  align-items: center;
+  padding: var(--space-0);
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-block: var(--space-12);
+  padding-inline: var(--space-0);
+  border-block-end: 2px solid var(--color-transparent);
+  color: var(--color-ink-secondary);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-medium);
+  line-height: normal;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.item:hover {
+  border-block-end-color: var(--color-action);
+  color: var(--color-action);
+}
+
+.item[aria-current="page"] {
+  border-block-end-color: var(--color-boundary);
+  color: var(--color-boundary);
+}
+
+.item:focus-visible {
+  outline: var(--focus-ring-width) solid var(--color-action);
+  outline-offset: var(--focus-ring-offset);
+}
+
+@media (min-width: 45rem) {
+  .logoScale {
+    transform: scale(calc(32 / 128));
+  }
+}
+
+@media (min-width: 64rem) {
+  .header {
+    flex-wrap: nowrap;
+    block-size: var(--space-96);
+    padding-block: var(--space-0);
+    padding-inline: var(--space-64);
+  }
+
+  .rightNav {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .item {
+    transition:
+      color var(--duration-fast),
+      border-color var(--duration-fast);
+  }
+}

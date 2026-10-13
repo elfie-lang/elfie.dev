@@ -1,0 +1,27 @@
+use "react";
+use "../atoms";
+use "../traits";
+
+fn HeaderItem(content: (is component)) is component,
+  fromFigma(`https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=54-1613&t=5AeWwpuJzWSP1Pwq-4`) {
+  @acceptanceCriteria
+    .add({ behavior = `Content of the component is [[content]]` });
+}
+
+fn Header(content: (is component)) is component,
+  fromFigma(
+    "https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=54-1445&t=5AeWwpuJzWSP1Pwq-4",
+  ) {
+  @acceptanceCriteria
+    .add({ behavior = `Content of the component is [[content]]` })
+    .add({ behavior = `Usese [[Logo]] for the logo` })
+    .add({ behavior = `Usese [[HeaderItem]] for the navigation links` })
+    .add({
+      behavior = [
+        `Documentation link links to /docs`,
+        `Tutorials link links to /tutorials`,
+        `Community link links to https://github.com/elfie-lang/elfie`,
+        `Download link links to https://github.com/elfie-lang/elfie/releases`,
+      ],
+    });
+}

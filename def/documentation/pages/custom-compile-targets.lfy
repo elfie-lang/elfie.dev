@@ -1,0 +1,4 @@
+use "http";
+use "../layout";
+
+fn CustomCompileTargetsPage() is page('/docs/custom-compile-targets'), documentationArticle("custom-compile-targets"): `The Custom compile targets page of the documentation` {}

@@ -1,0 +1,41 @@
+use "react";
+use "./traits";
+
+fn Button(content: (is component)) is component,
+  fromFigma(
+    "https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=14-1493&t=5AeWwpuJzWSP1Pwq-4",
+  ) {
+  @acceptanceCriteria
+    .add({ behavior = `Content of the component is [[content]]` })
+    .add({
+      situation = `Button is given an href link rather than interactive behavior`,
+      behavior = `Component is polymorphic and should render as an <a> tag`,
+    });
+}
+
+external ExternalLinkImage is image(``): `URL to the arrow indicating a link is an external image` = string;
+
+fn Link(content: (is component) | string) is component,
+  fromFigma(
+    "https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=14-1627&t=5AeWwpuJzWSP1Pwq-4",
+  ) {
+  @acceptanceCriteria
+    .add({ behavior = `Content of the component is [[content]]` });
+}
+
+external LogoImage is image(
+  `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=9-27&t=5AeWwpuJzWSP1Pwq-4`,
+): `URL to the exported logo` = string;
+
+fn Logo() is component,
+  fromFigma(
+    `https://www.figma.com/design/QRrnCVX7stPZ0x1m3zMxr9/Elfie-Design?node-id=9-27&t=5AeWwpuJzWSP1Pwq-4`,
+  ) {
+  @acceptanceCriteria
+    .add({
+      behavior = [
+        `Uses [[LogoImage]] as the image`,
+        `Links to the root "/" URL`,
+      ],
+    });
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "answered": [
+      "TraitsPage:documentationArticle:5a9c1bdd02c4bccfed1d7ab79ed5e1ba840895d26218715ea303eff22724bc40",
+      "TraitsPage:documentationArticle:6a114a2f7d4598fa3aabfd34f597639b9553f34e463573e06fa3ee276c92cf60",
+      "TraitsPage:documentationArticle:f2d03f23e35a174d59bea554deee0234291fb4ad84243c866f8437866bee56a3",
+      "TraitsPage:documentationPage:58e83c22b5eb1ce25a8579129f4fc4fd2d5dc5680d324a4432d50de677216a94",
+      "TraitsPage:documentationPage:cd8115343e241cd19d7110ba980500439075d4f2d688fe0f66b975aff14dbcb4",
+      "TraitsPage:page:110acba1809151e43c4ea8e9dfa93b9420830563e2686e49b3b682e3ad7a62ec",
+      "TraitsPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "TraitsPage:page:82b23a83e82a2f05d1a71cc8add9d3a294920727dc22e31acc17c94b3c8139e6",
+      "TraitsPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "TraitsPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:08:51Z",
+    "hash": "cd2419874cf993da3d49b38ad0b6cd90056bc9d3299ec1f89a16404a77caa5d0",
+    "markers": [
+      {
+        "column": null,
+        "end": 15,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 14,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 16,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 16,
+        "requirement": "TraitsPage:page:82b23a83e82a2f05d1a71cc8add9d3a294920727dc22e31acc17c94b3c8139e6"
+      },
+      {
+        "column": null,
+        "end": 23,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 17,
+        "requirement": "TraitsPage:documentationPage:cd8115343e241cd19d7110ba980500439075d4f2d688fe0f66b975aff14dbcb4"
+      },
+      {
+        "column": null,
+        "end": 31,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 24,
+        "requirement": "TraitsPage:documentationPage:58e83c22b5eb1ce25a8579129f4fc4fd2d5dc5680d324a4432d50de677216a94"
+      },
+      {
+        "column": null,
+        "end": 38,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 32,
+        "requirement": "TraitsPage:documentationArticle:6a114a2f7d4598fa3aabfd34f597639b9553f34e463573e06fa3ee276c92cf60"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 39,
+        "requirement": "TraitsPage:documentationArticle:f2d03f23e35a174d59bea554deee0234291fb4ad84243c866f8437866bee56a3"
+      },
+      {
+        "column": null,
+        "end": 49,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "TraitsPage:documentationArticle:5a9c1bdd02c4bccfed1d7ab79ed5e1ba840895d26218715ea303eff22724bc40"
+      }
+    ],
+    "output": "apps/main/src/app/docs/traits/page.test.tsx",
+    "requirements": "1348f176b7a26e5b2337b77dbfd9d81f60410b87f05c3480007be692b2979a4c",
+    "signature": "3c9dfc49abf4822b35fe34a749bc6f6c717d1f54035fe3c8693d4c55e2e7d711",
+    "source": "def/documentation/pages/traits.lfy",
+    "target": "mainApp",
+    "text": "a6a3ff1b208b5003f7f63ecb5d75e969e2648f3f0012bd91f0f61b46da7207fd"
+  },
+  {
+    "answered": [
+      "TraitsPage:documentationArticle:5a9c1bdd02c4bccfed1d7ab79ed5e1ba840895d26218715ea303eff22724bc40",
+      "TraitsPage:documentationArticle:6a114a2f7d4598fa3aabfd34f597639b9553f34e463573e06fa3ee276c92cf60",
+      "TraitsPage:documentationArticle:f2d03f23e35a174d59bea554deee0234291fb4ad84243c866f8437866bee56a3",
+      "TraitsPage:documentationPage:58e83c22b5eb1ce25a8579129f4fc4fd2d5dc5680d324a4432d50de677216a94",
+      "TraitsPage:documentationPage:cd8115343e241cd19d7110ba980500439075d4f2d688fe0f66b975aff14dbcb4",
+      "TraitsPage:page:110acba1809151e43c4ea8e9dfa93b9420830563e2686e49b3b682e3ad7a62ec",
+      "TraitsPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "TraitsPage:page:82b23a83e82a2f05d1a71cc8add9d3a294920727dc22e31acc17c94b3c8139e6",
+      "TraitsPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "TraitsPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:08:51Z",
+    "hash": "cd2419874cf993da3d49b38ad0b6cd90056bc9d3299ec1f89a16404a77caa5d0",
+    "markers": [
+      {
+        "column": null,
+        "end": 9,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 7,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 134,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 10,
+        "requirement": "TraitsPage:documentationArticle:f2d03f23e35a174d59bea554deee0234291fb4ad84243c866f8437866bee56a3"
+      },
+      {
+        "column": null,
+        "end": 140,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 135,
+        "requirement": "TraitsPage:documentationPage:58e83c22b5eb1ce25a8579129f4fc4fd2d5dc5680d324a4432d50de677216a94"
+      },
+      {
+        "column": null,
+        "end": 141,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 141,
+        "requirement": "TraitsPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      },
+      {
+        "column": null,
+        "end": 143,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 142,
+        "requirement": "TraitsPage:page:82b23a83e82a2f05d1a71cc8add9d3a294920727dc22e31acc17c94b3c8139e6"
+      },
+      {
+        "column": null,
+        "end": 144,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 144,
+        "requirement": "TraitsPage:documentationPage:cd8115343e241cd19d7110ba980500439075d4f2d688fe0f66b975aff14dbcb4"
+      },
+      {
+        "column": null,
+        "end": 152,
+        "entity": "TraitsPage",
+        "file": "def/documentation/pages/traits.lfy",
+        "line": 4,
+        "outputLine": 145,
+        "requirement": "TraitsPage:documentationArticle:6a114a2f7d4598fa3aabfd34f597639b9553f34e463573e06fa3ee276c92cf60"
+      }
+    ],
+    "output": "apps/main/src/app/docs/traits/page.tsx",
+    "requirements": "1348f176b7a26e5b2337b77dbfd9d81f60410b87f05c3480007be692b2979a4c",
+    "signature": "3c9dfc49abf4822b35fe34a749bc6f6c717d1f54035fe3c8693d4c55e2e7d711",
+    "source": "def/documentation/pages/traits.lfy",
+    "target": "mainApp",
+    "text": "786b452cdc5ace05bb7a848e09ceee2fa1fe23d6614b8a19b4d111689072ef7d"
+  }
+]

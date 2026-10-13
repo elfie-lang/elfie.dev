@@ -1,0 +1,163 @@
+/* Steps, Flow, and Columns: sequences of blocks */
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: var(--space-0);
+  list-style: none;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  column-gap: var(--space-16);
+}
+
+.markerColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marker {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  inline-size: 30px;
+  block-size: 30px;
+  border: 1.5px solid var(--color-action);
+  border-radius: 50%;
+  background: var(--color-surface);
+  color: var(--color-action);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-13);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1;
+}
+
+.line {
+  flex: 1 0 0;
+  inline-size: 1.5px;
+  background: var(--color-divider-decorative);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-14);
+  min-inline-size: 0;
+  padding-block: var(--space-4) var(--space-28);
+}
+
+.title {
+  color: var(--color-ink);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-heading);
+}
+
+.content {
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  overflow-wrap: anywhere;
+}
+
+.flowContainer {
+  container-type: inline-size;
+}
+
+.flow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  margin: 0;
+  padding: var(--space-0);
+  list-style: none;
+}
+
+.stage {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  align-items: stretch;
+}
+
+.arrow {
+  align-self: center;
+  color: var(--color-action);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-16);
+  line-height: 1;
+  rotate: 90deg;
+}
+
+.box {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  gap: var(--space-4);
+  min-inline-size: 140px;
+  padding-block: var(--space-12);
+  padding-inline: var(--space-14);
+  border: 1px solid var(--color-divider-decorative);
+  border-radius: var(--radius-control);
+  background: var(--color-surface);
+  font-family: var(--font-family-base);
+  overflow-wrap: anywhere;
+}
+
+.stageLabel {
+  color: var(--color-ink);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-semibold);
+  line-height: normal;
+}
+
+.stageDescription {
+  color: var(--color-ink-secondary);
+  font-size: var(--font-size-13);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+}
+
+@container (min-width: 640px) {
+  .flow {
+    flex-flow: row wrap;
+    align-items: stretch;
+  }
+
+  .stage {
+    flex: 1 1 140px;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .box {
+    flex: 1 1 140px;
+  }
+
+  .arrow {
+    rotate: none;
+  }
+}
+
+.columnsContainer {
+  container-type: inline-size;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-12);
+}
+
+@container (min-width: 640px) {
+  .columns {
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    grid-template-columns: none;
+  }
+}

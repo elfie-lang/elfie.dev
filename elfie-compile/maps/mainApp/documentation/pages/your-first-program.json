@@ -1,0 +1,173 @@
+[
+  {
+    "answered": [
+      "YourFirstProgramPage:documentationArticle:a3078eb83fced4349eb90eaf747d9254e866827b61ab60e8d3f810750e90403c",
+      "YourFirstProgramPage:documentationArticle:f2b9c4f1a140717ff651dbed7e91e8b207232a083ea654775cebe9b882b42695",
+      "YourFirstProgramPage:documentationArticle:f9a4b642d78b53d7e68f39709fe36a131e0157c74edb5dea89243a215f81fb6b",
+      "YourFirstProgramPage:documentationPage:22c113dbea3f28ea44053859df94047e2eff71fb3f781bfcccfd433de90b77a0",
+      "YourFirstProgramPage:documentationPage:f0b4238fd60647ec2c32a0df472f4eae4f8ed2598bd20936821030c23f2dd3da",
+      "YourFirstProgramPage:page:6529bcc3d4d93d6c60ae87781337c303c1a76f272590fb6db8a0444e652692de",
+      "YourFirstProgramPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "YourFirstProgramPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "YourFirstProgramPage:page:abbd789e3adb0bffa6643337f3722f3addde08247dc5ffd9db68f4048b221189",
+      "YourFirstProgramPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:12:57Z",
+    "hash": "35709dc945f58a88c6a84fb7d4cec3f783b52c6ebe39a669a2bc42199a08216c",
+    "markers": [
+      {
+        "column": null,
+        "end": 25,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 20,
+        "requirement": "YourFirstProgramPage:page:abbd789e3adb0bffa6643337f3722f3addde08247dc5ffd9db68f4048b221189"
+      },
+      {
+        "column": null,
+        "end": 32,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 26,
+        "requirement": "YourFirstProgramPage:documentationPage:f0b4238fd60647ec2c32a0df472f4eae4f8ed2598bd20936821030c23f2dd3da"
+      },
+      {
+        "column": null,
+        "end": 40,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 33,
+        "requirement": "YourFirstProgramPage:documentationPage:22c113dbea3f28ea44053859df94047e2eff71fb3f781bfcccfd433de90b77a0"
+      },
+      {
+        "column": null,
+        "end": 47,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 41,
+        "requirement": "YourFirstProgramPage:documentationArticle:f9a4b642d78b53d7e68f39709fe36a131e0157c74edb5dea89243a215f81fb6b"
+      },
+      {
+        "column": null,
+        "end": 57,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 48,
+        "requirement": "YourFirstProgramPage:documentationArticle:a3078eb83fced4349eb90eaf747d9254e866827b61ab60e8d3f810750e90403c"
+      }
+    ],
+    "output": "apps/main/src/app/docs/your-first-program/page.test.tsx",
+    "requirements": "089bae07ca4234d2f344050498022176cf96e70da4cedaf6199883028588705a",
+    "signature": "b72961b16a65cca079521800581564a59ca6dbb2ca34c3f57b3a0f835b9fa439",
+    "source": "def/documentation/pages/your-first-program.lfy",
+    "target": "mainApp",
+    "text": "b055ec2492ff645d63fc00f8fffb73effcc458b1c3f4eb8b94811f0832964fa6"
+  },
+  {
+    "answered": [
+      "YourFirstProgramPage:documentationArticle:a3078eb83fced4349eb90eaf747d9254e866827b61ab60e8d3f810750e90403c",
+      "YourFirstProgramPage:documentationArticle:f2b9c4f1a140717ff651dbed7e91e8b207232a083ea654775cebe9b882b42695",
+      "YourFirstProgramPage:documentationArticle:f9a4b642d78b53d7e68f39709fe36a131e0157c74edb5dea89243a215f81fb6b",
+      "YourFirstProgramPage:documentationPage:22c113dbea3f28ea44053859df94047e2eff71fb3f781bfcccfd433de90b77a0",
+      "YourFirstProgramPage:documentationPage:f0b4238fd60647ec2c32a0df472f4eae4f8ed2598bd20936821030c23f2dd3da",
+      "YourFirstProgramPage:page:6529bcc3d4d93d6c60ae87781337c303c1a76f272590fb6db8a0444e652692de",
+      "YourFirstProgramPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "YourFirstProgramPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "YourFirstProgramPage:page:abbd789e3adb0bffa6643337f3722f3addde08247dc5ffd9db68f4048b221189",
+      "YourFirstProgramPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:12:57Z",
+    "hash": "35709dc945f58a88c6a84fb7d4cec3f783b52c6ebe39a669a2bc42199a08216c",
+    "markers": [
+      {
+        "column": null,
+        "end": 9,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 7,
+        "requirement": null
+      },
+      {
+        "column": null,
+        "end": 158,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 10,
+        "requirement": "YourFirstProgramPage:documentationArticle:f2b9c4f1a140717ff651dbed7e91e8b207232a083ea654775cebe9b882b42695"
+      },
+      {
+        "column": null,
+        "end": 167,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 159,
+        "requirement": "YourFirstProgramPage:documentationPage:22c113dbea3f28ea44053859df94047e2eff71fb3f781bfcccfd433de90b77a0"
+      },
+      {
+        "column": null,
+        "end": 169,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 168,
+        "requirement": "YourFirstProgramPage:page:abbd789e3adb0bffa6643337f3722f3addde08247dc5ffd9db68f4048b221189"
+      },
+      {
+        "column": null,
+        "end": 170,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 170,
+        "requirement": "YourFirstProgramPage:documentationPage:f0b4238fd60647ec2c32a0df472f4eae4f8ed2598bd20936821030c23f2dd3da"
+      },
+      {
+        "column": null,
+        "end": 171,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 171,
+        "requirement": "YourFirstProgramPage:documentationArticle:f9a4b642d78b53d7e68f39709fe36a131e0157c74edb5dea89243a215f81fb6b"
+      },
+      {
+        "column": null,
+        "end": 172,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 172,
+        "requirement": "YourFirstProgramPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      },
+      {
+        "column": null,
+        "end": 180,
+        "entity": "YourFirstProgramPage",
+        "file": "def/documentation/pages/your-first-program.lfy",
+        "line": 4,
+        "outputLine": 173,
+        "requirement": "YourFirstProgramPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+      }
+    ],
+    "output": "apps/main/src/app/docs/your-first-program/page.tsx",
+    "requirements": "089bae07ca4234d2f344050498022176cf96e70da4cedaf6199883028588705a",
+    "signature": "b72961b16a65cca079521800581564a59ca6dbb2ca34c3f57b3a0f835b9fa439",
+    "source": "def/documentation/pages/your-first-program.lfy",
+    "target": "mainApp",
+    "text": "1850c05b5ec363033b0b305f1bb050863a72076b53e8e00b437dffbff449d18b"
+  }
+]

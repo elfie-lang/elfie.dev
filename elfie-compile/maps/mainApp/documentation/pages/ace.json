@@ -1,0 +1,191 @@
+[
+  {
+    "answered": [
+      "AtCompileExecutionPage:documentationArticle:519f79cb44ec4f88f42d8fb890687392e9d67f0699d64a49bfa7cb4a01c4b94c",
+      "AtCompileExecutionPage:documentationArticle:8afa87c58e49edacbb2bd456a21d0684fc5737cdafe00dbfe44d33274a3c8267",
+      "AtCompileExecutionPage:documentationArticle:f5bcce66ff090346c573346bebee86e28f176c4acde0683da1a5eca020e2a67e",
+      "AtCompileExecutionPage:documentationPage:5c061d1ab86b32cbab7372a3e654d203867ded8d9d40ed7c383bc3144e182c43",
+      "AtCompileExecutionPage:documentationPage:7f50f2539ca00c91bd651a63762f066a598c0442f87e4477dc16342208d4f466",
+      "AtCompileExecutionPage:page:04ef6e9ec149962b107c55e865511bb3dbf334266f8f7c3ce78203d3c7c44fcd",
+      "AtCompileExecutionPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "AtCompileExecutionPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "AtCompileExecutionPage:page:c5692ffaad4decd044d2837abf7bcc9ae62cc9fd74380d2b1ab0e9146c84bd80",
+      "AtCompileExecutionPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:23:50Z",
+    "hash": "5ab367d35d53b5b829f722ab7128352fd22a53b6566ca3c8c3ed766a0b9ccc4b",
+    "markers": [
+      {
+        "column": null,
+        "end": 24,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 19,
+        "requirement": "AtCompileExecutionPage:page:c5692ffaad4decd044d2837abf7bcc9ae62cc9fd74380d2b1ab0e9146c84bd80"
+      },
+      {
+        "column": null,
+        "end": 31,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 25,
+        "requirement": "AtCompileExecutionPage:documentationPage:7f50f2539ca00c91bd651a63762f066a598c0442f87e4477dc16342208d4f466"
+      },
+      {
+        "column": null,
+        "end": 39,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 32,
+        "requirement": "AtCompileExecutionPage:documentationPage:5c061d1ab86b32cbab7372a3e654d203867ded8d9d40ed7c383bc3144e182c43"
+      },
+      {
+        "column": null,
+        "end": 46,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 40,
+        "requirement": "AtCompileExecutionPage:documentationArticle:f5bcce66ff090346c573346bebee86e28f176c4acde0683da1a5eca020e2a67e"
+      },
+      {
+        "column": null,
+        "end": 47,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 47,
+        "requirement": "AtCompileExecutionPage:documentationArticle:8afa87c58e49edacbb2bd456a21d0684fc5737cdafe00dbfe44d33274a3c8267"
+      },
+      {
+        "column": null,
+        "end": 57,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 48,
+        "requirement": "AtCompileExecutionPage:documentationArticle:519f79cb44ec4f88f42d8fb890687392e9d67f0699d64a49bfa7cb4a01c4b94c"
+      }
+    ],
+    "output": "apps/main/src/app/docs/ace/page.test.tsx",
+    "requirements": "0809162e77ca3faa9a9f662a961c4e2653417c534f0f6b066174127eacd9a191",
+    "signature": "baf1abe58932e0537b445378707e762bac029fe8e31b0ff4d65dd91426edb6da",
+    "source": "def/documentation/pages/ace.lfy",
+    "target": "mainApp",
+    "text": "b89d950b8aa10b4b5c9614c26fbd8e5fe28b21c7301275830d053fce0abfdca1"
+  },
+  {
+    "answered": [
+      "AtCompileExecutionPage:documentationArticle:519f79cb44ec4f88f42d8fb890687392e9d67f0699d64a49bfa7cb4a01c4b94c",
+      "AtCompileExecutionPage:documentationArticle:8afa87c58e49edacbb2bd456a21d0684fc5737cdafe00dbfe44d33274a3c8267",
+      "AtCompileExecutionPage:documentationArticle:f5bcce66ff090346c573346bebee86e28f176c4acde0683da1a5eca020e2a67e",
+      "AtCompileExecutionPage:documentationPage:5c061d1ab86b32cbab7372a3e654d203867ded8d9d40ed7c383bc3144e182c43",
+      "AtCompileExecutionPage:documentationPage:7f50f2539ca00c91bd651a63762f066a598c0442f87e4477dc16342208d4f466",
+      "AtCompileExecutionPage:page:04ef6e9ec149962b107c55e865511bb3dbf334266f8f7c3ce78203d3c7c44fcd",
+      "AtCompileExecutionPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a",
+      "AtCompileExecutionPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34",
+      "AtCompileExecutionPage:page:c5692ffaad4decd044d2837abf7bcc9ae62cc9fd74380d2b1ab0e9146c84bd80",
+      "AtCompileExecutionPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+    ],
+    "dependencies": {
+      "def/documentation/layout.lfy": "00d6934a100ce1e090a29d61cc71b50e5d92b1f276ae14b4294e08f835843926"
+    },
+    "generated": "2026-10-13T01:23:50Z",
+    "hash": "5ab367d35d53b5b829f722ab7128352fd22a53b6566ca3c8c3ed766a0b9ccc4b",
+    "markers": [
+      {
+        "column": null,
+        "end": 90,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 7,
+        "requirement": "AtCompileExecutionPage:documentationArticle:8afa87c58e49edacbb2bd456a21d0684fc5737cdafe00dbfe44d33274a3c8267"
+      },
+      {
+        "column": null,
+        "end": 96,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 91,
+        "requirement": "AtCompileExecutionPage:documentationPage:5c061d1ab86b32cbab7372a3e654d203867ded8d9d40ed7c383bc3144e182c43"
+      },
+      {
+        "column": null,
+        "end": 97,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 97,
+        "requirement": "AtCompileExecutionPage:page:c5692ffaad4decd044d2837abf7bcc9ae62cc9fd74380d2b1ab0e9146c84bd80"
+      },
+      {
+        "column": null,
+        "end": 99,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 98,
+        "requirement": "AtCompileExecutionPage:page:04ef6e9ec149962b107c55e865511bb3dbf334266f8f7c3ce78203d3c7c44fcd"
+      },
+      {
+        "column": null,
+        "end": 100,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 100,
+        "requirement": "AtCompileExecutionPage:documentationArticle:f5bcce66ff090346c573346bebee86e28f176c4acde0683da1a5eca020e2a67e"
+      },
+      {
+        "column": null,
+        "end": 101,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 101,
+        "requirement": "AtCompileExecutionPage:documentationPage:7f50f2539ca00c91bd651a63762f066a598c0442f87e4477dc16342208d4f466"
+      },
+      {
+        "column": null,
+        "end": 102,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 102,
+        "requirement": "AtCompileExecutionPage:page:f0f581c3adddedcbd2cd7360dc5eccfc92a03684edeb5d673e318ef92eff0e1b"
+      },
+      {
+        "column": null,
+        "end": 103,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 103,
+        "requirement": "AtCompileExecutionPage:page:6fc30fb3472a15a08cb00ba684dc437fa0a69257292ddf2512e95844c5cad06a"
+      },
+      {
+        "column": null,
+        "end": 111,
+        "entity": "AtCompileExecutionPage",
+        "file": "def/documentation/pages/ace.lfy",
+        "line": 4,
+        "outputLine": 104,
+        "requirement": "AtCompileExecutionPage:page:9b214c9dc59fcca1fb5bcdafc3e7ff3f93945beca1cd3a0e0d65da2c94706e34"
+      }
+    ],
+    "output": "apps/main/src/app/docs/ace/page.tsx",
+    "requirements": "0809162e77ca3faa9a9f662a961c4e2653417c534f0f6b066174127eacd9a191",
+    "signature": "baf1abe58932e0537b445378707e762bac029fe8e31b0ff4d65dd91426edb6da",
+    "source": "def/documentation/pages/ace.lfy",
+    "target": "mainApp",
+    "text": "0f074f531991b19991a6ab2d086123fa4afb4a787d77b5787fc9bf54762a4fe5"
+  }
+]
